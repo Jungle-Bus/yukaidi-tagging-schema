@@ -1,0 +1,15 @@
+{
+    "key": "Transition",
+    "type": "combo",
+    "label": "Transition",
+    "placeholder": "level, up, down, ...",
+    "strings": {
+        "options": {
+            "level": "no change of level",
+            "up": "it goes up",
+            "down": "it goes down"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

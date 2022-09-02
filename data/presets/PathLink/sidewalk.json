@@ -1,0 +1,52 @@
+{
+    "icon": "temaki-pedestrian",
+    "fields": [
+        "Length",
+        "Covered",
+        "Lighting",
+        "PassageType",        
+        "Width",        
+        "Flooring",
+        "Flooring_Status",
+        "HighwayTypeFR",
+        "Tilt",
+        "Slope"     
+    ],
+    "moreFields": [
+        "Name",        
+        "Description",
+        "Transition",
+        "AccessFeatureType",        
+        "PublicUse",
+        "AllowedUse",
+        "Accessibility­Assesment",
+        "SideBorder",
+        "TactileGuidingStrip",
+        "Gated",
+        "Description_Towards",
+        "Description_Back"        
+    ],    
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "object": "PathLink",
+        "AccessFeatureType": "pavement"
+    },
+    "addTags": {
+        "object": "PathLink",
+        "AccessFeatureType": "pavement",
+        "AllowedUse": "bothWays",
+        "Covered": "outdoors",
+        "Transition": "level"        
+    },
+    "reference": {
+        "key": "footway",
+        "value": "sidewalk"
+    },
+    "terms": [
+        "pavement",
+        "sidepath"
+    ],
+    "name": "Sidewalk"
+}

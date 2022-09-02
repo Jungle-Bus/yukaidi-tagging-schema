@@ -1,0 +1,9 @@
+{
+    "key": "Description:Back",
+    "type": "textarea",
+    "label": "Description in back direction",
+    "universal": true,
+    "terms": [
+        "summary"
+    ]
+}

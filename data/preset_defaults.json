@@ -1,5 +1,6 @@
 {
     "area": [
+        "category-dgitm",
         "category-landuse",
         "category-building",
         "category-water",
@@ -12,6 +13,7 @@
         "area"
     ],
     "line": [
+        "category-dgitm",
         "category-road_major",
         "category-road_minor",
         "category-rail",

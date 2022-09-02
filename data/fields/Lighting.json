@@ -1,0 +1,15 @@
+{
+    "key": "Lighting",
+    "type": "combo",
+    "label": "Lighting",
+    "placeholder": "well lit, unlit...",
+    "strings": {
+        "options": {
+            "wellLit": "is sufficient lit",
+            "poorlyLit": "hasx lighting, but unsufficient for visual deficiency",
+            "unlit": "unlit"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

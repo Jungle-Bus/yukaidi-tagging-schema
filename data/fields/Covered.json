@@ -1,0 +1,15 @@
+{
+    "key": "Covered",
+    "type": "combo",
+    "label": "Covered",
+    "placeholder": "indoors, outdoors, ...",
+    "strings": {
+        "options": {
+            "indoors": "is inside",
+            "outdoors": "is outside",
+            "covered": "is outside, but beside a roof"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

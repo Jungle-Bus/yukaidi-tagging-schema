@@ -1,0 +1,9 @@
+{
+    "key": "Description:Towards",
+    "type": "textarea",
+    "label": "Description in towards direction",
+    "universal": true,
+    "terms": [
+        "summary"
+    ]
+}

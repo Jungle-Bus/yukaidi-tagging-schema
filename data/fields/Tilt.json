@@ -1,0 +1,6 @@
+{
+    "key": "Tilt",
+    "type": "roadspeed",
+    "label": "Tilt Angle",
+    "placeholder": "40, 50, 60..."
+}

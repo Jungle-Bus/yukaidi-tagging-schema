@@ -1,0 +1,6 @@
+{
+    "key": "Width",
+    "type": "number",
+    "minValue": 0,
+    "label": "Width (Meters)"
+}

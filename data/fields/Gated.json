@@ -1,0 +1,14 @@
+{
+    "key": "Gated",
+    "type": "combo",
+    "label": "Gated",
+    "placeholder": "open, gated, ...",
+    "strings": {
+        "options": {
+            "gatedArea": "is a gated area",
+            "openArea": "is an open area"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

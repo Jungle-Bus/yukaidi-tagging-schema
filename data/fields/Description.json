@@ -1,0 +1,9 @@
+{
+    "key": "Description",
+    "type": "textarea",
+    "label": "Description",
+    "universal": true,
+    "terms": [
+        "summary"
+    ]
+}

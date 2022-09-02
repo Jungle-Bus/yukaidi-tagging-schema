@@ -1,0 +1,6 @@
+{
+    "key": "Slope",
+    "type": "roadspeed",
+    "label": "Slope Angle",
+    "placeholder": "40, 50, 60..."
+}

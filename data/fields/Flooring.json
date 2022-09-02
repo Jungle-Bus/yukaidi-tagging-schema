@@ -1,0 +1,15 @@
+{
+    "key": "Flooring",
+    "type": "combo",
+    "label": "Flooring",
+    "placeholder": "asphalt, grass, ...",
+    "strings": {
+        "options": {
+            "Asphalt": "Asphalt",
+            "Concrete": "Concrete",
+            "Grass": "grass"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

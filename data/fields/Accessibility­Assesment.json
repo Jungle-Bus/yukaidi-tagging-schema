@@ -1,0 +1,45 @@
+{
+    "keys": [
+        "Accessibility­Assesment",
+        "Accessibility­Assesment:WheelchairAccess",
+        "Accessibility­Assesment:LiftFreeAccess",
+        "Accessibility­Assesment:StepFreeAccess",
+        "Accessibility­Assesment:EscalatorFreeAccess",
+        "Accessibility­Assesment:TravelatorFreeAccess",
+        "Accessibility­Assesment:VisualSignsAvailable",
+        "Accessibility­Assesment:AudibleSignalsAvailable"
+    ], 
+    "reference": {
+        "key": "access"
+    },
+    "type": "access",
+    "label": "Accessibility assesment or limitation",
+    "placeholder": "unknown",
+    "strings": {
+        "types": {
+            "Accessibility­Assesment:WheelchairAccess": "All",
+            "Accessibility­Assesment:LiftFreeAccess": "Foot",
+            "Accessibility­Assesment:StepFreeAccess": "Motor Vehicles",
+            "Accessibility­Assesment:EscalatorFreeAccess": "Bicycles",
+            "horse": "Horses"
+        },
+        "options": {
+            "yes": {
+                "title": "Allowed",
+                "description": "Access allowed by law; a right of way"
+            },
+            "no": {
+                "title": "Prohibited",
+                "description": "Access not allowed to the general public"
+            },
+            "partial": {
+                "title": "Partial",
+                "description": "please add another field for details"
+            },
+            "unknown": {
+                "title": "Unknown",
+                "description": "Access conditions are unknown or unclear"
+            }
+        }
+    }
+}
