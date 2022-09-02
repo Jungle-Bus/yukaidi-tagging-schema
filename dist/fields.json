@@ -42,6 +42,56 @@
             "unknown"
         ]
     },
+    "AccessFeatureType": {
+        "key": "AccessFeatureType",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "lift",
+            "escalator",
+            "freightElevator",
+            "travelator",
+            "ramp",
+            "stairs",
+            "seriesOfStairs",
+            "shuttle",
+            "crossing",
+            "barrier",
+            "narrowEntrance",
+            "hall",
+            "concourse",
+            "confinedSpace",
+            "queueManagement",
+            "openSpace",
+            "street",
+            "pavement",
+            "footpath",
+            "passage"
+        ]
+    },
+    "Accessibility­Assesment": {
+        "keys": [
+            "Accessibility­Assesment",
+            "Accessibility­Assesment:WheelchairAccess",
+            "Accessibility­Assesment:LiftFreeAccess",
+            "Accessibility­Assesment:StepFreeAccess",
+            "Accessibility­Assesment:EscalatorFreeAccess",
+            "Accessibility­Assesment:TravelatorFreeAccess",
+            "Accessibility­Assesment:VisualSignsAvailable",
+            "Accessibility­Assesment:AudibleSignalsAvailable"
+        ],
+        "reference": {
+            "key": "access"
+        },
+        "type": "access",
+        "options": [
+            "yes",
+            "no",
+            "partial",
+            "unknown"
+        ]
+    },
     "activity": {
         "keys": [
             "hiking",
@@ -56,7 +106,7 @@
             "bicycle",
             "mtb",
             "horse",
-            "Ski"
+            "ski"
         ]
     },
     "addr/interpolation": {
@@ -165,6 +215,15 @@
     "air_conditioning": {
         "key": "air_conditioning",
         "type": "check"
+    },
+    "AllowedUse": {
+        "key": "AllowedUse",
+        "type": "onewayCheck",
+        "options": [
+            "undefined",
+            "oneWay",
+            "bothWays"
+        ]
     },
     "amenity": {
         "key": "amenity",
@@ -406,6 +465,11 @@
     "building/material": {
         "key": "building:material",
         "type": "combo"
+    },
+    "building/part": {
+        "key": "building:part",
+        "type": "combo",
+        "default": "yes"
     },
     "bunker_type": {
         "key": "bunker_type",
@@ -659,6 +723,17 @@
         "key": "covered",
         "type": "check"
     },
+    "Covered": {
+        "key": "Covered",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "indoors",
+            "outdoors",
+            "covered"
+        ]
+    },
     "craft": {
         "key": "craft",
         "type": "typeCombo"
@@ -796,7 +871,8 @@
             "track",
             "share_busway",
             "opposite_lane",
-            "opposite"
+            "opposite",
+            "separate"
         ]
     },
     "dance/style": {
@@ -853,8 +929,23 @@
         "minValue": 0,
         "type": "number"
     },
+    "Description_Back": {
+        "key": "Description:Back",
+        "type": "textarea",
+        "universal": true
+    },
+    "Description_Towards": {
+        "key": "Description:Towards",
+        "type": "textarea",
+        "universal": true
+    },
     "description": {
         "key": "description",
+        "type": "textarea",
+        "universal": true
+    },
+    "Description": {
+        "key": "Description",
         "type": "textarea",
         "universal": true
     },
@@ -1062,6 +1153,10 @@
     "drink_multi": {
         "key": "drink:",
         "type": "multiCombo"
+    },
+    "drinking_water_available": {
+        "key": "drinking_water",
+        "type": "check"
     },
     "drinking_water": {
         "key": "drinking_water",
@@ -1278,6 +1373,28 @@
         "key": "flood_prone",
         "type": "check"
     },
+    "Flooring_Status": {
+        "key": "Flooring:Status",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "none",
+            "ok",
+            "very bad"
+        ]
+    },
+    "Flooring": {
+        "key": "Flooring",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "Asphalt",
+            "Concrete",
+            "Grass"
+        ]
+    },
     "ford": {
         "key": "ford",
         "type": "typeCombo",
@@ -1318,6 +1435,16 @@
     "garden/type": {
         "key": "garden:type",
         "type": "combo"
+    },
+    "Gated": {
+        "key": "Gated",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "gatedArea",
+            "openArea"
+        ]
     },
     "gauge": {
         "key": "gauge",
@@ -1453,6 +1580,17 @@
     "highway": {
         "key": "highway",
         "type": "typeCombo"
+    },
+    "HighwayTypeFR": {
+        "key": "HighwayType:FR",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "voie classique",
+            "zone 30",
+            "rue piétonne"
+        ]
     },
     "historic": {
         "key": "historic",
@@ -1672,6 +1810,10 @@
         "type": "combo",
         "snake_case": false
     },
+    "kitchen": {
+        "key": "kitchen",
+        "type": "check"
+    },
     "kneipp_water_cure_multi": {
         "key": "kneipp_water_cure:",
         "type": "multiCombo"
@@ -1766,6 +1908,11 @@
         "type": "number",
         "minValue": 0
     },
+    "Length": {
+        "key": "Length",
+        "type": "number",
+        "minValue": 0
+    },
     "level_semi": {
         "key": "level",
         "type": "semiCombo"
@@ -1784,6 +1931,17 @@
     "lifeguard": {
         "key": "lifeguard",
         "type": "check"
+    },
+    "Lighting": {
+        "key": "Lighting",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "wellLit",
+            "poorlyLit",
+            "unlit"
+        ]
     },
     "line_attachment": {
         "key": "line_attachment",
@@ -1861,6 +2019,10 @@
         "key": "material",
         "type": "combo"
     },
+    "mattress": {
+        "key": "mattress",
+        "type": "check"
+    },
     "max_age": {
         "key": "max_age",
         "type": "number",
@@ -1877,6 +2039,10 @@
     },
     "maxspeed/advisory": {
         "key": "maxspeed:advisory",
+        "type": "roadspeed"
+    },
+    "maxspeed/hgv": {
+        "key": "maxspeed:hgv",
         "type": "roadspeed"
     },
     "maxstay": {
@@ -2003,6 +2169,11 @@
     "name": {
         "key": "name",
         "type": "localized",
+        "universal": true
+    },
+    "Name": {
+        "key": "Name",
+        "type": "text",
         "universal": true
     },
     "natural": {
@@ -2204,10 +2375,24 @@
     "parking/orientation": {
         "key": "parking:orientation",
         "type": "combo",
+        "autoSuggestions": false,
         "options": [
             "parallel",
             "diagonal",
             "perpendicular"
+        ]
+    },
+    "PassageType": {
+        "key": "PassageType",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "pathway",
+            "corridor",
+            "overpass",
+            "underpass",
+            "tunnel"
         ]
     },
     "payment_multi_fee": {
@@ -2454,6 +2639,10 @@
     "public_bookcase/type": {
         "key": "public_bookcase:type",
         "type": "combo"
+    },
+    "PublicUse": {
+        "key": "PublicUse",
+        "type": "check"
     },
     "pump": {
         "key": "pump",
@@ -2927,10 +3116,6 @@
             "only"
         ]
     },
-    "sector/name": {
-        "key": "sector:name",
-        "type": "text"
-    },
     "segregated": {
         "key": "segregated",
         "type": "check"
@@ -2991,6 +3176,27 @@
         "key": "shower",
         "type": "check"
     },
+    "SideBorder": {
+        "keys": [
+            "SideBorder",
+            "SideBorder:left",
+            "SideBorder:right"
+        ],
+        "reference": {
+            "key": "SideBorder"
+        },
+        "type": "cycleway",
+        "options": [
+            "none",
+            "road",
+            "grass",
+            "track",
+            "share_busway",
+            "opposite_lane",
+            "opposite",
+            "separate"
+        ]
+    },
     "siren/purpose": {
         "key": "siren:purpose",
         "type": "combo"
@@ -3013,6 +3219,10 @@
     "site": {
         "key": "site",
         "type": "combo"
+    },
+    "Slope": {
+        "key": "Slope",
+        "type": "roadspeed"
     },
     "smoking": {
         "key": "smoking",
@@ -3206,6 +3416,18 @@
         "key": "studio",
         "type": "combo"
     },
+    "subject": {
+        "key": "subject",
+        "type": "text"
+    },
+    "subject/wikidata": {
+        "key": "subject:wikidata",
+        "keys": [
+            "subject:wikidata",
+            "subject:wikipedia"
+        ],
+        "type": "wikidata"
+    },
     "substance": {
         "key": "substance",
         "type": "combo"
@@ -3315,6 +3537,10 @@
         "key": "tactile_paving",
         "type": "check"
     },
+    "TactileGuidingStrip": {
+        "key": "TactileGuidingStrip",
+        "type": "check"
+    },
     "takeaway": {
         "key": "takeaway",
         "type": "combo",
@@ -3337,6 +3563,14 @@
         "type": "combo",
         "snake_case": false
     },
+    "tee": {
+        "key": "tee",
+        "type": "semiCombo",
+        "reference": {
+            "key": "golf",
+            "value": "tee"
+        }
+    },
     "telecom": {
         "key": "telecom",
         "type": "combo"
@@ -3348,6 +3582,10 @@
     "tidal": {
         "key": "tidal",
         "type": "check"
+    },
+    "Tilt": {
+        "key": "Tilt",
+        "type": "roadspeed"
     },
     "to": {
         "key": "to",
@@ -3514,6 +3752,17 @@
             "yes"
         ]
     },
+    "Transition": {
+        "key": "Transition",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "level",
+            "up",
+            "down"
+        ]
+    },
     "trees": {
         "key": "trees",
         "type": "semiCombo"
@@ -3534,6 +3783,10 @@
         "key": "tunnel",
         "type": "typeCombo",
         "usage": "group"
+    },
+    "turning_circle": {
+        "key": "turning_circle",
+        "type": "combo"
     },
     "usage_rail": {
         "key": "usage",
@@ -3750,6 +4003,11 @@
     },
     "width": {
         "key": "width",
+        "type": "number",
+        "minValue": 0
+    },
+    "Width": {
+        "key": "Width",
         "type": "number",
         "minValue": 0
     },

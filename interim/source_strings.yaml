@@ -1,6 +1,8 @@
 en:
   presets:
     categories:
+      category-DGFiP:
+        name: DGFiP proto
       category-barrier:
         name: Barrier Features
       category-building:
@@ -34,6 +36,269 @@ en:
       category-waterway:
         name: Waterways
     fields:
+      AccessFeatureType:
+        # AccessFeatureType=*
+        label: AccessFeatureType
+        options:
+          # AccessFeatureType=barrier
+          barrier: barrier
+          # AccessFeatureType=concourse
+          concourse: concourse
+          # AccessFeatureType=confinedSpace
+          confinedSpace: confinedSpace
+          # AccessFeatureType=crossing
+          crossing: crossing
+          # AccessFeatureType=escalator
+          escalator: escalator
+          # AccessFeatureType=footpath
+          footpath: footpath
+          # AccessFeatureType=freightElevator
+          freightElevator: freightElevator
+          # AccessFeatureType=hall
+          hall: hall
+          # AccessFeatureType=lift
+          lift: lift
+          # AccessFeatureType=narrowEntrance
+          narrowEntrance: narrowEntrance
+          # AccessFeatureType=openSpace
+          openSpace: openSpace
+          # AccessFeatureType=passage
+          passage: passage
+          # AccessFeatureType=pavement
+          pavement: pavement
+          # AccessFeatureType=queueManagement
+          queueManagement: queueManagement
+          # AccessFeatureType=ramp
+          ramp: ramp
+          # AccessFeatureType=seriesOfStairs
+          seriesOfStairs: seriesOfStairs
+          # AccessFeatureType=shuttle
+          shuttle: shuttle
+          # AccessFeatureType=stairs
+          stairs: stairs
+          # AccessFeatureType=street
+          street: street
+          # AccessFeatureType=travelator
+          travelator: travelator
+        # AccessFeatureType field placeholder
+        placeholder: lift, stairs, pavement, ...
+        terms: '[translate with synonyms or related terms for ''AccessFeatureType'', separated by commas]'
+      Accessibility­Assesment:
+        # Accessibility­Assesment=*, Accessibility­Assesment:WheelchairAccess=*, Accessibility­Assesment:LiftFreeAccess=*, Accessibility­Assesment:StepFreeAccess=*, Accessibility­Assesment:EscalatorFreeAccess=*, Accessibility­Assesment:TravelatorFreeAccess=*, Accessibility­Assesment:VisualSignsAvailable=*, Accessibility­Assesment:AudibleSignalsAvailable=*
+        label: Accessibility assesment or limitation
+        options:
+          'no':
+            description: Access not allowed to the general public
+            title: Prohibited
+          partial:
+            description: please add another field for details
+            title: Partial
+          unknown:
+            description: Access conditions are unknown or unclear
+            title: Unknown
+          'yes':
+            description: Access allowed by law; a right of way
+            title: Allowed
+        # Accessibility­Assesment field placeholder
+        placeholder: unknown
+        terms: '[translate with synonyms or related terms for ''Accessibility assesment or limitation'', separated by commas]'
+        types:
+          Accessibility­Assesment:EscalatorFreeAccess: Bicycles
+          Accessibility­Assesment:LiftFreeAccess: Foot
+          Accessibility­Assesment:StepFreeAccess: Motor Vehicles
+          Accessibility­Assesment:WheelchairAccess: All
+          horse: Horses
+      AllowedUse:
+        # AllowedUse=*
+        label: AllowedUse
+        options:
+          # AllowedUse=bothWays
+          bothWays: 'No'
+          # AllowedUse=oneWay
+          oneWay: 'Yes'
+          # AllowedUse=undefined
+          undefined: Assumed to be bothWays
+        terms: '[translate with synonyms or related terms for ''AllowedUse'', separated by commas]'
+      Covered:
+        # Covered=*
+        label: Covered
+        options:
+          # Covered=covered
+          covered: is outside, but beside a roof
+          # Covered=indoors
+          indoors: is inside
+          # Covered=outdoors
+          outdoors: is outside
+        # Covered field placeholder
+        placeholder: indoors, outdoors, ...
+      Description:
+        # Description=*
+        label: Description
+        # 'terms: summary'
+        terms: '[translate with synonyms or related terms for ''Description'', separated by commas]'
+      Description_Back:
+        # Description:Back=*
+        label: Description in back direction
+        # 'terms: summary'
+        terms: '[translate with synonyms or related terms for ''Description in back direction'', separated by commas]'
+      Description_Towards:
+        # Description:Towards=*
+        label: Description in towards direction
+        # 'terms: summary'
+        terms: '[translate with synonyms or related terms for ''Description in towards direction'', separated by commas]'
+      Flooring:
+        # Flooring=*
+        label: Flooring
+        options:
+          # Flooring=Asphalt
+          Asphalt: Asphalt
+          # Flooring=Concrete
+          Concrete: Concrete
+          # Flooring=Grass
+          Grass: grass
+        # Flooring field placeholder
+        placeholder: asphalt, grass, ...
+      Flooring_Status:
+        # Flooring:Status=*
+        label: Status of flooring
+        options:
+          # Flooring:Status=none
+          none: no flooring
+          # Flooring:Status=ok
+          ok: appropriate flooring
+          # Flooring:Status=very bad
+          very bad: used flooring not allowing adequate passage
+        # Flooring_Status field placeholder
+        placeholder: none, ok, bad, ...
+      Gated:
+        # Gated=*
+        label: Gated
+        options:
+          # Gated=gatedArea
+          gatedArea: is a gated area
+          # Gated=openArea
+          openArea: is an open area
+        # Gated field placeholder
+        placeholder: open, gated, ...
+        terms: '[translate with synonyms or related terms for ''Gated'', separated by commas]'
+      HighwayTypeFR:
+        # HighwayType:FR=*
+        label: HighwayType:FR
+        options:
+          # HighwayType:FR=rue piétonne
+          rue piétonne: rue piétonne
+          # HighwayType:FR=voie classique
+          voie classique: voie classique
+          # HighwayType:FR=zone 30
+          zone 30: zone 30
+        # HighwayTypeFR field placeholder
+        placeholder: rue piétonne, zone de rencontre, ...
+      Length:
+        # Length=*
+        label: Length (Meters)
+      Lighting:
+        # Lighting=*
+        label: Lighting
+        options:
+          # Lighting=poorlyLit
+          poorlyLit: hasx lighting, but unsufficient for visual deficiency
+          # Lighting=unlit
+          unlit: unlit
+          # Lighting=wellLit
+          wellLit: is sufficient lit
+        # Lighting field placeholder
+        placeholder: well lit, unlit...
+      Name:
+        # Name=*
+        label: Name
+        # Name field placeholder
+        placeholder: Common name (if any)
+        # 'terms: label,title'
+        terms: '[translate with synonyms or related terms for ''Name'', separated by commas]'
+      PassageType:
+        # PassageType=*
+        label: PassageType
+        options:
+          # PassageType=corridor
+          corridor: corridor
+          # PassageType=overpass
+          overpass: overpass, bridge
+          # PassageType=pathway
+          pathway: pathway
+          # PassageType=tunnel
+          tunnel: tunnel
+          # PassageType=underpass
+          underpass: underpass
+        # PassageType field placeholder
+        placeholder: underpass, tunnel, corridor, ...
+      PublicUse:
+        # PublicUse=*
+        label: PublicUse
+        terms: '[translate with synonyms or related terms for ''PublicUse'', separated by commas]'
+      SideBorder:
+        # SideBorder=*, SideBorder:left=*, SideBorder:right=*
+        label: Side borders
+        options:
+          grass:
+            description: A bike lane with no separation from auto traffic
+            title: grass
+          none:
+            description: No bike lane
+            title: None
+          opposite:
+            description: A bike lane that travels in both directions on a one-way street
+            title: Contraflow bike lane
+          opposite_lane:
+            description: A bike lane that travels in the opposite direction of traffic
+            title: Opposite bike lane
+          road:
+            description: A bike lane separated from auto traffic by a painted line
+            title: road
+          separate:
+            description: Indicates that cycleway was mapped as a separate geometry
+            title: Cycleway mapped separately
+          share_busway:
+            description: A bike lane shared with a bus lane
+            title: Bike lane shared with bus
+          track:
+            description: A bike lane separated from traffic by a physical barrier
+            title: Bike track
+        # SideBorder field placeholder
+        placeholder: road, grass
+        terms: '[translate with synonyms or related terms for ''Side borders'', separated by commas]'
+        types:
+          SideBorder:left: Left side
+          SideBorder:right: Right side
+      Slope:
+        # Slope=*
+        label: Slope Angle
+        # Slope field placeholder
+        placeholder: 40, 50, 60...
+      TactileGuidingStrip:
+        # TactileGuidingStrip=*
+        label: TactileGuidingStrip
+        terms: '[translate with synonyms or related terms for ''TactileGuidingStrip'', separated by commas]'
+      Tilt:
+        # Tilt=*
+        label: Tilt Angle
+        # Tilt field placeholder
+        placeholder: 40, 50, 60...
+      Transition:
+        # Transition=*
+        label: Transition
+        options:
+          # Transition=down
+          down: it goes down
+          # Transition=level
+          level: no change of level
+          # Transition=up
+          up: it goes up
+        # Transition field placeholder
+        placeholder: level, up, down, ...
+        terms: '[translate with synonyms or related terms for ''Transition'', separated by commas]'
+      Width:
+        # Width=*
+        label: Width (Meters)
       access:
         # access=*, foot=*, motor_vehicle=*, bicycle=*, horse=*
         label: Allowed Access
@@ -3663,6 +3928,11 @@ en:
           zigzag: Zig Zag
         terms: '[translate with synonyms or related terms for ''Windings Configuration'', separated by commas]'
     presets:
+      PathLink/sidewalk:
+        # object=PathLink + AccessFeatureType=pavement | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Sidewalk
+        # 'terms: pavement,sidepath'
+        terms: <translate with synonyms or related terms for 'Sidewalk', separated by commas>
       addr/interpolation:
         # addr:interpolation=* | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Address Interpolation

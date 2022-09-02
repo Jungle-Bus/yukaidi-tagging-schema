@@ -122,7 +122,7 @@
         },
         {
             "key": "man_made",
-            "description": "🄿 Man Made Feature (unsearchable), 🄵 Type",
+            "description": "🄿 Man-Made Feature (unsearchable), 🄵 Type",
             "object_types": [
                 "node",
                 "way",
@@ -2011,6 +2011,16 @@
         },
         {
             "key": "cuisine",
+            "value": "barbeque",
+            "description": "🄿 Barbeque Restaurant",
+            "object_types": [
+                "node",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/restaurant-bbq-15.svg"
+        },
+        {
+            "key": "cuisine",
             "value": "chinese",
             "description": "🄿 Chinese Restaurant, 🄵🅅 Cuisines: Chinese",
             "object_types": [
@@ -3050,6 +3060,17 @@
         },
         {
             "key": "barrier",
+            "value": "yes",
+            "description": "🄿 Barrier (Unspecified Type) (unsearchable)",
+            "object_types": [
+                "node",
+                "way",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/roadblock-15.svg"
+        },
+        {
+            "key": "barrier",
             "value": "block",
             "description": "🄿 Block",
             "object_types": [
@@ -3367,7 +3388,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/roadblock-15.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/toll-15.svg"
         },
         {
             "key": "barrier",
@@ -3437,7 +3458,7 @@
         },
         {
             "key": "building:part",
-            "description": "🄿 Building Part",
+            "description": "🄿 Building Part, 🄵 Building Part",
             "object_types": [
                 "area"
             ],
@@ -3472,10 +3493,28 @@
         },
         {
             "key": "building",
+            "value": "outbuilding",
+            "description": "🄿 Outbuilding (unsearchable)",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/building-15.svg"
+        },
+        {
+            "key": "building",
             "value": "train_station",
             "description": "🄿 Train Station Building (unsearchable)",
             "object_types": [
                 "node",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/building-15.svg"
+        },
+        {
+            "key": "building",
+            "value": "allotment_house",
+            "description": "🄿 Allotment House",
+            "object_types": [
                 "area"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/building-15.svg"
@@ -4980,6 +5019,16 @@
         },
         {
             "key": "healthcare",
+            "value": "yes",
+            "description": "🄿 Healthcare Facility (Unspecified Type) (unsearchable)",
+            "object_types": [
+                "node",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/hospital-15.svg"
+        },
+        {
+            "key": "healthcare",
             "value": "alternative",
             "description": "🄿 Alternative Medicine",
             "object_types": [
@@ -5535,7 +5584,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/car-15.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/highway-rest-area-15.svg"
         },
         {
             "key": "highway",
@@ -7079,6 +7128,16 @@
                 "area",
                 "node"
             ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-border-all.svg"
+        },
+        {
+            "key": "sport",
+            "value": "funnel_ball",
+            "description": "🄿 Funnel Ball Court",
+            "object_types": [
+                "area",
+                "node"
+            ],
             "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/pitch-15.svg"
         },
         {
@@ -7090,6 +7149,16 @@
                 "node"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/soccer-15.svg"
+        },
+        {
+            "key": "sport",
+            "value": "gaga",
+            "description": "🄿 Gaga Pit",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/pitch-15.svg"
         },
         {
             "key": "sport",
@@ -7332,6 +7401,16 @@
         },
         {
             "key": "sport",
+            "value": "horse_racing",
+            "description": "🄿 Horse Race Course, 🄿 Horse Racetrack, 🄵🅅 Sports: Horse Racing",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/racetrack-horse-15.svg"
+        },
+        {
+            "key": "sport",
             "value": "swimming",
             "description": "🄿 Swimming Pool Facility",
             "object_types": [
@@ -7399,18 +7478,7 @@
                 "way",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-biking.svg"
-        },
-        {
-            "key": "sport",
-            "value": "horse_racing",
-            "description": "🄿 Horse Racetrack, 🄵🅅 Sports: Horse Racing",
-            "object_types": [
-                "node",
-                "way",
-                "area"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/horse-riding-15.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/racetrack-cycling-15.svg"
         },
         {
             "key": "sport",
@@ -7421,7 +7489,7 @@
                 "way",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/pitch-15.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-running.svg"
         },
         {
             "key": "leisure",
@@ -7451,6 +7519,17 @@
                 "area"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/square-stroked-15.svg"
+        },
+        {
+            "key": "man_made",
+            "value": "yes",
+            "description": "🄿 Man-Made Feature (Unspecified Type) (unsearchable)",
+            "object_types": [
+                "node",
+                "way",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/storage_tank.svg"
         },
         {
             "key": "man_made",
@@ -8017,7 +8096,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/tower.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/observation-tower-15.svg"
         },
         {
             "key": "tower:type",
@@ -8341,7 +8420,7 @@
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/water-15.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/hot-spring-15.svg"
         },
         {
             "key": "natural",
@@ -9215,6 +9294,15 @@
             "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/suitcase-15.svg"
         },
         {
+            "key": "AccessFeatureType",
+            "value": "pavement",
+            "description": "🄿 Sidewalk, 🄵🅅 AccessFeatureType: pavement",
+            "object_types": [
+                "way"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/pedestrian.svg"
+        },
+        {
             "key": "piste:type",
             "value": "downhill",
             "description": "🄿 Downhill Ski Run, 🄵🅅 Type: Downhill",
@@ -9455,6 +9543,26 @@
         },
         {
             "key": "playground",
+            "value": "activitypanel",
+            "description": "🄿 Play Activity Panel",
+            "object_types": [
+                "node",
+                "way",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/playground-15.svg"
+        },
+        {
+            "key": "playground",
+            "value": "aerialrotator",
+            "description": "🄿 Hanging Spinner",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/playground-15.svg"
+        },
+        {
+            "key": "playground",
             "value": "balancebeam",
             "description": "🄿 Play Balance Beam",
             "object_types": [
@@ -9485,10 +9593,32 @@
         },
         {
             "key": "playground",
+            "value": "bridge",
+            "description": "🄿 Play Bridge",
+            "object_types": [
+                "node",
+                "way",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/playground-15.svg"
+        },
+        {
+            "key": "playground",
             "value": "climbingframe",
             "description": "🄿 Play Climbing Frame",
             "object_types": [
                 "node",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/playground-15.svg"
+        },
+        {
+            "key": "playground",
+            "value": "climbingwall",
+            "description": "🄿 Play Climbing Wall",
+            "object_types": [
+                "node",
+                "way",
                 "area"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/playground-15.svg"
@@ -9500,6 +9630,15 @@
             "object_types": [
                 "node",
                 "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/playground-15.svg"
+        },
+        {
+            "key": "playground",
+            "value": "funnel_ball",
+            "description": "🄿 Funnel Ball Funnel",
+            "object_types": [
+                "node"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/playground-15.svg"
         },
@@ -9524,6 +9663,16 @@
                 "area"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/horizontal_bar.svg"
+        },
+        {
+            "key": "playground",
+            "value": "map",
+            "description": "🄿 Painted Playground Map",
+            "object_types": [
+                "node",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/compass.svg"
         },
         {
             "key": "playground",
@@ -9568,6 +9717,15 @@
         },
         {
             "key": "playground",
+            "value": "sledding",
+            "description": "🄿 Play Sledding Hill",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/sledding.svg"
+        },
+        {
+            "key": "playground",
             "value": "slide",
             "description": "🄿 Slide",
             "object_types": [
@@ -9576,6 +9734,16 @@
                 "area"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/slide.svg"
+        },
+        {
+            "key": "playground",
+            "value": "splash_pad",
+            "description": "🄿 Play Splash Pad",
+            "object_types": [
+                "node",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/fountain.svg"
         },
         {
             "key": "playground",
@@ -9607,6 +9775,57 @@
                 "area"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/playground-15.svg"
+        },
+        {
+            "key": "playground",
+            "value": "teenshelter",
+            "description": "🄿 Teen Shelter",
+            "object_types": [
+                "node",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/shelter-15.svg"
+        },
+        {
+            "key": "playground",
+            "value": "tetherball",
+            "description": "🄿 Tetherball Pole",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/playground-15.svg"
+        },
+        {
+            "key": "playground",
+            "value": "trampoline",
+            "description": "🄿 Trampoline",
+            "object_types": [
+                "node",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/playground-15.svg"
+        },
+        {
+            "key": "playground",
+            "value": "tunnel_tube",
+            "description": "🄿 Play Tunnel",
+            "object_types": [
+                "node",
+                "way",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/playground-15.svg"
+        },
+        {
+            "key": "playground",
+            "value": "water",
+            "description": "🄿 Play Water Pump/Screw",
+            "object_types": [
+                "node",
+                "way",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/water.svg"
         },
         {
             "key": "playground",
@@ -10405,7 +10624,7 @@
         {
             "key": "shop",
             "value": "antiques",
-            "description": "🄿 Antiques Shop",
+            "description": "🄿 Antique Shop",
             "object_types": [
                 "node",
                 "area"
@@ -10555,7 +10774,7 @@
         {
             "key": "shop",
             "value": "books",
-            "description": "🄿 Book Store",
+            "description": "🄿 Bookstore",
             "object_types": [
                 "node",
                 "area"
@@ -10845,7 +11064,7 @@
         {
             "key": "shop",
             "value": "country_store",
-            "description": "🄿 Country Store",
+            "description": "🄿 Rural Supplies Store",
             "object_types": [
                 "node",
                 "area"
@@ -10885,12 +11104,12 @@
         {
             "key": "shop",
             "value": "deli",
-            "description": "🄿 Deli",
+            "description": "🄿 Delicatessen",
             "object_types": [
                 "node",
                 "area"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/meat.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-jar.svg"
         },
         {
             "key": "shop",
@@ -11185,7 +11404,7 @@
         {
             "key": "shop",
             "value": "health_food",
-            "description": "🄿 Health Food Shop",
+            "description": "🄿 Health Food Store",
             "object_types": [
                 "node",
                 "area"
@@ -11475,7 +11694,7 @@
         {
             "key": "shop",
             "value": "newsagent",
-            "description": "🄿 Newspaper/Magazine Shop",
+            "description": "🄿 Newsstand",
             "object_types": [
                 "node",
                 "area"
@@ -11555,7 +11774,7 @@
         {
             "key": "shop",
             "value": "pawnbroker",
-            "description": "🄿 Pawn Shop",
+            "description": "🄿 Pawnshop",
             "object_types": [
                 "node",
                 "area"
@@ -11705,7 +11924,7 @@
         {
             "key": "shop",
             "value": "second_hand",
-            "description": "🄿 Consignment/Thrift Store",
+            "description": "🄿 Thrift Store",
             "object_types": [
                 "node",
                 "area"
@@ -11955,7 +12174,7 @@
         {
             "key": "shop",
             "value": "variety_store",
-            "description": "🄿 Variety Store",
+            "description": "🄿 Discount Store",
             "object_types": [
                 "node",
                 "area"
@@ -12503,6 +12722,17 @@
         },
         {
             "key": "traffic_calming",
+            "value": "yes",
+            "description": "🄿 Traffic Calming (Unspecified Type) (unsearchable)",
+            "object_types": [
+                "node",
+                "way",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/diamond.svg"
+        },
+        {
+            "key": "traffic_calming",
             "value": "bump",
             "description": "🄿 Speed Bump",
             "object_types": [
@@ -12573,6 +12803,16 @@
                 "area"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/diamond.svg"
+        },
+        {
+            "key": "traffic_calming",
+            "value": "mini_bumps",
+            "description": "🄿 Mini Speed Bumps",
+            "object_types": [
+                "node",
+                "way"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/speed_bump.svg"
         },
         {
             "key": "traffic_calming",
@@ -13420,6 +13660,297 @@
             "description": "🄵🅅 Allowed Access: `unknown`"
         },
         {
+            "key": "AccessFeatureType",
+            "description": "🄵 AccessFeatureType"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "lift",
+            "description": "🄵🅅 AccessFeatureType: lift"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "escalator",
+            "description": "🄵🅅 AccessFeatureType: escalator"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "freightElevator",
+            "description": "🄵🅅 AccessFeatureType: freightElevator"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "travelator",
+            "description": "🄵🅅 AccessFeatureType: travelator"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "ramp",
+            "description": "🄵🅅 AccessFeatureType: ramp"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "stairs",
+            "description": "🄵🅅 AccessFeatureType: stairs"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "seriesOfStairs",
+            "description": "🄵🅅 AccessFeatureType: seriesOfStairs"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "shuttle",
+            "description": "🄵🅅 AccessFeatureType: shuttle"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "crossing",
+            "description": "🄵🅅 AccessFeatureType: crossing"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "barrier",
+            "description": "🄵🅅 AccessFeatureType: barrier"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "narrowEntrance",
+            "description": "🄵🅅 AccessFeatureType: narrowEntrance"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "hall",
+            "description": "🄵🅅 AccessFeatureType: hall"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "concourse",
+            "description": "🄵🅅 AccessFeatureType: concourse"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "confinedSpace",
+            "description": "🄵🅅 AccessFeatureType: confinedSpace"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "queueManagement",
+            "description": "🄵🅅 AccessFeatureType: queueManagement"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "openSpace",
+            "description": "🄵🅅 AccessFeatureType: openSpace"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "street",
+            "description": "🄵🅅 AccessFeatureType: street"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "footpath",
+            "description": "🄵🅅 AccessFeatureType: footpath"
+        },
+        {
+            "key": "AccessFeatureType",
+            "value": "passage",
+            "description": "🄵🅅 AccessFeatureType: passage"
+        },
+        {
+            "key": "Accessibility­Assesment",
+            "description": "🄵 Accessibility assesment or limitation"
+        },
+        {
+            "key": "Accessibility­Assesment",
+            "value": "yes",
+            "description": "🄵🅅 Accessibility assesment or limitation: `yes`"
+        },
+        {
+            "key": "Accessibility­Assesment",
+            "value": "no",
+            "description": "🄵🅅 Accessibility assesment or limitation: `no`"
+        },
+        {
+            "key": "Accessibility­Assesment",
+            "value": "partial",
+            "description": "🄵🅅 Accessibility assesment or limitation: `partial`"
+        },
+        {
+            "key": "Accessibility­Assesment",
+            "value": "unknown",
+            "description": "🄵🅅 Accessibility assesment or limitation: `unknown`"
+        },
+        {
+            "key": "Accessibility­Assesment:WheelchairAccess",
+            "description": "🄵 Accessibility assesment or limitation"
+        },
+        {
+            "key": "Accessibility­Assesment:WheelchairAccess",
+            "value": "yes",
+            "description": "🄵🅅 Accessibility assesment or limitation: `yes`"
+        },
+        {
+            "key": "Accessibility­Assesment:WheelchairAccess",
+            "value": "no",
+            "description": "🄵🅅 Accessibility assesment or limitation: `no`"
+        },
+        {
+            "key": "Accessibility­Assesment:WheelchairAccess",
+            "value": "partial",
+            "description": "🄵🅅 Accessibility assesment or limitation: `partial`"
+        },
+        {
+            "key": "Accessibility­Assesment:WheelchairAccess",
+            "value": "unknown",
+            "description": "🄵🅅 Accessibility assesment or limitation: `unknown`"
+        },
+        {
+            "key": "Accessibility­Assesment:LiftFreeAccess",
+            "description": "🄵 Accessibility assesment or limitation"
+        },
+        {
+            "key": "Accessibility­Assesment:LiftFreeAccess",
+            "value": "yes",
+            "description": "🄵🅅 Accessibility assesment or limitation: `yes`"
+        },
+        {
+            "key": "Accessibility­Assesment:LiftFreeAccess",
+            "value": "no",
+            "description": "🄵🅅 Accessibility assesment or limitation: `no`"
+        },
+        {
+            "key": "Accessibility­Assesment:LiftFreeAccess",
+            "value": "partial",
+            "description": "🄵🅅 Accessibility assesment or limitation: `partial`"
+        },
+        {
+            "key": "Accessibility­Assesment:LiftFreeAccess",
+            "value": "unknown",
+            "description": "🄵🅅 Accessibility assesment or limitation: `unknown`"
+        },
+        {
+            "key": "Accessibility­Assesment:StepFreeAccess",
+            "description": "🄵 Accessibility assesment or limitation"
+        },
+        {
+            "key": "Accessibility­Assesment:StepFreeAccess",
+            "value": "yes",
+            "description": "🄵🅅 Accessibility assesment or limitation: `yes`"
+        },
+        {
+            "key": "Accessibility­Assesment:StepFreeAccess",
+            "value": "no",
+            "description": "🄵🅅 Accessibility assesment or limitation: `no`"
+        },
+        {
+            "key": "Accessibility­Assesment:StepFreeAccess",
+            "value": "partial",
+            "description": "🄵🅅 Accessibility assesment or limitation: `partial`"
+        },
+        {
+            "key": "Accessibility­Assesment:StepFreeAccess",
+            "value": "unknown",
+            "description": "🄵🅅 Accessibility assesment or limitation: `unknown`"
+        },
+        {
+            "key": "Accessibility­Assesment:EscalatorFreeAccess",
+            "description": "🄵 Accessibility assesment or limitation"
+        },
+        {
+            "key": "Accessibility­Assesment:EscalatorFreeAccess",
+            "value": "yes",
+            "description": "🄵🅅 Accessibility assesment or limitation: `yes`"
+        },
+        {
+            "key": "Accessibility­Assesment:EscalatorFreeAccess",
+            "value": "no",
+            "description": "🄵🅅 Accessibility assesment or limitation: `no`"
+        },
+        {
+            "key": "Accessibility­Assesment:EscalatorFreeAccess",
+            "value": "partial",
+            "description": "🄵🅅 Accessibility assesment or limitation: `partial`"
+        },
+        {
+            "key": "Accessibility­Assesment:EscalatorFreeAccess",
+            "value": "unknown",
+            "description": "🄵🅅 Accessibility assesment or limitation: `unknown`"
+        },
+        {
+            "key": "Accessibility­Assesment:TravelatorFreeAccess",
+            "description": "🄵 Accessibility assesment or limitation"
+        },
+        {
+            "key": "Accessibility­Assesment:TravelatorFreeAccess",
+            "value": "yes",
+            "description": "🄵🅅 Accessibility assesment or limitation: `yes`"
+        },
+        {
+            "key": "Accessibility­Assesment:TravelatorFreeAccess",
+            "value": "no",
+            "description": "🄵🅅 Accessibility assesment or limitation: `no`"
+        },
+        {
+            "key": "Accessibility­Assesment:TravelatorFreeAccess",
+            "value": "partial",
+            "description": "🄵🅅 Accessibility assesment or limitation: `partial`"
+        },
+        {
+            "key": "Accessibility­Assesment:TravelatorFreeAccess",
+            "value": "unknown",
+            "description": "🄵🅅 Accessibility assesment or limitation: `unknown`"
+        },
+        {
+            "key": "Accessibility­Assesment:VisualSignsAvailable",
+            "description": "🄵 Accessibility assesment or limitation"
+        },
+        {
+            "key": "Accessibility­Assesment:VisualSignsAvailable",
+            "value": "yes",
+            "description": "🄵🅅 Accessibility assesment or limitation: `yes`"
+        },
+        {
+            "key": "Accessibility­Assesment:VisualSignsAvailable",
+            "value": "no",
+            "description": "🄵🅅 Accessibility assesment or limitation: `no`"
+        },
+        {
+            "key": "Accessibility­Assesment:VisualSignsAvailable",
+            "value": "partial",
+            "description": "🄵🅅 Accessibility assesment or limitation: `partial`"
+        },
+        {
+            "key": "Accessibility­Assesment:VisualSignsAvailable",
+            "value": "unknown",
+            "description": "🄵🅅 Accessibility assesment or limitation: `unknown`"
+        },
+        {
+            "key": "Accessibility­Assesment:AudibleSignalsAvailable",
+            "description": "🄵 Accessibility assesment or limitation"
+        },
+        {
+            "key": "Accessibility­Assesment:AudibleSignalsAvailable",
+            "value": "yes",
+            "description": "🄵🅅 Accessibility assesment or limitation: `yes`"
+        },
+        {
+            "key": "Accessibility­Assesment:AudibleSignalsAvailable",
+            "value": "no",
+            "description": "🄵🅅 Accessibility assesment or limitation: `no`"
+        },
+        {
+            "key": "Accessibility­Assesment:AudibleSignalsAvailable",
+            "value": "partial",
+            "description": "🄵🅅 Accessibility assesment or limitation: `partial`"
+        },
+        {
+            "key": "Accessibility­Assesment:AudibleSignalsAvailable",
+            "value": "unknown",
+            "description": "🄵🅅 Accessibility assesment or limitation: `unknown`"
+        },
+        {
             "key": "hiking",
             "description": "🄵 Activity"
         },
@@ -13600,6 +14131,20 @@
         {
             "key": "air_conditioning",
             "description": "🄵 Air Conditioning"
+        },
+        {
+            "key": "AllowedUse",
+            "description": "🄵 AllowedUse"
+        },
+        {
+            "key": "AllowedUse",
+            "value": "oneWay",
+            "description": "🄵🅅 AllowedUse: Yes"
+        },
+        {
+            "key": "AllowedUse",
+            "value": "bothWays",
+            "description": "🄵🅅 AllowedUse: No"
         },
         {
             "key": "animal_boarding",
@@ -14069,6 +14614,25 @@
             "description": "🄵🅅 Covered: No"
         },
         {
+            "key": "Covered",
+            "description": "🄵 Covered"
+        },
+        {
+            "key": "Covered",
+            "value": "indoors",
+            "description": "🄵🅅 Covered: is inside"
+        },
+        {
+            "key": "Covered",
+            "value": "outdoors",
+            "description": "🄵🅅 Covered: is outside"
+        },
+        {
+            "key": "Covered",
+            "value": "covered",
+            "description": "🄵🅅 Covered: is outside, but beside a roof"
+        },
+        {
             "key": "crane:type",
             "description": "🄵 Crane Type"
         },
@@ -14277,6 +14841,11 @@
             "description": "🄵🅅 Bike Lanes: `opposite`"
         },
         {
+            "key": "cycleway",
+            "value": "separate",
+            "description": "🄵🅅 Bike Lanes: `separate`"
+        },
+        {
             "key": "cycleway:left",
             "description": "🄵 Bike Lanes"
         },
@@ -14316,6 +14885,11 @@
             "description": "🄵🅅 Bike Lanes: `opposite`"
         },
         {
+            "key": "cycleway:left",
+            "value": "separate",
+            "description": "🄵🅅 Bike Lanes: `separate`"
+        },
+        {
             "key": "cycleway:right",
             "description": "🄵 Bike Lanes"
         },
@@ -14353,6 +14927,11 @@
             "key": "cycleway:right",
             "value": "opposite",
             "description": "🄵🅅 Bike Lanes: `opposite`"
+        },
+        {
+            "key": "cycleway:right",
+            "value": "separate",
+            "description": "🄵🅅 Bike Lanes: `separate`"
         },
         {
             "key": "dance:style",
@@ -14415,7 +14994,19 @@
             "description": "🄵 Total Descent"
         },
         {
+            "key": "Description:Back",
+            "description": "🄵 Description in back direction"
+        },
+        {
+            "key": "Description:Towards",
+            "description": "🄵 Description in towards direction"
+        },
+        {
             "key": "description",
+            "description": "🄵 Description"
+        },
+        {
+            "key": "Description",
             "description": "🄵 Description"
         },
         {
@@ -14595,7 +15186,7 @@
         },
         {
             "key": "drinking_water",
-            "description": "🄵 Drinkable"
+            "description": "🄵 Drinking Water Available, 🄵 Drinkable"
         },
         {
             "key": "drive_through",
@@ -14856,6 +15447,44 @@
             "description": "🄵 Flood Prone"
         },
         {
+            "key": "Flooring:Status",
+            "description": "🄵 Status of flooring"
+        },
+        {
+            "key": "Flooring:Status",
+            "value": "none",
+            "description": "🄵🅅 Status of flooring: no flooring"
+        },
+        {
+            "key": "Flooring:Status",
+            "value": "ok",
+            "description": "🄵🅅 Status of flooring: appropriate flooring"
+        },
+        {
+            "key": "Flooring:Status",
+            "value": "very bad",
+            "description": "🄵🅅 Status of flooring: used flooring not allowing adequate passage"
+        },
+        {
+            "key": "Flooring",
+            "description": "🄵 Flooring"
+        },
+        {
+            "key": "Flooring",
+            "value": "Asphalt",
+            "description": "🄵🅅 Flooring: Asphalt"
+        },
+        {
+            "key": "Flooring",
+            "value": "Concrete",
+            "description": "🄵🅅 Flooring: Concrete"
+        },
+        {
+            "key": "Flooring",
+            "value": "Grass",
+            "description": "🄵🅅 Flooring: grass"
+        },
+        {
             "key": "fountain",
             "description": "🄵 Type"
         },
@@ -14882,6 +15511,20 @@
         {
             "key": "garden:type",
             "description": "🄵 Garden Type"
+        },
+        {
+            "key": "Gated",
+            "description": "🄵 Gated"
+        },
+        {
+            "key": "Gated",
+            "value": "gatedArea",
+            "description": "🄵🅅 Gated: is a gated area"
+        },
+        {
+            "key": "Gated",
+            "value": "openArea",
+            "description": "🄵🅅 Gated: is an open area"
         },
         {
             "key": "gauge",
@@ -14978,6 +15621,25 @@
         {
             "key": "highspeed",
             "description": "🄵 High-Speed"
+        },
+        {
+            "key": "HighwayType:FR",
+            "description": "🄵 HighwayType:FR"
+        },
+        {
+            "key": "HighwayType:FR",
+            "value": "voie classique",
+            "description": "🄵🅅 HighwayType:FR: voie classique"
+        },
+        {
+            "key": "HighwayType:FR",
+            "value": "zone 30",
+            "description": "🄵🅅 HighwayType:FR: zone 30"
+        },
+        {
+            "key": "HighwayType:FR",
+            "value": "rue piétonne",
+            "description": "🄵🅅 HighwayType:FR: rue piétonne"
         },
         {
             "key": "historic:civilization",
@@ -15194,6 +15856,10 @@
             "description": "🄵 Height"
         },
         {
+            "key": "kitchen",
+            "description": "🄵 Kitchen"
+        },
+        {
             "key": "kneipp_water_cure:",
             "description": "🄵 Basin Types"
         },
@@ -15283,6 +15949,10 @@
             "description": "🄵 Length (Meters)"
         },
         {
+            "key": "Length",
+            "description": "🄵 Length (Meters)"
+        },
+        {
             "key": "level",
             "description": "🄵 Levels, 🄵 Level"
         },
@@ -15293,6 +15963,25 @@
         {
             "key": "lifeguard",
             "description": "🄵 Lifeguard"
+        },
+        {
+            "key": "Lighting",
+            "description": "🄵 Lighting"
+        },
+        {
+            "key": "Lighting",
+            "value": "wellLit",
+            "description": "🄵🅅 Lighting: is sufficient lit"
+        },
+        {
+            "key": "Lighting",
+            "value": "poorlyLit",
+            "description": "🄵🅅 Lighting: hasx lighting, but unsufficient for visual deficiency"
+        },
+        {
+            "key": "Lighting",
+            "value": "unlit",
+            "description": "🄵🅅 Lighting: unlit"
         },
         {
             "key": "line_attachment",
@@ -15357,6 +16046,10 @@
             "description": "🄵 Material"
         },
         {
+            "key": "mattress",
+            "description": "🄵 Mattresses Available"
+        },
+        {
             "key": "max_age",
             "description": "🄵 Maximum Age"
         },
@@ -15371,6 +16064,10 @@
         {
             "key": "maxspeed:advisory",
             "description": "🄵 Advisory Speed Limit"
+        },
+        {
+            "key": "maxspeed:hgv",
+            "description": "🄵 Truck Speed Limit"
         },
         {
             "key": "maxstay",
@@ -15579,6 +16276,10 @@
         },
         {
             "key": "name",
+            "description": "🄵 Name"
+        },
+        {
+            "key": "Name",
             "description": "🄵 Name"
         },
         {
@@ -15816,6 +16517,35 @@
             "description": "🄵🅅 Orientation: Meets the Street at a Straight Angle"
         },
         {
+            "key": "PassageType",
+            "description": "🄵 PassageType"
+        },
+        {
+            "key": "PassageType",
+            "value": "pathway",
+            "description": "🄵🅅 PassageType: pathway"
+        },
+        {
+            "key": "PassageType",
+            "value": "corridor",
+            "description": "🄵🅅 PassageType: corridor"
+        },
+        {
+            "key": "PassageType",
+            "value": "overpass",
+            "description": "🄵🅅 PassageType: overpass, bridge"
+        },
+        {
+            "key": "PassageType",
+            "value": "underpass",
+            "description": "🄵🅅 PassageType: underpass"
+        },
+        {
+            "key": "PassageType",
+            "value": "tunnel",
+            "description": "🄵🅅 PassageType: tunnel"
+        },
+        {
             "key": "payment:",
             "description": "🄵 Payment Types"
         },
@@ -16046,6 +16776,10 @@
         {
             "key": "public_bookcase:type",
             "description": "🄵 Type"
+        },
+        {
+            "key": "PublicUse",
+            "description": "🄵 PublicUse"
         },
         {
             "key": "pump",
@@ -16642,10 +17376,6 @@
             "description": "🄵🅅 Sells Used: No"
         },
         {
-            "key": "sector:name",
-            "description": "🄵 Name"
-        },
-        {
             "key": "segregated",
             "description": "🄵 Bicycle-Pedestrian Separation"
         },
@@ -16702,6 +17432,138 @@
             "description": "🄵 Showers"
         },
         {
+            "key": "SideBorder",
+            "description": "🄵 Side borders"
+        },
+        {
+            "key": "SideBorder",
+            "value": "none",
+            "description": "🄵🅅 Side borders: `none`"
+        },
+        {
+            "key": "SideBorder",
+            "value": "road",
+            "description": "🄵🅅 Side borders: `road`"
+        },
+        {
+            "key": "SideBorder",
+            "value": "grass",
+            "description": "🄵🅅 Side borders: `grass`"
+        },
+        {
+            "key": "SideBorder",
+            "value": "track",
+            "description": "🄵🅅 Side borders: `track`"
+        },
+        {
+            "key": "SideBorder",
+            "value": "share_busway",
+            "description": "🄵🅅 Side borders: `share_busway`"
+        },
+        {
+            "key": "SideBorder",
+            "value": "opposite_lane",
+            "description": "🄵🅅 Side borders: `opposite_lane`"
+        },
+        {
+            "key": "SideBorder",
+            "value": "opposite",
+            "description": "🄵🅅 Side borders: `opposite`"
+        },
+        {
+            "key": "SideBorder",
+            "value": "separate",
+            "description": "🄵🅅 Side borders: `separate`"
+        },
+        {
+            "key": "SideBorder:left",
+            "description": "🄵 Side borders"
+        },
+        {
+            "key": "SideBorder:left",
+            "value": "none",
+            "description": "🄵🅅 Side borders: `none`"
+        },
+        {
+            "key": "SideBorder:left",
+            "value": "road",
+            "description": "🄵🅅 Side borders: `road`"
+        },
+        {
+            "key": "SideBorder:left",
+            "value": "grass",
+            "description": "🄵🅅 Side borders: `grass`"
+        },
+        {
+            "key": "SideBorder:left",
+            "value": "track",
+            "description": "🄵🅅 Side borders: `track`"
+        },
+        {
+            "key": "SideBorder:left",
+            "value": "share_busway",
+            "description": "🄵🅅 Side borders: `share_busway`"
+        },
+        {
+            "key": "SideBorder:left",
+            "value": "opposite_lane",
+            "description": "🄵🅅 Side borders: `opposite_lane`"
+        },
+        {
+            "key": "SideBorder:left",
+            "value": "opposite",
+            "description": "🄵🅅 Side borders: `opposite`"
+        },
+        {
+            "key": "SideBorder:left",
+            "value": "separate",
+            "description": "🄵🅅 Side borders: `separate`"
+        },
+        {
+            "key": "SideBorder:right",
+            "description": "🄵 Side borders"
+        },
+        {
+            "key": "SideBorder:right",
+            "value": "none",
+            "description": "🄵🅅 Side borders: `none`"
+        },
+        {
+            "key": "SideBorder:right",
+            "value": "road",
+            "description": "🄵🅅 Side borders: `road`"
+        },
+        {
+            "key": "SideBorder:right",
+            "value": "grass",
+            "description": "🄵🅅 Side borders: `grass`"
+        },
+        {
+            "key": "SideBorder:right",
+            "value": "track",
+            "description": "🄵🅅 Side borders: `track`"
+        },
+        {
+            "key": "SideBorder:right",
+            "value": "share_busway",
+            "description": "🄵🅅 Side borders: `share_busway`"
+        },
+        {
+            "key": "SideBorder:right",
+            "value": "opposite_lane",
+            "description": "🄵🅅 Side borders: `opposite_lane`"
+        },
+        {
+            "key": "SideBorder:right",
+            "value": "opposite",
+            "description": "🄵🅅 Side borders: `opposite`"
+        },
+        {
+            "key": "SideBorder:right",
+            "value": "separate",
+            "description": "🄵🅅 Side borders: `separate`"
+        },
+        {
             "key": "siren:purpose",
             "description": "🄵 Purpose"
         },
@@ -16731,6 +17593,10 @@
         {
             "key": "site",
             "description": "🄵 Type"
+        },
+        {
+            "key": "Slope",
+            "description": "🄵 Slope Angle"
         },
         {
             "key": "smoking",
@@ -16970,6 +17836,18 @@
             "description": "🄵 Type"
         },
         {
+            "key": "subject",
+            "description": "🄵 Subject"
+        },
+        {
+            "key": "subject:wikidata",
+            "description": "🄵 Subject Wikidata"
+        },
+        {
+            "key": "subject:wikipedia",
+            "description": "🄵 Subject Wikidata"
+        },
+        {
             "key": "substance",
             "description": "🄵 Substance"
         },
@@ -17200,6 +18078,10 @@
             "description": "🄵 Tactile Paving"
         },
         {
+            "key": "TactileGuidingStrip",
+            "description": "🄵 TactileGuidingStrip"
+        },
+        {
             "key": "takeaway",
             "description": "🄵 Takeaway"
         },
@@ -17227,12 +18109,20 @@
             "description": "🄵 Taxon"
         },
         {
+            "key": "tee",
+            "description": "🄵 Tee Color/Type"
+        },
+        {
             "key": "telecom:medium",
             "description": "🄵 Medium"
         },
         {
             "key": "tidal",
             "description": "🄵 Tidal"
+        },
+        {
+            "key": "Tilt",
+            "description": "🄵 Tilt Angle"
         },
         {
             "key": "to",
@@ -17473,6 +18363,25 @@
             "description": "🄵🅅 Type: Unknown Role"
         },
         {
+            "key": "Transition",
+            "description": "🄵 Transition"
+        },
+        {
+            "key": "Transition",
+            "value": "level",
+            "description": "🄵🅅 Transition: no change of level"
+        },
+        {
+            "key": "Transition",
+            "value": "up",
+            "description": "🄵🅅 Transition: it goes up"
+        },
+        {
+            "key": "Transition",
+            "value": "down",
+            "description": "🄵🅅 Transition: it goes down"
+        },
+        {
             "key": "trees",
             "description": "🄵 Trees"
         },
@@ -17483,6 +18392,10 @@
         {
             "key": "trolley_wire",
             "description": "🄵 Overhead Trolley Wires"
+        },
+        {
+            "key": "turning_circle",
+            "description": "🄵 Shape"
         },
         {
             "key": "usage",
@@ -17719,6 +18632,10 @@
         },
         {
             "key": "width",
+            "description": "🄵 Width (Meters)"
+        },
+        {
+            "key": "Width",
             "description": "🄵 Width (Meters)"
         },
         {
@@ -18277,16 +19194,6 @@
             "key": "craft",
             "value": "glass",
             "description": "🄳 (deprecated tag) ➜ craft=glaziery"
-        },
-        {
-            "key": "craft",
-            "value": "jeweler",
-            "description": "🄳 (deprecated tag) ➜ shop=jewelry"
-        },
-        {
-            "key": "craft",
-            "value": "optician",
-            "description": "🄳 (deprecated tag) ➜ shop=optician"
         },
         {
             "key": "craft",
@@ -19098,6 +20005,11 @@
             "key": "parking",
             "value": "street",
             "description": "🄳 (deprecated tag) ➜ parking=lane"
+        },
+        {
+            "key": "parking:orientation",
+            "value": "orthogonal",
+            "description": "🄳 (deprecated tag) ➜ parking:orientation=perpendicular"
         },
         {
             "key": "place_name",
