@@ -1,0 +1,55 @@
+{
+    "icon": "maki-bank",
+    "geometry": [
+        "area"
+    ],
+    "terms": [
+        "check",
+        "deposit",
+        "fund",
+        "investment",
+        "repository",
+        "reserve",
+        "safe",
+        "savings",
+        "stock",
+        "treasury",
+        "trust",
+        "vault"
+    ],
+    "fields": [
+        "Name",
+        "address",
+        "phone",
+        "website",
+        "access"
+    ],
+    "moreFields": [
+        "Description",
+        "Accessibility­Assesment",
+        "Covered",
+        "Lighting",
+        "Gated",
+        "PublicUse",                        
+        "air_conditioning",
+        "branch_brand",
+        "brand",
+        "currency_multi",
+        "email",
+        "phone",
+        "ref/vatin",
+        "wheelchair"
+    ],
+    "tags": {
+        "object": "PointOfInterest"
+    },
+    "addTags": {
+        "object": "PointOfInterest",
+        "PublicUse": "yes",
+        "Covered": "indoors"    },    
+    "reference": {
+        "key": "shop",
+        "value": "beauty"
+    },
+    "name": "Bank"
+}
