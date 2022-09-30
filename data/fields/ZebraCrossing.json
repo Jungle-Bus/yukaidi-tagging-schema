@@ -1,0 +1,17 @@
+{
+    "key": "ZebraCrossing",
+    "type": "combo",
+    "label": "Status of zebra crossing",
+    "placeholder": "none, good, hazardous, ...",
+    "strings": {
+        "options": {
+            "None": "no zebra",
+            "Good": "appropriate zebra",
+            "Worn": "non-severe zebra deteriorations",
+            "Discomfortable": "zebra deteriorations causing discomfort or difficulty in use",
+            "Hazardous": "zebra deteriorations causing safety issue"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

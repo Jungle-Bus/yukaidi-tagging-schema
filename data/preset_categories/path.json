@@ -1,0 +1,14 @@
+{
+    "icon": "temaki-pedestrian",
+    "name": "Foot paths",
+    "members": [
+        "SitePathLink/Pavement",
+        "SitePathLink/Footpath",
+        "SitePathLink/Street",
+        "SitePathLink/OpenSpace",
+        "SitePathLink/Concourse",
+        "SitePathLink/Passage",
+        "SitePathLink/Stairs",
+        "SitePathLink/Ramp"
+    ]
+}

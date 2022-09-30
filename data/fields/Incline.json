@@ -5,9 +5,9 @@
     "placeholder": "up, down, ...",
     "strings": {
         "options": {
-            "no": "no change of level",
-            "up": "it goes up",
-            "down": "it goes down"
+            "Up": "it goes up",
+            "Down": "it goes down",
+            "No": "no change of level"
         }
     },
     "autoSuggestions": false,

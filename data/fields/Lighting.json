@@ -2,12 +2,12 @@
     "key": "Lighting",
     "type": "combo",
     "label": "Lighting",
-    "placeholder": "well lit, unlit...",
+    "placeholder": "yes, no ...",
     "strings": {
         "options": {
-            "wellLit": "is sufficient lit",
-            "poorlyLit": "hasx lighting, but unsufficient for visual deficiency",
-            "unlit": "unlit"
+            "Yes": "is sufficient lit",
+            "Bad": "has lighting, but unsufficient for visual deficiency",
+            "No": "unlit"
         }
     },
     "autoSuggestions": false,

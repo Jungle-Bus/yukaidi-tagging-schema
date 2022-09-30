@@ -1,0 +1,17 @@
+{
+    "key": "StepColourContrast",
+    "type": "combo",
+    "label": "Status of step colour contrast",
+    "placeholder": "none, good, hazardous, ...",
+    "strings": {
+        "options": {
+            "None": "no step colour contrast",
+            "Good": "appropriate step colour contrast",
+            "Worn": "non-severe step colour contrast deteriorations",
+            "Discomfortable": "step colour contrast deteriorations causing discomfort or difficulty in use",
+            "Hazardous": "step colour contrast deteriorations causing safety issue"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

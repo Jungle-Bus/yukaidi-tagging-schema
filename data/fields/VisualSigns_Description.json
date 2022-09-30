@@ -1,0 +1,8 @@
+{
+    "key": "VisualSigns:Description",
+    "type": "textarea",
+    "label": "What is limited about the visual signs",
+    "terms": [
+        "summary"
+    ]
+}

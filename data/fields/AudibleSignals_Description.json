@@ -1,0 +1,8 @@
+{
+    "key": "AudibleSignals:Description",
+    "type": "textarea",
+    "label": "What is limited about the audible signals",
+    "terms": [
+        "summary"
+    ]
+}

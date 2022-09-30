@@ -1,0 +1,26 @@
+{
+    "icon": "maki-entrance",
+    "fields": [
+        "Length"
+    ],
+    "moreFields": [
+        "Handrail",
+        "StoppedIfUnused",
+        "Conveying"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "SitePathLink": "Escalator"
+    },
+    "addTags": {
+        "SitePathLink": "Escalator"
+    },
+    "terms": [
+        "moving staircase",
+        "moving stairway",
+        "people mover"
+    ],
+    "name": "Escalator"
+}

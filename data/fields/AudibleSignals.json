@@ -1,0 +1,15 @@
+{
+    "key": "AudibleSignals",
+    "type": "radio",
+    "label": "Audible Signals available",
+    "strings": {
+        "options": {
+            "Yes": "Yes",
+            "Limited": "Limited",
+            "No": "No"
+        }
+    },
+    "terms": [
+        "handicap access"
+    ]
+}

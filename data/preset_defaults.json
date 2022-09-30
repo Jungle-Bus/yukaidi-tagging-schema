@@ -1,21 +1,22 @@
 {
     "area": [
-        "category-dgitm"
+        "category-poi",
+        "area"
     ],
     "line": [
-        "category-dgitm",
+        "category-path",
+        "category-crossing",
+        "category-public_transport",
+        "category-indoor",
         "line"
     ],
     "point": [
-        "category-dgitm",
         "point"
     ],
     "vertex": [
-        "category-dgitm",
         "point"
     ],
     "relation": [
-        "category-dgitm",
         "relation"
     ]
 }

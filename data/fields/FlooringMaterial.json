@@ -1,0 +1,29 @@
+{
+    "key": "FlooringMaterial",
+    "type": "combo",
+    "label": "Flooring material",
+    "placeholder": "asphalt, grass, ...",
+    "strings": {
+        "options": {
+            "Asphalt": "Asphalt",
+            "Concrete": "Concrete",
+            "Wood": "Wood",
+            "Dirt": "Dirt",
+            "Gravel": "Gravel",
+            "Grass": "Grass",
+            "CeramicTiles": "CeramicTiles",
+            "PlasticMatting": "PlasticMatting",
+            "Sand": "Sand",
+            "Stone": "Stone",
+            "Carpet": "Carpet",
+            "Rubber": "Rubber",
+            "Cork": "Cork",
+            "FibreglassGrating": "FibreglassGrating",
+            "GlazedCeramicTiles": "GlazedCeramicTiles",
+            "Vinyl": "Vinyl",
+            "Uneven": "Uneven"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

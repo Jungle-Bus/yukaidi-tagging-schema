@@ -1,0 +1,35 @@
+{
+    "icon": "temaki-railway_signals",
+    "fields": [
+        "Length",
+        "WheelchairAccess"
+    ],
+    "moreFields": [
+        "PedestrianLights",
+        "ZebraCrossing",
+        "VisualGuidanceBands",
+        "AccousticCrossingAid"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "SitePathLink": "Crossing",
+        "Crossing": "UrbanRail"
+    },
+    "addTags": {
+        "SitePathLink": "Crossing",
+        "Crossing": "UrbanRail"
+    },
+    "terms": [
+        "grade crossing",
+        "level crossing",
+        "pedestrian crossing",
+        "road tram crossing",
+        "streetcar crossing",
+        "tram road crossing",
+        "tramway crossing",
+        "trolley crossing"
+    ],
+    "name": "Tram-Road Crossing"
+}

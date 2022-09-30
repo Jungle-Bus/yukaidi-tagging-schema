@@ -1,0 +1,32 @@
+{
+    "icon": "temaki-board_ferry",
+    "fields": [
+        "Name",
+        "Length",
+        "WheelchairAccess",
+        "VisualSigns",
+        "AudibleSignals"
+    ],
+    "moreFields": [
+        "ManoeuvringDiameter"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "SitePathLink": "Quay",
+        "TransportMode": "Water"
+    },
+    "addTags": {
+        "SitePathLink": "Quay",
+        "TransportMode": "Water"
+    },
+    "terms": [
+        "boat",
+        "dock",
+        "ferry",
+        "pier",
+        "platform"
+    ],
+    "name": "Ferry Quay"
+}

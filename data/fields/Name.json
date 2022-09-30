@@ -2,7 +2,6 @@
     "key": "Name",
     "type": "text",
     "label": "Name",
-    "universal": true,
     "placeholder": "Common name (if any)",
     "terms": [
         "label",

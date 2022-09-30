@@ -1,0 +1,28 @@
+{
+    "icon": "temaki-pedestrian",
+    "fields": [
+        "Length"
+    ],
+    "moreFields": [
+        "Handrail",
+        "StoppedIfUnused",
+        "Conveying"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "SitePathLink": "Travelator"
+    },
+    "addTags": {
+        "SitePathLink": "Travelator"
+    },
+    "terms": [
+        "moving walkway",
+        "moving sidewalk",
+        "autwalk",
+        "skywalk",
+        "conveyor"
+    ],
+    "name": "Travelator"
+}

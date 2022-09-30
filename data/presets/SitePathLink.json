@@ -1,27 +1,25 @@
 {
     "fields": [
-        "Name",    
-        "Length"
+        "Length",
+        "SitePathLink"
     ],
     "moreFields": [
+        "WheelchairAccess",
+        "WheelchairAccess_Description",
+        "Name",
         "Incline",
         "TactileGuidingStrip",
         "Gated",
         "Outdoor",
         "Lighting",
-        "StructureType",        
-        "Width",        
+        "StructureType",
+        "Width",
+        "FlooringMaterial",
         "Flooring",
-        "Flooring_Status",
-        "HighwayType",
-        "Tilt",
-        "Slope"        
-    ],     
+        "HighwayType"
+    ],
     "geometry": [
-        "point",
-        "vertex",
-        "line",
-        "area"
+        "line"
     ],
     "tags": {
         "SitePathLink": "*"

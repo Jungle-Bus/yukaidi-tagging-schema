@@ -1,0 +1,15 @@
+{
+    "key": "TransportMode",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "Bus": "Bus",
+            "Coach": "Coach",
+            "Tram": "Tram",
+            "Water": "Water"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

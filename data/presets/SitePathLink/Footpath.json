@@ -8,14 +8,14 @@
         "line"
     ],
     "tags": {
-        "SitePathLink": "Pavement"
+        "SitePathLink": "Footpath"
     },
     "addTags": {
-        "SitePathLink": "Pavement"
+        "SitePathLink": "Footpath"
     },
     "terms": [
-        "pavement",
-        "sidepath"
+        "footpath",
+        "footway"
     ],
-    "name": "Sidewalk"
+    "name": "Foot Path"
 }

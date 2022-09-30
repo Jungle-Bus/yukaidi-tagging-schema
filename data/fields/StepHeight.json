@@ -1,0 +1,6 @@
+{
+    "key": "StepHeight",
+    "type": "number",
+    "minValue": 0,
+    "label": "Step height (in meters)"
+}

@@ -5,9 +5,12 @@
     "placeholder": "rue piétonne, zone de rencontre, ...",
     "strings": {
         "options": {
-            "voie classique": "voie classique",
-            "zone 30": "zone 30",
-            "rue piétonne": "rue piétonne"
+            "Street": "generic street",
+            "LimitedSpeedStreet": "street in a 30 km/h zone",
+            "LivingStreet": "living street",
+            "Pedestrian": "pedestrian street, foot path",
+            "Bicycle": "Greenway, bicycle way",
+            "Unclassified": "other kind of Highway"
         }
     },
     "autoSuggestions": false,

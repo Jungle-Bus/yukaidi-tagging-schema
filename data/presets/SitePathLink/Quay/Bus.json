@@ -1,0 +1,33 @@
+{
+    "icon": "temaki-board_bus",
+    "fields": [
+        "Name",
+        "Length",
+        "WheelchairAccess",
+        "VisualSigns",
+        "AudibleSignals"
+    ],
+    "moreFields": [
+        "ManoeuvringDiameter",
+        "VisualSigns_Description",
+        "AudibleSignals_Description"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "SitePathLink": "Quay",
+        "TransportMode": "Bus"
+    },
+    "addTags": {
+        "SitePathLink": "Quay",
+        "TransportMode": "Bus"
+    },
+    "terms": [
+        "bus",
+        "platform",
+        "public transit",
+        "public transportation"
+    ],
+    "name": "Bus Quay"
+}

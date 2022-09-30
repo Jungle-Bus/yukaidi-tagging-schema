@@ -1,0 +1,25 @@
+{
+    "key": "SitePathLink",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "Pavement": "Pavement",
+            "Footpath": "Footpath",
+            "Street": "Street",
+            "OpenSpace": "OpenSpace",
+            "Concourse": "Concourse",
+            "Passage": "Passage",
+            "Crossing": "Crossing",
+            "Escalator": "Escalator",
+            "Travelator": "Travelator",
+            "Ramp": "Ramp",
+            "Stairs": "Stairs",
+            "Quay": "Quay",
+            "Corridor": "Corridor",
+            "Hall": "Hall"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

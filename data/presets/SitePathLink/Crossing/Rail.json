@@ -1,0 +1,34 @@
+{
+    "icon": "maki-cross",
+    "fields": [
+        "Length",
+        "WheelchairAccess"
+    ],
+    "moreFields": [
+        "PedestrianLights",
+        "ZebraCrossing",
+        "VisualGuidanceBands",
+        "AccousticCrossingAid"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "SitePathLink": "Crossing",
+        "Crossing": "Rail"
+    },
+    "addTags": {
+        "SitePathLink": "Crossing",
+        "Crossing": "Rail"
+    },
+    "terms": [
+        "level crossing",
+        "grade crossing",
+        "railroad crossing",
+        "railway road crossing",
+        "road railway crossing",
+        "road through railroad",
+        "train crossing"
+    ],
+    "name": "Railway-Road Crossing"
+}

@@ -1,0 +1,16 @@
+{
+    "key": "Handrail",
+    "type": "combo",
+    "label": "Handrail",
+    "placeholder": "left, right, ...",
+    "strings": {
+        "options": {
+            "Right": "Right only",
+            "Left": "Left only",
+            "Both": "Both",
+            "None": "No handrail"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

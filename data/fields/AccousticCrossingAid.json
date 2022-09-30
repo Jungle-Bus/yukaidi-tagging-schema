@@ -1,0 +1,17 @@
+{
+    "key": "AccousticCrossingAid",
+    "type": "combo",
+    "label": "Status of accoustic crossing aid",
+    "placeholder": "none, good, hazardous, ...",
+    "strings": {
+        "options": {
+            "None": "no accoustic crossing aid",
+            "Good": "appropriate accoustic crossing aid",
+            "Worn": "non-severe accoustic crossing aid deteriorations",
+            "Discomfortable": "accoustic crossing aid deteriorations causing discomfort or difficulty in use",
+            "Hazardous": "accoustic crossing aid deteriorations causing safety issue"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

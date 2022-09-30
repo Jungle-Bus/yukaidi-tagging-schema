@@ -1,0 +1,14 @@
+{
+    "icon": "temaki-pedestrian_crosswalk",
+    "fields": [
+        "Length",
+        "Crossing"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "SitePathLink": "Crossing"
+    },
+    "name": "Quay"
+}

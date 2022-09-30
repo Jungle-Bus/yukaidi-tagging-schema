@@ -1,6 +1,7 @@
 {
     "icon": "temaki-pedestrian",
     "fields": [
+        "Name",
         "Length",
         "WheelchairAccess"
     ],
@@ -8,14 +9,13 @@
         "line"
     ],
     "tags": {
-        "SitePathLink": "Pavement"
+        "SitePathLink": "Passage"
     },
     "addTags": {
-        "SitePathLink": "Pavement"
+        "SitePathLink": "Passage"
     },
     "terms": [
-        "pavement",
-        "sidepath"
+        "narrow road"
     ],
-    "name": "Sidewalk"
+    "name": "Narrow Street"
 }

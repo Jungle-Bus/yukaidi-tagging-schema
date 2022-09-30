@@ -1,0 +1,15 @@
+{
+    "key": "VisualSigns",
+    "type": "radio",
+    "label": "Visual Signs available",
+    "strings": {
+        "options": {
+            "Yes": "Yes",
+            "Limited": "Limited",
+            "No": "No"
+        }
+    },
+    "terms": [
+        "handicap access"
+    ]
+}

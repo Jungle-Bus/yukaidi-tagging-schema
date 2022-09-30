@@ -1,0 +1,8 @@
+{
+    "key": "WheelchairAccess:Description",
+    "type": "textarea",
+    "label": "What is limited about the wheelchair access",
+    "terms": [
+        "summary"
+    ]
+}

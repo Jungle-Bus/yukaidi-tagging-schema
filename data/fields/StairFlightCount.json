@@ -1,0 +1,6 @@
+{
+    "key": "StairFlightCount",
+    "type": "number",
+    "minValue": 0,
+    "label": "Number of stair flights"
+}

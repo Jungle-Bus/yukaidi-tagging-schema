@@ -1,0 +1,15 @@
+{
+    "key": "Conveying",
+    "type": "combo",
+    "label": "Conveying",
+    "placeholder": "forward, reversible, ...",
+    "strings": {
+        "options": {
+            "Forward": "Forward only",
+            "Backward": "Backward only",
+            "Reversible": "Can change conveying direction"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

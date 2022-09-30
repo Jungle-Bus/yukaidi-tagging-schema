@@ -1,0 +1,16 @@
+{
+    "key": "Crossing",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "Rail": "level crossing",
+            "UrbanRail": "barrow crossing",
+            "CycleWay": "bicycle road crossing",
+            "Road": " road crossing",
+            "RoadWithIsland": "road crossing with island"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

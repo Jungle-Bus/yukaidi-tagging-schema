@@ -34,8 +34,9 @@
     "addTags": {
         "object": "PointOfInterest",
         "PublicUse": "yes",
-        "Covered": "indoors" 
-    },    
+        "area": "yes",
+        "Covered": "indoors"
+    },
     "reference": {
         "key": "shop",
         "value": "beauty"

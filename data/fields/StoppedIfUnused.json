@@ -1,0 +1,5 @@
+{
+    "key": "StoppedIfUnused",
+    "type": "check",
+    "label": "Stopped If Unused"
+}

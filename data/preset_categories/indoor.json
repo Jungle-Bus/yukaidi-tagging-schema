@@ -1,0 +1,10 @@
+{
+    "icon": "temaki-room",
+    "name": "Indoor features",
+    "members": [
+        "SitePathLink/Escalator",
+        "SitePathLink/Travelator",
+        "SitePathLink/Hall",
+        "SitePathLink/Corridor"
+    ]
+}

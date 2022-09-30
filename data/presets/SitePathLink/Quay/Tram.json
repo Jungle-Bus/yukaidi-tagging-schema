@@ -1,0 +1,36 @@
+{
+    "icon": "temaki-board_tram",
+    "fields": [
+        "Name",
+        "Length",
+        "WheelchairAccess",
+        "VisualSigns",
+        "AudibleSignals"
+    ],
+    "moreFields": [
+        "ManoeuvringDiameter"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "SitePathLink": "Quay",
+        "TransportMode": "Tram"
+    },
+    "addTags": {
+        "SitePathLink": "Quay",
+        "TransportMode": "Tram"
+    },
+    "terms": [
+        "electric",
+        "light rail",
+        "platform",
+        "rail",
+        "streetcar",
+        "track",
+        "tram",
+        "tramway",
+        "trolley"
+    ],
+    "name": "Tram Quay"
+}

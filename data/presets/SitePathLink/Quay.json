@@ -1,0 +1,15 @@
+{
+    "icon": "temaki-board_transit",
+    "fields": [
+        "Name",
+        "Length",
+        "TransportMode"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "SitePathLink": "Quay"
+    },
+    "name": "Quay"
+}

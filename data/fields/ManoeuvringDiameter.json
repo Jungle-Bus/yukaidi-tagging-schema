@@ -1,0 +1,6 @@
+{
+    "key": "ManoeuvringDiameter",
+    "type": "number",
+    "minValue": 0,
+    "label": "Diameter for Wheelchair Manoeuvring (in meters)"
+}

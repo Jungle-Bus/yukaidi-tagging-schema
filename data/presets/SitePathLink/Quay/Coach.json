@@ -1,0 +1,31 @@
+{
+    "icon": "temaki-board_bus",
+    "fields": [
+        "Name",
+        "Length",
+        "WheelchairAccess",
+        "VisualSigns",
+        "AudibleSignals"
+    ],
+    "moreFields": [
+        "ManoeuvringDiameter"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "SitePathLink": "Quay",
+        "TransportMode": "Coach"
+    },
+    "addTags": {
+        "SitePathLink": "Quay",
+        "TransportMode": "Coach"
+    },
+    "terms": [
+        "bus",
+        "platform",
+        "public transit",
+        "public transportation"
+    ],
+    "name": "Coach Quay"
+}

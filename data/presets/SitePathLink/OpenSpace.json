@@ -1,0 +1,26 @@
+{
+    "icon": "temaki-pedestrian",
+    "fields": [
+        "Name",
+        "Length",
+        "WheelchairAccess"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "SitePathLink": "OpenSpace"
+    },
+    "addTags": {
+        "SitePathLink": "OpenSpace"
+    },
+    "terms": [
+        "center",
+        "centre",
+        "plaza",
+        "quad",
+        "square",
+        "walkway"
+    ],
+    "name": "Pedestrian Area"
+}

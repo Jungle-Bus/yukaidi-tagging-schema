@@ -1,0 +1,31 @@
+{
+    "icon": "iD-highway-steps",
+    "fields": [
+        "Length"
+    ],
+    "moreFields": [
+        "Handrail",
+        "StepCount",
+        "StairFlightCount",
+        "StepColourContrast",
+        "StepHeight"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "SitePathLink": "Stairs"
+    },
+    "addTags": {
+        "SitePathLink": "Stairs"
+    },
+    "terms": [
+        "stair",
+        "stairs",
+        "staircase",
+        "stairway",
+        "stairwell",
+        "steps"
+    ],
+    "name": "Stairs"
+}

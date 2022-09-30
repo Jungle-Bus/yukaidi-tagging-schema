@@ -1,0 +1,32 @@
+{
+    "icon": "temaki-pedestrian_crosswalk",
+    "fields": [
+        "Length",
+        "WheelchairAccess"
+    ],
+    "moreFields": [
+        "PedestrianLights",
+        "ZebraCrossing",
+        "VisualGuidanceBands",
+        "AccousticCrossingAid"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "SitePathLink": "Crossing",
+        "Crossing": "Road"
+    },
+    "addTags": {
+        "SitePathLink": "Crossing",
+        "Crossing": "Road"
+    },
+    "terms": [
+        "zebra crossing",
+        "marked crossing",
+        "foot path crossing",
+        "pedestrian crossing",
+        "crosswalk"
+    ],
+    "name": "Road Crossing"
+}

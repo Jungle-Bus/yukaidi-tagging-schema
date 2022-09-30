@@ -1,8 +1,0 @@
-{
-    "icon": "temaki-pedestrian",
-    "name": "Foot paths",
-    "members": [
-        "SitePathLink/Pavement",
-        "ERP/bank"
-    ]
-}

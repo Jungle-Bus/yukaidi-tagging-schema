@@ -4,18 +4,17 @@
         "Length",
         "WheelchairAccess"
     ],
+    "moreFields": [
+        "Handrail"
+    ],
     "geometry": [
         "line"
     ],
     "tags": {
-        "SitePathLink": "Pavement"
+        "SitePathLink": "Ramp"
     },
     "addTags": {
-        "SitePathLink": "Pavement"
+        "SitePathLink": "Ramp"
     },
-    "terms": [
-        "pavement",
-        "sidepath"
-    ],
-    "name": "Sidewalk"
+    "name": "Ramp"
 }

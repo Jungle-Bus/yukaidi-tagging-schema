@@ -1,23 +1,15 @@
 {
     "key": "Flooring",
     "type": "combo",
-    "label": "Flooring",
-    "placeholder": "asphalt, grass, ...",
+    "label": "Status of flooring",
+    "placeholder": "none, good, hazardous, ...",
     "strings": {
         "options": {
-            "Asphalt": "Asphalt",
-            "unpaved": "Unpaved",
-            "paved": "Paved",
-            "ground": "Ground",
-            "gravel": "Gravel",
-            "compacted": "Compacted",
-            "concrete": "Concrete",
-            "paving_stones": "Paving Stones",
-            "dirt": "Dirt",
-            "grass": "Grass",
-            "sand": "Sand",
-            "wood": "Wood",
-            "artificial_turf": "Artificial Turf"
+            "None": "no flooring",
+            "Good": "appropriate flooring",
+            "Worn": "non-severe flooring deteriorations",
+            "Discomfortable": "flooring deteriorations causing discomfort or difficulty in use",
+            "Hazardous": "flooring deteriorations causing safety issue"
         }
     },
     "autoSuggestions": false,
