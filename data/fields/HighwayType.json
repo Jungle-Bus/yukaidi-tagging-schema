@@ -1,0 +1,15 @@
+{
+    "key": "HighwayType",
+    "type": "combo",
+    "label": "HighwayType",
+    "placeholder": "rue piétonne, zone de rencontre, ...",
+    "strings": {
+        "options": {
+            "voie classique": "voie classique",
+            "zone 30": "zone 30",
+            "rue piétonne": "rue piétonne"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

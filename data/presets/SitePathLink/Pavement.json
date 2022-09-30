@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-pedestrian",
+    "fields": [
+        "Length"    
+    ], 
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "SitePathLink": "Pavement"
+    },
+    "addTags": {
+        "SitePathLink": "Pavement",
+        "Covered": "outdoors"     
+    },
+    "terms": [
+        "pavement",
+        "sidepath"
+    ],
+    "name": "Sidewalk"
+}

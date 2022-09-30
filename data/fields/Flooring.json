@@ -6,8 +6,18 @@
     "strings": {
         "options": {
             "Asphalt": "Asphalt",
-            "Concrete": "Concrete",
-            "Grass": "grass"
+            "unpaved": "Unpaved",
+            "paved": "Paved",
+            "ground": "Ground",
+            "gravel": "Gravel",
+            "compacted": "Compacted",
+            "concrete": "Concrete",
+            "paving_stones": "Paving Stones",
+            "dirt": "Dirt",
+            "grass": "Grass",
+            "sand": "Sand",
+            "wood": "Wood",
+            "artificial_turf": "Artificial Turf"
         }
     },
     "autoSuggestions": false,

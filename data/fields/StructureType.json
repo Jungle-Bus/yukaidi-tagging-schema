@@ -1,0 +1,17 @@
+{
+    "key": "StructureType",
+    "type": "combo",
+    "label": "StructureType",
+    "placeholder": "underpass, tunnel, corridor, ...",
+    "strings": {
+        "options": {
+            "Pathway": "pathway",
+            "Corridor": "corridor",
+            "Overpass": "overpass, bridge",
+            "Underpass": "underpass",
+            "Tunnel": "tunnel"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

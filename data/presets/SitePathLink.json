@@ -1,0 +1,31 @@
+{
+    "fields": [
+        "Name",    
+        "Length"
+    ],
+    "moreFields": [
+        "Incline",
+        "TactileGuidingStrip",
+        "Gated",
+        "Outdoor",
+        "Lighting",
+        "StructureType",        
+        "Width",        
+        "Flooring",
+        "Flooring_Status",
+        "HighwayType",
+        "Tilt",
+        "Slope"        
+    ],     
+    "geometry": [
+        "point",
+        "vertex",
+        "line",
+        "area"
+    ],
+    "tags": {
+        "SitePathLink": "*"
+    },
+    "searchable": false,
+    "name": "SitePathLink Feature"
+}

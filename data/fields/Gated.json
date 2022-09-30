@@ -5,8 +5,8 @@
     "placeholder": "open, gated, ...",
     "strings": {
         "options": {
-            "gatedArea": "is a gated area",
-            "openArea": "is an open area"
+            "Yes": "is a gated area",
+            "No": "is an open area"
         }
     },
     "autoSuggestions": false,

@@ -1,6 +1,6 @@
 {
-    "key": "Tilt",
+    "key": "Slope",
     "type": "roadspeed",
-    "label": "Tilt Angle",
+    "label": "Slope Angle",
     "placeholder": "40, 50, 60..."
 }

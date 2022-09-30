@@ -1,0 +1,15 @@
+{
+    "key": "Outdoor",
+    "type": "combo",
+    "label": "Outdoor",
+    "placeholder": "yes, no, ...",
+    "strings": {
+        "options": {
+            "No": "is inside",
+            "Yes": "is outside",
+            "Covered": "is outside, but beside a roof"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

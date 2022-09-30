@@ -19,26 +19,14 @@
     ],
     "fields": [
         "Name",
-        "address",
-        "phone",
-        "website",
-        "access"
+        "Phone",
+        "Website"
     ],
     "moreFields": [
         "Description",
-        "Accessibility­Assesment",
-        "Covered",
+        "Outdoor",
         "Lighting",
-        "Gated",
-        "PublicUse",                        
-        "air_conditioning",
-        "branch_brand",
-        "brand",
-        "currency_multi",
-        "email",
-        "phone",
-        "ref/vatin",
-        "wheelchair"
+        "Gated"
     ],
     "tags": {
         "object": "PointOfInterest"
@@ -46,7 +34,8 @@
     "addTags": {
         "object": "PointOfInterest",
         "PublicUse": "yes",
-        "Covered": "indoors"    },    
+        "Covered": "indoors" 
+    },    
     "reference": {
         "key": "shop",
         "value": "beauty"
