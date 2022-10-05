@@ -16,6 +16,7 @@
             "Ramp": "Ramp",
             "Stairs": "Stairs",
             "Quay": "Quay",
+            "QueueManagement": "QueueManagement",
             "Corridor": "Corridor",
             "Hall": "Hall"
         }

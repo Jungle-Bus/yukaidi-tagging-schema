@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-maze",
+    "fields": [
+        "Length",
+        "WheelchairAccess"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "SitePathLink": "QueueManagement"
+    },
+    "addTags": {
+        "SitePathLink": "QueueManagement"
+    },
+    "name": "Queue Management"
+}
