@@ -1,5 +1,5 @@
 {
-    "icon": "maki-cross",
+    "icon": "iD-train-crossing",
     "fields": [
         "Length",
         "WheelchairAccess"
@@ -30,5 +30,5 @@
         "road through railroad",
         "train crossing"
     ],
-    "name": "Railway-Road Crossing"
+    "name": "Railway Crossing"
 }

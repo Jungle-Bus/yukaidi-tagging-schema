@@ -1,5 +1,5 @@
 {
-    "icon": "temaki-railway_signals",
+    "icon": "iD-tram-crossing",
     "fields": [
         "Length",
         "WheelchairAccess"
@@ -31,5 +31,5 @@
         "tramway crossing",
         "trolley crossing"
     ],
-    "name": "Tram-Road Crossing"
+    "name": "Tram Crossing"
 }

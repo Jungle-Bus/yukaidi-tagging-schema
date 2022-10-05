@@ -1,6 +1,6 @@
 {
     "icon": "temaki-pedestrian_crosswalk",
-    "name": "Foot crossing",
+    "name": "Foot crossings",
     "members": [
         "SitePathLink/Crossing/Road",
         "SitePathLink/Crossing/RoadWithIsland",

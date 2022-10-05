@@ -1,6 +1,6 @@
 {
     "icon": "temaki-board_transit",
-    "name": "Public Transport",
+    "name": "Public transport features",
     "members": [
         "SitePathLink/Quay/Bus",
         "SitePathLink/Quay/Coach",
