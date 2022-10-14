@@ -10,5 +10,6 @@
     "tags": {
         "SitePathLink": "Quay"
     },
+    "searchable": false,
     "name": "Quay"
 }

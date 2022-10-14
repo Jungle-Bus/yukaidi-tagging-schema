@@ -7,7 +7,10 @@
             "Bus": "Bus",
             "Coach": "Coach",
             "Tram": "Tram",
-            "Water": "Water"
+            "Water": "Water",
+            "Funicular": "Funicular",
+            "TrolleyBus": "TrolleyBus",
+            "CableWay": "CableWay"
         }
     },
     "autoSuggestions": false,

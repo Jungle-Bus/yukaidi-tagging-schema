@@ -1,5 +1,5 @@
 {
-    "icon": "temaki-board_tram",
+    "icon": "temaki-gondola_lift",
     "fields": [
         "Name",
         "WheelchairAccess",
@@ -17,21 +17,16 @@
     ],
     "tags": {
         "SitePathLink": "Quay",
-        "TransportMode": "Tram"
+        "TransportMode": "CableWay"
     },
     "addTags": {
         "SitePathLink": "Quay",
-        "TransportMode": "Tram"
+        "TransportMode": "CableWay"
     },
     "terms": [
-        "electric",
-        "light rail",
-        "platform",
-        "rail",
-        "streetcar",
-        "track",
-        "tram",
-        "tramway"
+        "Gondola stop",
+        "aerial cable stop",
+        "Cableway bus stop"
     ],
-    "name": "Tram Quay"
+    "name": "Cableway Quay"
 }

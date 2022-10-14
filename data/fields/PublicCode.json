@@ -1,0 +1,10 @@
+{
+    "key": "PublicCode",
+    "type": "text",
+    "label": "PublicCode",
+    "placeholder": "Public code (if any)",
+    "terms": [
+        "ref",
+        "number"
+    ]
+}

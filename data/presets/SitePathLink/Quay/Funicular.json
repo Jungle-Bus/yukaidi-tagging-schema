@@ -1,5 +1,5 @@
 {
-    "icon": "temaki-board_tram",
+    "icon": "temaki-board_monorail",
     "fields": [
         "Name",
         "WheelchairAccess",
@@ -17,21 +17,18 @@
     ],
     "tags": {
         "SitePathLink": "Quay",
-        "TransportMode": "Tram"
+        "TransportMode": "Funicular"
     },
     "addTags": {
         "SitePathLink": "Quay",
-        "TransportMode": "Tram"
+        "TransportMode": "Funicular"
     },
     "terms": [
-        "electric",
-        "light rail",
-        "platform",
-        "rail",
-        "streetcar",
-        "track",
-        "tram",
-        "tramway"
+        "venicular",
+        "funicular stop",
+        "cable car stop",
+        "cable car quay",
+        "funicular railway"
     ],
-    "name": "Tram Quay"
+    "name": "Funicular Quay"
 }

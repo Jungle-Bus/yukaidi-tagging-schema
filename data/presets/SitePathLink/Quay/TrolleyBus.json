@@ -1,5 +1,5 @@
 {
-    "icon": "temaki-board_tram",
+    "icon": "temaki-board_trolleybus",
     "fields": [
         "Name",
         "WheelchairAccess",
@@ -17,21 +17,16 @@
     ],
     "tags": {
         "SitePathLink": "Quay",
-        "TransportMode": "Tram"
+        "TransportMode": "TrolleyBus"
     },
     "addTags": {
         "SitePathLink": "Quay",
-        "TransportMode": "Tram"
+        "TransportMode": "TrolleyBus"
     },
     "terms": [
-        "electric",
-        "light rail",
-        "platform",
-        "rail",
-        "streetcar",
-        "track",
-        "tram",
-        "tramway"
+        "trolley stop",
+        "streetcar stop",
+        "Trolley bus stop"
     ],
-    "name": "Tram Quay"
+    "name": "Trolleybus Quay"
 }

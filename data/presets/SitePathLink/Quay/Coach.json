@@ -7,7 +7,10 @@
         "AudibleSignals"
     ],
     "moreFields": [
-        "ManoeuvringDiameter"
+        "PublicCode",
+        "ManoeuvringDiameter",
+        "VisualSigns_Description",
+        "AudibleSignals_Description"
     ],
     "geometry": [
         "line"
