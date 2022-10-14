@@ -2,7 +2,6 @@
     "icon": "temaki-board_tram",
     "fields": [
         "Name",
-        "Length",
         "WheelchairAccess",
         "VisualSigns",
         "AudibleSignals"

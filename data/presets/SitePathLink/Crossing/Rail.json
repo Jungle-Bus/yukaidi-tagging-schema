@@ -1,7 +1,6 @@
 {
     "icon": "iD-train-crossing",
     "fields": [
-        "Length",
         "WheelchairAccess"
     ],
     "moreFields": [

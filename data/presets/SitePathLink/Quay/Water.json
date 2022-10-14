@@ -2,7 +2,6 @@
     "icon": "temaki-board_ferry",
     "fields": [
         "Name",
-        "Length",
         "WheelchairAccess",
         "VisualSigns",
         "AudibleSignals"

@@ -2,7 +2,6 @@
     "icon": "temaki-board_transit",
     "fields": [
         "Name",
-        "Length",
         "TransportMode"
     ],
     "geometry": [

@@ -1,7 +1,6 @@
 {
     "icon": "iD-tram-crossing",
     "fields": [
-        "Length",
         "WheelchairAccess"
     ],
     "moreFields": [

@@ -2,7 +2,6 @@
     "icon": "temaki-pedestrian_walled",
     "fields": [
         "Name",
-        "Length",
         "WheelchairAccess"
     ],
     "geometry": [

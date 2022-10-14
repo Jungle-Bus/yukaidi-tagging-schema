@@ -1,7 +1,6 @@
 {
     "icon": "temaki-maze",
     "fields": [
-        "Length",
         "WheelchairAccess"
     ],
     "geometry": [

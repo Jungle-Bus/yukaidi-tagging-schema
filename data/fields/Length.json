@@ -1,6 +1,0 @@
-{
-    "key": "Length",
-    "type": "number",
-    "minValue": 0,
-    "label": "Length (in meters)"
-}

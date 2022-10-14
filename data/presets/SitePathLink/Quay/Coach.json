@@ -2,7 +2,6 @@
     "icon": "temaki-board_school_bus",
     "fields": [
         "Name",
-        "Length",
         "WheelchairAccess",
         "VisualSigns",
         "AudibleSignals"

@@ -1,7 +1,6 @@
 {
     "icon": "temaki-cyclist_crosswalk",
     "fields": [
-        "Length",
         "WheelchairAccess"
     ],
     "moreFields": [

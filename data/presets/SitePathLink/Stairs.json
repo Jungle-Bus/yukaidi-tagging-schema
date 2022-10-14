@@ -1,8 +1,6 @@
 {
     "icon": "iD-highway-steps",
-    "fields": [
-        "Length"
-    ],
+    "fields": [],
     "moreFields": [
         "Handrail",
         "StepCount",

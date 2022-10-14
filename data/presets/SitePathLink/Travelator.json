@@ -1,8 +1,6 @@
 {
     "icon": "iD-travelator",
-    "fields": [
-        "Length"
-    ],
+    "fields": [],
     "moreFields": [
         "Handrail",
         "StoppedIfUnused",

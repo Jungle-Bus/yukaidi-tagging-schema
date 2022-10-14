@@ -1,8 +1,6 @@
 {
     "icon": "maki-entrance",
-    "fields": [
-        "Length"
-    ],
+    "fields": [],
     "moreFields": [
         "Handrail",
         "StoppedIfUnused",

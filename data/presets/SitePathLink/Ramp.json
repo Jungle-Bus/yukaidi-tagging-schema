@@ -1,7 +1,6 @@
 {
     "icon": "temaki-pedestrian",
     "fields": [
-        "Length",
         "WheelchairAccess"
     ],
     "moreFields": [
