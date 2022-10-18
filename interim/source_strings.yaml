@@ -428,6 +428,34 @@ en:
         # ZebraCrossing field placeholder
         placeholder: none, good, hazardous, ...
         terms: '[translate with synonyms or related terms for ''Status of zebra crossing'', separated by commas]'
+      comment:
+        # comment=*
+        label: Changeset Comment
+        # comment field placeholder
+        placeholder: Brief description of your contributions (required)
+      hashtags:
+        # hashtags=*
+        label: Hashtags
+        # hashtags field placeholder
+        placeholder: '#example'
+      source:
+        # source=*
+        label: Sources
+        options:
+          # source=aerial imagery
+          aerial imagery: Aerial Imagery
+          # source=gps
+          gps: GPS
+          # source=local knowledge
+          local knowledge: Local Knowledge
+          # source=osm notes
+          osm notes: OpenStreetMap Notes
+          # source=streetlevel imagery
+          streetlevel imagery: Street-Level Photos
+          # source=survey
+          survey: Survey
+        # 'terms: reference'
+        terms: '[translate with synonyms or related terms for ''Sources'', separated by commas]'
     presets:
       ERP/bank:
         # object=PointOfInterest | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).

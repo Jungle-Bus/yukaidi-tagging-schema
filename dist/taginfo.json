@@ -322,6 +322,10 @@
             "description": "🄵 Audible Signals available"
         },
         {
+            "key": "comment",
+            "description": "🄵 Changeset Comment"
+        },
+        {
             "key": "Conveying",
             "description": "🄵 Conveying"
         },
@@ -509,6 +513,10 @@
             "description": "🄵🅅 Handrail: No handrail"
         },
         {
+            "key": "hashtags",
+            "description": "🄵 Hashtags"
+        },
+        {
             "key": "HighwayType",
             "description": "🄵 HighwayType"
         },
@@ -618,6 +626,40 @@
         {
             "key": "PublicCode",
             "description": "🄵 PublicCode"
+        },
+        {
+            "key": "source",
+            "description": "🄵 Sources"
+        },
+        {
+            "key": "source",
+            "value": "survey",
+            "description": "🄵🅅 Sources: Survey"
+        },
+        {
+            "key": "source",
+            "value": "local knowledge",
+            "description": "🄵🅅 Sources: Local Knowledge"
+        },
+        {
+            "key": "source",
+            "value": "aerial imagery",
+            "description": "🄵🅅 Sources: Aerial Imagery"
+        },
+        {
+            "key": "source",
+            "value": "gps",
+            "description": "🄵🅅 Sources: GPS"
+        },
+        {
+            "key": "source",
+            "value": "streetlevel imagery",
+            "description": "🄵🅅 Sources: Street-Level Photos"
+        },
+        {
+            "key": "source",
+            "value": "osm notes",
+            "description": "🄵🅅 Sources: OpenStreetMap Notes"
         },
         {
             "key": "StairFlightCount",

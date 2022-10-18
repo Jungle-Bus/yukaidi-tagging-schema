@@ -33,6 +33,11 @@
             "No"
         ]
     },
+    "comment": {
+        "key": "comment",
+        "type": "textarea",
+        "usage": "changeset"
+    },
     "Conveying": {
         "key": "Conveying",
         "type": "combo",
@@ -127,6 +132,11 @@
             "None"
         ]
     },
+    "hashtags": {
+        "key": "hashtags",
+        "type": "semiCombo",
+        "usage": "changeset"
+    },
     "HighwayType": {
         "key": "HighwayType",
         "type": "combo",
@@ -217,6 +227,23 @@
             "QueueManagement",
             "Corridor",
             "Hall"
+        ]
+    },
+    "source": {
+        "key": "source",
+        "type": "semiCombo",
+        "icon": "source",
+        "universal": true,
+        "snake_case": false,
+        "caseSensitive": true,
+        "autoSuggestions": false,
+        "options": [
+            "survey",
+            "local knowledge",
+            "aerial imagery",
+            "gps",
+            "streetlevel imagery",
+            "osm notes"
         ]
     },
     "StairFlightCount": {
