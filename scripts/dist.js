@@ -9,8 +9,4 @@ schemaBuilder.buildDist({
     contact_name: 'Martin Raifer',
     contact_email: 'martin@raifer.tech'
   },
-  translOrgId: 'openstreetmap',
-  translProjectId: 'id-editor',
-  translResourceIds: ['presets'],
-  translReviewedOnly: ['vi']
 });
