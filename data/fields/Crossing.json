@@ -1,13 +1,13 @@
 {
     "key": "Crossing",
     "type": "combo",
-    "label": "Type",
+    "label": "Crossing Type",
     "strings": {
         "options": {
             "Rail": "level crossing",
             "UrbanRail": "barrow crossing",
             "CycleWay": "bicycle road crossing",
-            "Road": " road crossing",
+            "Road": "road crossing",
             "RoadWithIsland": "road crossing with island"
         }
     },

@@ -1,7 +1,7 @@
 {
     "key": "PublicCode",
     "type": "text",
-    "label": "PublicCode",
+    "label": "Platform Number",
     "placeholder": "Public code (if any)",
     "terms": [
         "ref",

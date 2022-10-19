@@ -2,7 +2,8 @@
     "key": "AudibleSignals:Description",
     "type": "textarea",
     "label": "What is limited about the audible signals",
+    "placeholder": "only available on disruptions ...",
     "terms": [
-        "summary"
+        "details"
     ]
 }

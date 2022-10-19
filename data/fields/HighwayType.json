@@ -2,7 +2,7 @@
     "key": "HighwayType",
     "type": "combo",
     "label": "HighwayType",
-    "placeholder": "rue piétonne, zone de rencontre, ...",
+    "placeholder": "living street, bicyble way, ...",
     "strings": {
         "options": {
             "Street": "generic street",

@@ -1,7 +1,7 @@
 {
     "key": "TransportMode",
     "type": "combo",
-    "label": "Type",
+    "label": "Transport Mode",
     "strings": {
         "options": {
             "Bus": "Bus",

@@ -40,7 +40,8 @@
                 },
                 "AudibleSignals_Description": {
                     "label": "What is limited about the audible signals",
-                    "terms": "summary"
+                    "terms": "details",
+                    "placeholder": "only available on disruptions ..."
                 },
                 "AudibleSignals": {
                     "label": "Audible Signals available",
@@ -64,22 +65,23 @@
                     }
                 },
                 "Crossing": {
-                    "label": "Type",
+                    "label": "Crossing Type",
                     "options": {
                         "Rail": "level crossing",
                         "UrbanRail": "barrow crossing",
                         "CycleWay": "bicycle road crossing",
-                        "Road": " road crossing",
+                        "Road": "road crossing",
                         "RoadWithIsland": "road crossing with island"
                     }
                 },
                 "Description": {
                     "label": "Description",
-                    "terms": "summary"
+                    "terms": "details"
                 },
                 "FixMe": {
                     "label": "Fix Me",
-                    "terms": "help request"
+                    "terms": "help request",
+                    "placeholder": "this need to be verified with a ground survey ..."
                 },
                 "Flooring": {
                     "label": "Status of flooring",
@@ -103,6 +105,7 @@
                         "Gravel": "Gravel",
                         "Grass": "Grass",
                         "CeramicTiles": "CeramicTiles",
+                        "SteelPlate": "Steel Plate",
                         "PlasticMatting": "PlasticMatting",
                         "Sand": "Sand",
                         "Stone": "Stone",
@@ -139,7 +142,7 @@
                 },
                 "HighwayType": {
                     "label": "HighwayType",
-                    "placeholder": "rue piétonne, zone de rencontre, ...",
+                    "placeholder": "living street, bicyble way, ...",
                     "options": {
                         "Street": "generic street",
                         "LimitedSpeedStreet": "street in a 30 km/h zone",
@@ -192,7 +195,7 @@
                     "placeholder": "+31 42 123 4567"
                 },
                 "PublicCode": {
-                    "label": "PublicCode",
+                    "label": "Platform Number",
                     "terms": "ref,number",
                     "placeholder": "Public code (if any)"
                 },
@@ -218,14 +221,14 @@
                 },
                 "source": {
                     "label": "Sources",
-                    "terms": "reference",
                     "options": {
                         "survey": "Survey",
                         "local knowledge": "Local Knowledge",
                         "aerial imagery": "Aerial Imagery",
                         "gps": "GPS",
                         "streetlevel imagery": "Street-Level Photos",
-                        "osm notes": "OpenStreetMap Notes"
+                        "notes": "Notes",
+                        "openstreetmap": "OpenStreetMap"
                     }
                 },
                 "StairFlightCount": {
@@ -266,7 +269,7 @@
                     "label": "Tactile Guiding Strip"
                 },
                 "TransportMode": {
-                    "label": "Type",
+                    "label": "Transport Mode",
                     "options": {
                         "Bus": "Bus",
                         "Coach": "Coach",
@@ -282,7 +285,8 @@
                 },
                 "VisualSigns_Description": {
                     "label": "What is limited about the visual signs",
-                    "terms": "summary"
+                    "terms": "details",
+                    "placeholder": "only available on one side ..."
                 },
                 "VisualSigns": {
                     "label": "Visual Signs available",
@@ -298,7 +302,8 @@
                 },
                 "WheelchairAccess_Description": {
                     "label": "What is limited about the wheelchair access",
-                    "terms": "summary"
+                    "terms": "details",
+                    "placeholder": "only available on week days ..."
                 },
                 "WheelchairAccess": {
                     "label": "Wheelchair Access",
@@ -435,7 +440,8 @@
                     "name": "Queue Management"
                 },
                 "SitePathLink/Ramp": {
-                    "name": "Ramp"
+                    "name": "Ramp",
+                    "terms": "bicycle stairway,push ramp,wheeling ramp"
                 },
                 "SitePathLink/Stairs": {
                     "name": "Stairs",

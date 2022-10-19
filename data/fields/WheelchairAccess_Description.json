@@ -2,7 +2,8 @@
     "key": "WheelchairAccess:Description",
     "type": "textarea",
     "label": "What is limited about the wheelchair access",
+    "placeholder": "only available on week days ...",
     "terms": [
-        "summary"
+        "details"
     ]
 }

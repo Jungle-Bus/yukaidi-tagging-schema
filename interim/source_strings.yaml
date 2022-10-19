@@ -42,7 +42,9 @@ en:
       AudibleSignals_Description:
         # AudibleSignals:Description=*
         label: What is limited about the audible signals
-        # 'terms: summary'
+        # AudibleSignals_Description field placeholder
+        placeholder: only available on disruptions ...
+        # 'terms: details'
         terms: '[translate with synonyms or related terms for ''What is limited about the audible signals'', separated by commas]'
       Conveying:
         # Conveying=*
@@ -59,14 +61,14 @@ en:
         terms: '[translate with synonyms or related terms for ''Conveying'', separated by commas]'
       Crossing:
         # Crossing=*
-        label: Type
+        label: Crossing Type
         options:
           # Crossing=CycleWay
           CycleWay: bicycle road crossing
           # Crossing=Rail
           Rail: level crossing
           # Crossing=Road
-          Road: ' road crossing'
+          Road: road crossing
           # Crossing=RoadWithIsland
           RoadWithIsland: road crossing with island
           # Crossing=UrbanRail
@@ -74,11 +76,13 @@ en:
       Description:
         # Description=*
         label: Description
-        # 'terms: summary'
+        # 'terms: details'
         terms: '[translate with synonyms or related terms for ''Description'', separated by commas]'
       FixMe:
         # FixMe=*
         label: Fix Me
+        # FixMe field placeholder
+        placeholder: this need to be verified with a ground survey ...
         # 'terms: help request'
         terms: '[translate with synonyms or related terms for ''Fix Me'', separated by commas]'
       Flooring:
@@ -128,6 +132,8 @@ en:
           Rubber: Rubber
           # FlooringMaterial=Sand
           Sand: Sand
+          # FlooringMaterial=SteelPlate
+          SteelPlate: Steel Plate
           # FlooringMaterial=Stone
           Stone: Stone
           # FlooringMaterial=Uneven
@@ -182,7 +188,7 @@ en:
           # HighwayType=Unclassified
           Unclassified: other kind of Highway
         # HighwayType field placeholder
-        placeholder: rue piétonne, zone de rencontre, ...
+        placeholder: living street, bicyble way, ...
         terms: '[translate with synonyms or related terms for ''HighwayType'', separated by commas]'
       Incline:
         # Incline=*
@@ -245,11 +251,11 @@ en:
         placeholder: +31 42 123 4567
       PublicCode:
         # PublicCode=*
-        label: PublicCode
+        label: Platform Number
         # PublicCode field placeholder
         placeholder: Public code (if any)
         # 'terms: ref,number'
-        terms: '[translate with synonyms or related terms for ''PublicCode'', separated by commas]'
+        terms: '[translate with synonyms or related terms for ''Platform Number'', separated by commas]'
       SitePathLink:
         # SitePathLink=*
         label: Type
@@ -350,7 +356,7 @@ en:
         placeholder: 40, 50, 60...
       TransportMode:
         # TransportMode=*
-        label: Type
+        label: Transport Mode
         options:
           # TransportMode=Bus
           Bus: Bus
@@ -383,7 +389,9 @@ en:
       VisualSigns_Description:
         # VisualSigns:Description=*
         label: What is limited about the visual signs
-        # 'terms: summary'
+        # VisualSigns_Description field placeholder
+        placeholder: only available on one side ...
+        # 'terms: details'
         terms: '[translate with synonyms or related terms for ''What is limited about the visual signs'', separated by commas]'
       Website:
         # website=*
@@ -405,7 +413,9 @@ en:
       WheelchairAccess_Description:
         # WheelchairAccess:Description=*
         label: What is limited about the wheelchair access
-        # 'terms: summary'
+        # WheelchairAccess_Description field placeholder
+        placeholder: only available on week days ...
+        # 'terms: details'
         terms: '[translate with synonyms or related terms for ''What is limited about the wheelchair access'', separated by commas]'
       Width:
         # Width=*
@@ -448,14 +458,14 @@ en:
           gps: GPS
           # source=local knowledge
           local knowledge: Local Knowledge
-          # source=osm notes
-          osm notes: OpenStreetMap Notes
+          # source=notes
+          notes: Notes
+          # source=openstreetmap
+          openstreetmap: OpenStreetMap
           # source=streetlevel imagery
           streetlevel imagery: Street-Level Photos
           # source=survey
           survey: Survey
-        # 'terms: reference'
-        terms: '[translate with synonyms or related terms for ''Sources'', separated by commas]'
     presets:
       ERP/bank:
         # object=PointOfInterest | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -577,6 +587,7 @@ en:
       SitePathLink/Ramp:
         # SitePathLink=Ramp | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Ramp
+        # 'terms: bicycle stairway,push ramp,wheeling ramp'
         terms: <translate with synonyms or related terms for 'Ramp', separated by commas>
       SitePathLink/Stairs:
         # SitePathLink=Stairs | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).

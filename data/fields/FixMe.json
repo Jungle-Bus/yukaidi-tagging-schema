@@ -2,6 +2,7 @@
     "key": "FixMe",
     "type": "textarea",
     "label": "Fix Me",
+    "placeholder": "this need to be verified with a ground survey ...",
     "universal": true,
     "terms": [
         "help request"

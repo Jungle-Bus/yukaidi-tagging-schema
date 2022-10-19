@@ -63,7 +63,7 @@
         {
             "key": "Crossing",
             "value": "CycleWay",
-            "description": "🄿 Cycle Road Crossing, 🄵🅅 Type: bicycle road crossing",
+            "description": "🄿 Cycle Road Crossing, 🄵🅅 Crossing Type: bicycle road crossing",
             "object_types": [
                 "way"
             ],
@@ -72,7 +72,7 @@
         {
             "key": "Crossing",
             "value": "Rail",
-            "description": "🄿 Railway Crossing, 🄵🅅 Type: level crossing",
+            "description": "🄿 Railway Crossing, 🄵🅅 Crossing Type: level crossing",
             "object_types": [
                 "way"
             ],
@@ -81,7 +81,7 @@
         {
             "key": "Crossing",
             "value": "Road",
-            "description": "🄿 Road Crossing, 🄵🅅 Type:  road crossing",
+            "description": "🄿 Road Crossing, 🄵🅅 Crossing Type: road crossing",
             "object_types": [
                 "way"
             ],
@@ -90,7 +90,7 @@
         {
             "key": "Crossing",
             "value": "RoadWithIsland",
-            "description": "🄿 Road Crossing With Island, 🄵🅅 Type: road crossing with island",
+            "description": "🄿 Road Crossing With Island, 🄵🅅 Crossing Type: road crossing with island",
             "object_types": [
                 "way"
             ],
@@ -99,7 +99,7 @@
         {
             "key": "Crossing",
             "value": "UrbanRail",
-            "description": "🄿 Tram Crossing, 🄵🅅 Type: barrow crossing",
+            "description": "🄿 Tram Crossing, 🄵🅅 Crossing Type: barrow crossing",
             "object_types": [
                 "way"
             ],
@@ -171,7 +171,7 @@
         {
             "key": "TransportMode",
             "value": "Bus",
-            "description": "🄿 Bus Quay, 🄵🅅 Type: Bus",
+            "description": "🄿 Bus Quay, 🄵🅅 Transport Mode: Bus",
             "object_types": [
                 "way"
             ],
@@ -180,7 +180,7 @@
         {
             "key": "TransportMode",
             "value": "CableWay",
-            "description": "🄿 Cableway Quay, 🄵🅅 Type: CableWay",
+            "description": "🄿 Cableway Quay, 🄵🅅 Transport Mode: CableWay",
             "object_types": [
                 "way"
             ],
@@ -189,7 +189,7 @@
         {
             "key": "TransportMode",
             "value": "Coach",
-            "description": "🄿 Coach Quay, 🄵🅅 Type: Coach",
+            "description": "🄿 Coach Quay, 🄵🅅 Transport Mode: Coach",
             "object_types": [
                 "way"
             ],
@@ -198,7 +198,7 @@
         {
             "key": "TransportMode",
             "value": "Funicular",
-            "description": "🄿 Funicular Quay, 🄵🅅 Type: Funicular",
+            "description": "🄿 Funicular Quay, 🄵🅅 Transport Mode: Funicular",
             "object_types": [
                 "way"
             ],
@@ -207,7 +207,7 @@
         {
             "key": "TransportMode",
             "value": "Tram",
-            "description": "🄿 Tram Quay, 🄵🅅 Type: Tram",
+            "description": "🄿 Tram Quay, 🄵🅅 Transport Mode: Tram",
             "object_types": [
                 "way"
             ],
@@ -216,7 +216,7 @@
         {
             "key": "TransportMode",
             "value": "TrolleyBus",
-            "description": "🄿 Trolleybus Quay, 🄵🅅 Type: TrolleyBus",
+            "description": "🄿 Trolleybus Quay, 🄵🅅 Transport Mode: TrolleyBus",
             "object_types": [
                 "way"
             ],
@@ -225,7 +225,7 @@
         {
             "key": "TransportMode",
             "value": "Water",
-            "description": "🄿 Ferry Quay, 🄵🅅 Type: Water",
+            "description": "🄿 Ferry Quay, 🄵🅅 Transport Mode: Water",
             "object_types": [
                 "way"
             ],
@@ -346,7 +346,7 @@
         },
         {
             "key": "Crossing",
-            "description": "🄵 Type"
+            "description": "🄵 Crossing Type"
         },
         {
             "key": "Description",
@@ -423,6 +423,11 @@
             "key": "FlooringMaterial",
             "value": "CeramicTiles",
             "description": "🄵🅅 Flooring material: CeramicTiles"
+        },
+        {
+            "key": "FlooringMaterial",
+            "value": "SteelPlate",
+            "description": "🄵🅅 Flooring material: Steel Plate"
         },
         {
             "key": "FlooringMaterial",
@@ -625,7 +630,7 @@
         },
         {
             "key": "PublicCode",
-            "description": "🄵 PublicCode"
+            "description": "🄵 Platform Number"
         },
         {
             "key": "source",
@@ -658,8 +663,13 @@
         },
         {
             "key": "source",
-            "value": "osm notes",
-            "description": "🄵🅅 Sources: OpenStreetMap Notes"
+            "value": "notes",
+            "description": "🄵🅅 Sources: Notes"
+        },
+        {
+            "key": "source",
+            "value": "openstreetmap",
+            "description": "🄵🅅 Sources: OpenStreetMap"
         },
         {
             "key": "StairFlightCount",
@@ -741,7 +751,7 @@
         },
         {
             "key": "TransportMode",
-            "description": "🄵 Type"
+            "description": "🄵 Transport Mode"
         },
         {
             "key": "VisualGuidanceBands",

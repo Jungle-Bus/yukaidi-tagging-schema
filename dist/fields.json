@@ -98,6 +98,7 @@
             "Gravel",
             "Grass",
             "CeramicTiles",
+            "SteelPlate",
             "PlasticMatting",
             "Sand",
             "Stone",
@@ -233,7 +234,7 @@
         "key": "source",
         "type": "semiCombo",
         "icon": "source",
-        "universal": true,
+        "usage": "changeset",
         "snake_case": false,
         "caseSensitive": true,
         "autoSuggestions": false,
@@ -243,7 +244,8 @@
             "aerial imagery",
             "gps",
             "streetlevel imagery",
-            "osm notes"
+            "notes",
+            "openstreetmap"
         ]
     },
     "StairFlightCount": {
