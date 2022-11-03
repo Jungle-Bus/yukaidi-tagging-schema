@@ -1,0 +1,25 @@
+{
+    "icon": "temaki-bus",
+    "geometry": [
+        "area"
+    ],
+    "terms": [
+        "coach terminal"
+    ],
+    "fields": [
+        "Name",
+        "WheelchairAccess",
+        "AudibleSignals",
+        "VisualSigns"
+    ],
+    "moreFields": [],
+    "tags": {
+        "StopPlace": "CoachStation"
+    },
+    "addTags": {
+        "PointOfInterest": "StopPlace",
+        "StopPlace": "CoachStation",
+        "area": "yes"
+    },
+    "name": "Coach Station"
+}

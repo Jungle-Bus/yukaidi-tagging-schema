@@ -1,0 +1,27 @@
+{
+    "icon": "temaki-room",
+    "geometry": [
+        "area"
+    ],
+    "terms": [
+        "concourse",
+        "foyer",
+        "hallway",
+        "passageway"
+    ],
+    "fields": [
+        "Name",
+        "WheelchairAccess",
+        "AudibleSignals",
+        "VisualSigns"
+    ],
+    "moreFields": [],
+    "tags": {
+        "InsideSpace": "Corridor"
+    },
+    "addTags": {
+        "InsideSpace": "Corridor",
+        "area": "yes"
+    },
+    "name": "Corridor"
+}

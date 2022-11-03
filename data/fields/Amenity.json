@@ -1,0 +1,24 @@
+{
+    "key": "Amenity",
+    "type": "combo",
+    "label": "Amenity",
+    "strings": {
+        "options": {
+            "ReceptionDesk": "Reception Desk",
+            "TicketOffice": "Ticket Office",
+            "Shelter": "Shelter",
+            "Toilets": "Toilets",
+            "EmergencyPhone": "Emergency Phone",
+            "RubbishDisposal": "Rubbish Disposal",
+            "LuggageLocker": "Luggage Locker",
+            "TrolleyStand": "Trolley Stand",
+            "Seating": "Seating",
+            "Sign": "Sign",
+            "TicketValidator": "Ticket Validator",
+            "TicketVendingMachine": "Ticket Vending Machine",
+            "MeetingPoint": "Meeting Point"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

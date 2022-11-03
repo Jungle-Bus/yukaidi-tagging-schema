@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-kerb-raised",
+    "geometry": [
+        "vertex"
+    ],
+    "terms": [
+        "curb",
+        "raised kerb",
+        "step"
+    ],
+    "fields": [
+        "KerbHeight"
+    ],
+    "moreFields": [],
+    "tags": {
+        "Obstacle": "Kerb"
+    },
+    "addTags": {
+        "Obstacle": "Kerb",
+        "ObstacleType": "Surface"
+    },
+    "name": "Kerb"
+}

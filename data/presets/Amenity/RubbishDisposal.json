@@ -1,0 +1,22 @@
+{
+    "icon": "maki-waste-basket",
+    "geometry": [
+        "point"
+    ],
+    "terms": [
+        "bin",
+        "garbage",
+        "waste basket",
+        "litter",
+        "trash"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Amenity": "RubbishDisposal"
+    },
+    "addTags": {
+        "Amenity": "RubbishDisposal"
+    },
+    "name": "Rubbish Disposal"
+}

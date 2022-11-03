@@ -5,8 +5,14 @@
                 "category-crossing": {
                     "name": "Foot crossings"
                 },
+                "category-entrance": {
+                    "name": "Entrances"
+                },
                 "category-indoor": {
                     "name": "Indoor features"
+                },
+                "category-obstacle": {
+                    "name": "Obstacles"
                 },
                 "category-path": {
                     "name": "Foot paths"
@@ -38,6 +44,30 @@
                         "Hazardous": "accoustic crossing aid deteriorations causing safety issue"
                     }
                 },
+                "AcousticAnnouncements": {
+                    "label": "Acoustic Announcements"
+                },
+                "Amenity": {
+                    "label": "Amenity",
+                    "options": {
+                        "ReceptionDesk": "Reception Desk",
+                        "TicketOffice": "Ticket Office",
+                        "Shelter": "Shelter",
+                        "Toilets": "Toilets",
+                        "EmergencyPhone": "Emergency Phone",
+                        "RubbishDisposal": "Rubbish Disposal",
+                        "LuggageLocker": "Luggage Locker",
+                        "TrolleyStand": "Trolley Stand",
+                        "Seating": "Seating",
+                        "Sign": "Sign",
+                        "TicketValidator": "Ticket Validator",
+                        "TicketVendingMachine": "Ticket Vending Machine",
+                        "MeetingPoint": "Meeting Point"
+                    }
+                },
+                "Attendant": {
+                    "label": "Attendant Providing Help"
+                },
                 "AudibleSignals_Description": {
                     "label": "What is limited about the audible signals",
                     "terms": "details",
@@ -49,6 +79,20 @@
                         "Yes": "Yes",
                         "Limited": "Limited",
                         "No": "No"
+                    }
+                },
+                "AutomaticDoor": {
+                    "label": "Automatic Door"
+                },
+                "BayGeometry": {
+                    "label": "Bay Geometry",
+                    "placeholder": "Orthogonal, Parallel, ...",
+                    "options": {
+                        "Orthogonal": "Orthogonal",
+                        "Angled": "Angled",
+                        "Parallel": "Parallel",
+                        "FreeFormat": "FreeFormat",
+                        "Unspecified": "Unspecified"
                     }
                 },
                 "comment": {
@@ -74,9 +118,49 @@
                         "RoadWithIsland": "road crossing with island"
                     }
                 },
+                "Depth": {
+                    "label": "Depth (in meters)"
+                },
                 "Description": {
                     "label": "Description",
                     "terms": "details"
+                },
+                "Door": {
+                    "label": "Door",
+                    "placeholder": "sliding, revolving, ...",
+                    "options": {
+                        "Hinged": "Hinged Door",
+                        "Sliding": "Sliding Door",
+                        "Revolving": "Revolving Door",
+                        "Swing": "Swing Door"
+                    }
+                },
+                "DoorHandle": {
+                    "label": "Door Handle",
+                    "placeholder": "lever, button, ...",
+                    "options": {
+                        "None": "No Handle",
+                        "Lever": "Lever Handle",
+                        "Button": "Button"
+                    }
+                },
+                "Entrance": {
+                    "label": "Entrance",
+                    "options": {
+                        "PointOfInterest": "Point Of Interest Entrance",
+                        "StopPlace": "Stop Place Entrance",
+                        "Building": "Building Entrance",
+                        "InsideSpace": "Inside Space Entrance"
+                    }
+                },
+                "EntrancePassage": {
+                    "label": "Entrance Passage",
+                    "options": {
+                        "Opening": "Opening",
+                        "Door": "Door",
+                        "Gate": "Gate",
+                        "Barrier": "Barrier"
+                    }
                 },
                 "FixMe": {
                     "label": "Fix Me",
@@ -140,6 +224,9 @@
                     "label": "Hashtags",
                     "placeholder": "#example"
                 },
+                "Height": {
+                    "label": "Height (in meters)"
+                },
                 "HighwayType": {
                     "label": "HighwayType",
                     "placeholder": "living street, bicyble way, ...",
@@ -152,6 +239,11 @@
                         "Unclassified": "other kind of Highway"
                     }
                 },
+                "Image": {
+                    "label": "Image",
+                    "terms": "icon,image uri,photo,picture",
+                    "placeholder": "https://example.com/photo.jpg"
+                },
                 "Incline": {
                     "label": "Incline",
                     "placeholder": "up, down, ...",
@@ -160,6 +252,30 @@
                         "Down": "it goes down",
                         "No": "no change of level"
                     }
+                },
+                "InsideSpace": {
+                    "label": "Inside Space",
+                    "options": {
+                        "Room": "Room",
+                        "Area": "Area",
+                        "Corridor": "Corridor",
+                        "Quay": "Quay"
+                    }
+                },
+                "InternalWidth": {
+                    "label": "Internal Width (in meters)"
+                },
+                "IsEntry": {
+                    "label": "Is Entry ?"
+                },
+                "IsExit": {
+                    "label": "Is Exit ?"
+                },
+                "KerbHeight": {
+                    "label": "Kerb Height (in meters)"
+                },
+                "Length": {
+                    "label": "Length (in meters)"
                 },
                 "Lighting": {
                     "label": "Lighting",
@@ -170,13 +286,51 @@
                         "No": "unlit"
                     }
                 },
+                "MagneticInductionLoop": {
+                    "label": "Magnetic Induction Loop"
+                },
                 "ManoeuvringDiameter": {
                     "label": "Diameter for Wheelchair Manoeuvring (in meters)"
+                },
+                "MirrorOnOppositeSide": {
+                    "label": "Mirror On Opposite Side"
                 },
                 "Name": {
                     "label": "Name",
                     "terms": "label,title",
                     "placeholder": "Common name (if any)"
+                },
+                "NecessaryForceToOpen": {
+                    "label": "Necessary Force To Open (in Newton)"
+                },
+                "NonGeographicalLocation": {
+                    "label": "Don't export geographical location"
+                },
+                "Obstacle": {
+                    "label": "Type",
+                    "options": {
+                        "Kerb": "Kerb",
+                        "Bench": "Bench",
+                        "Shelter": "Shelter",
+                        "Toilets": "Toilets",
+                        "Pole": "Pole",
+                        "PostBox": "Post Box",
+                        "Vegetation": "Vegetation",
+                        "Turnstile": "Turnstile",
+                        "Bollard": "Bollard",
+                        "CycleBarrier": "Cycle Barrier",
+                        "RoughSurface": "Rough Surface",
+                        "Yes": "Other kind of obstacle"
+                    }
+                },
+                "ObstacleType": {
+                    "label": "Obstacle Type",
+                    "options": {
+                        "Surface": "Surface",
+                        "Ground": "Ground",
+                        "Pass": "Pass",
+                        "Overhanging": "Overhanging"
+                    }
                 },
                 "Outdoor": {
                     "label": "Outdoor",
@@ -187,17 +341,64 @@
                         "Covered": "is outside, but beside a roof"
                     }
                 },
+                "ParkingVisibility": {
+                    "label": "Bay Visibility",
+                    "placeholder": "Unmarked, SignageOnly, ...",
+                    "options": {
+                        "Unmarked": "Unmarked",
+                        "SignageOnly": "SignageOnly",
+                        "MarkingOnly": "MarkingOnly",
+                        "Docks": "Docks",
+                        "Demarcated": "Demarcated"
+                    }
+                },
                 "PedestrianLights": {
                     "label": "Pedestrian Lights"
                 },
                 "Phone": {
                     "label": "Telephone",
+                    "terms": "phone number",
                     "placeholder": "+31 42 123 4567"
                 },
+                "PointOfInterest": {
+                    "label": "Type",
+                    "options": {
+                        "Shop": "Shop",
+                        "Government": "Government",
+                        "Restaurant": "Restaurant",
+                        "Lodging": "Lodging",
+                        "Youth": "Youth",
+                        "Library": "Library",
+                        "Healthcare": "Healthcare",
+                        "Religion": "Religion",
+                        "Bank": "Bank",
+                        "Office": "Office",
+                        "Sport": "Sport",
+                        "Museum": "Museum",
+                        "Game": "Game",
+                        "Exhibition": "Exhibition",
+                        "DisabledCare": "DisabledCare",
+                        "Senior": "Senior",
+                        "Theater": "Theater",
+                        "OutdoorVenue": "OutdoorVenue",
+                        "StopPlace": "StopPlace",
+                        "ParkingLots": "ParkingLots",
+                        "MountainShelter": "MountainShelter",
+                        "AltitudeHotelRestaurant": "AltitudeHotelRestaurant",
+                        "InflatableVenue": "InflatableVenue"
+                    }
+                },
                 "PublicCode": {
-                    "label": "Platform Number",
-                    "terms": "ref,number",
+                    "label": "Public Code",
+                    "terms": "ref,platform number,exit number,number",
                     "placeholder": "Public code (if any)"
+                },
+                "RaisedButtons": {
+                    "label": "Raised Buttons"
+                },
+                "SIRET_FR": {
+                    "label": "SIRET Number",
+                    "terms": "french company identification number,siret"
                 },
                 "SitePathLink": {
                     "label": "Type",
@@ -213,6 +414,7 @@
                         "Travelator": "Travelator",
                         "Ramp": "Ramp",
                         "Stairs": "Stairs",
+                        "Elevator": "Elevator",
                         "Quay": "Quay",
                         "QueueManagement": "QueueManagement",
                         "Corridor": "Corridor",
@@ -254,6 +456,19 @@
                 "StoppedIfUnused": {
                     "label": "Stopped If Unused"
                 },
+                "StopPlace": {
+                    "label": "Type",
+                    "options": {
+                        "RailStation": "RailStation",
+                        "MetroStation": "MetroStation",
+                        "BusStation": "BusStation",
+                        "CoachStation": "CoachStation",
+                        "TramStation": "TramStation",
+                        "FerryPort": "FerryPort",
+                        "LiftStation": "LiftStation",
+                        "Airport": "Airport"
+                    }
+                },
                 "StructureType": {
                     "label": "StructureType",
                     "placeholder": "underpass, tunnel, corridor, ...",
@@ -268,6 +483,38 @@
                 "TactileGuidingStrip": {
                     "label": "Tactile Guiding Strip"
                 },
+                "TactileWarningStrip": {
+                    "label": "Status of Tactile Warning Strips",
+                    "placeholder": "none, good, hazardous, ...",
+                    "options": {
+                        "None": "none",
+                        "Good": "appropriate",
+                        "Worn": "non-severe deteriorations",
+                        "Discomfortable": "deteriorations causing discomfort or difficulty in use",
+                        "Hazardous": "deteriorations causing safety issue"
+                    }
+                },
+                "TactileWarningStripInstallation": {
+                    "label": "Tactile Warning Strip Installation",
+                    "placeholder": "across, curved, ...",
+                    "options": {
+                        "Usual": "Usual",
+                        "Across": "Across",
+                        "Curved": "Curved",
+                        "InsufficientWidth": "Insufficient Width",
+                        "TooLargeWidth": "Too Large Width",
+                        "ShallowDepth": "Shallow Depth",
+                        "NonContrasting": "Non Contrasting"
+                    }
+                },
+                "TransportMode_area": {
+                    "label": "Transport Mode",
+                    "options": {
+                        "Rail": "Rail",
+                        "Metro": "Metro",
+                        "Tram": "Tram"
+                    }
+                },
                 "TransportMode": {
                     "label": "Transport Mode",
                     "options": {
@@ -279,6 +526,23 @@
                         "TrolleyBus": "TrolleyBus",
                         "CableWay": "CableWay"
                     }
+                },
+                "TransportModes": {
+                    "label": "Transport modes",
+                    "options": {
+                        "Bus": "Bus",
+                        "Coach": "Coach",
+                        "Tram": "Tram",
+                        "Water": "Water",
+                        "Funicular": "Funicular",
+                        "TrolleyBus": "TrolleyBus",
+                        "CableWay": "CableWay",
+                        "Rail": "Rail",
+                        "Air": "Air"
+                    }
+                },
+                "VehicleRecharging": {
+                    "label": "Electric Vehicle Can Be Charged"
                 },
                 "VisualGuidanceBands": {
                     "label": "Visual Guidance Bands"
@@ -298,6 +562,7 @@
                 },
                 "Website": {
                     "label": "Website",
+                    "terms": "internet presence,uri,url,webpage",
                     "placeholder": "https://example.com"
                 },
                 "WheelchairAccess_Description": {
@@ -307,7 +572,6 @@
                 },
                 "WheelchairAccess": {
                     "label": "Wheelchair Access",
-                    "terms": "handicap access",
                     "options": {
                         "Yes": "Yes",
                         "Limited": "Limited",
@@ -330,21 +594,229 @@
                 }
             },
             "presets": {
+                "Amenity": {
+                    "name": "Amenity"
+                },
+                "Amenity/EmergencyPhone": {
+                    "name": "Emergency Phone"
+                },
+                "Amenity/LuggageLocker": {
+                    "name": "Luggage Locker"
+                },
+                "Amenity/MeetingPoint": {
+                    "name": "Meeting Point",
+                    "terms": "eap,emergency assembly point,muster point,staging area"
+                },
+                "Amenity/ReceptionDesk": {
+                    "name": "Reception Desk",
+                    "terms": "information office,visitor center,tourism office,tourist information center,visitors center,visitors information center,welcome center"
+                },
+                "Amenity/RubbishDisposal": {
+                    "name": "Rubbish Disposal",
+                    "terms": "bin,garbage,waste basket,litter,trash"
+                },
+                "Amenity/Seating": {
+                    "name": "Seating",
+                    "terms": "seat,bench,chair"
+                },
+                "Amenity/Shelter": {
+                    "name": "Shelter",
+                    "terms": "public transit shelter,public transport shelter,pavilion,waiting"
+                },
+                "Amenity/Sign": {
+                    "name": "Sign",
+                    "terms": "information board,guidepost,cairn,painted blaze,route flag,route marker,stone pile,trail blaze,trail post,way marker"
+                },
+                "Amenity/TicketOffice": {
+                    "name": "Ticket Office",
+                    "terms": "ticket shop"
+                },
+                "Amenity/TicketValidator_vertex": {
+                    "name": "Ticket Validator",
+                    "terms": "baffle gate,turnstyle,ticket puncher,punching machine,ticket marker"
+                },
+                "Amenity/TicketValidator": {
+                    "name": "Ticket Validator",
+                    "terms": "baffle gate,turnstyle,ticket puncher,punching machine,ticket marker"
+                },
+                "Amenity/TicketVendingMachine": {
+                    "name": "Ticket Vending Machine",
+                    "terms": "ticket machine"
+                },
+                "Amenity/Toilets": {
+                    "name": "Toilets",
+                    "terms": "bathroom,lavatory,wc,water closet"
+                },
+                "Amenity/TrolleyStand": {
+                    "name": "Trolley Stand",
+                    "terms": "carriage return,cart return,trolley bay"
+                },
                 "area": {
                     "name": "Area",
                     "terms": "polygon"
                 },
-                "ERP/bank": {
-                    "name": "Bank",
-                    "terms": "check,deposit,fund,investment,repository,reserve,safe,savings,stock,treasury,trust,vault"
+                "Entrance": {
+                    "name": "Entrance"
+                },
+                "Entrance/Building": {
+                    "name": "Building Entrance",
+                    "terms": "entrance,exit,door"
+                },
+                "Entrance/InsideSpace": {
+                    "name": "Inside Space Entrance",
+                    "terms": "entrance,exit,door"
+                },
+                "Entrance/PointOfInterest": {
+                    "name": "Point Of Interest Entrance",
+                    "terms": "entrance,exit,gate,door"
+                },
+                "Entrance/StopPlace": {
+                    "name": "Stop Place Entrance",
+                    "terms": "subway entrance,subway exit,station entrance,station exit"
+                },
+                "InsideSpace": {
+                    "name": "InsideSpace"
+                },
+                "InsideSpace/Area": {
+                    "name": "Area",
+                    "terms": "plazza"
+                },
+                "InsideSpace/Corridor": {
+                    "name": "Corridor",
+                    "terms": "concourse,foyer,hallway,passageway"
+                },
+                "InsideSpace/Quay": {
+                    "name": "Quay"
+                },
+                "InsideSpace/Quay/Metro": {
+                    "name": "Metro Quay",
+                    "terms": "subway,platform,public transit,public transportation"
+                },
+                "InsideSpace/Quay/Rail": {
+                    "name": "Train Quay",
+                    "terms": "train,platform,public transit,public transportation"
+                },
+                "InsideSpace/Quay/Tram": {
+                    "name": "Tram Quay",
+                    "terms": "electric,light rail,platform,rail,streetcar,track,tram,tramway"
+                },
+                "InsideSpace/Room": {
+                    "name": "Indoor Room",
+                    "terms": "antechamber,anteroom,atrium,cell,chamber,concourse,foyer,lobby,elevator room,elevator shaft,vestibule"
                 },
                 "line": {
                     "name": "Line",
                     "terms": "polyline"
                 },
+                "Obstacle": {
+                    "name": "Obstacle"
+                },
+                "Obstacle/Bench": {
+                    "name": "Bench",
+                    "terms": "seat,seating,chair"
+                },
+                "Obstacle/Bollard": {
+                    "name": "Bollard",
+                    "terms": "bollard row"
+                },
+                "Obstacle/CycleBarrier": {
+                    "name": "Cycle Barrier",
+                    "terms": "bicycle barrier,bicycling barrier,bike gates,cycling barrier"
+                },
+                "Obstacle/Kerb": {
+                    "name": "Kerb",
+                    "terms": "curb,raised kerb,step"
+                },
+                "Obstacle/Pole": {
+                    "name": "Pole"
+                },
+                "Obstacle/PostBox": {
+                    "name": "Post Box",
+                    "terms": "drop box,dropbox,letter drop,mail box,mail collection box,mail drop,mail dropoff,mailbox,package drop,pillar box,pillarbox,postal box,postbox"
+                },
+                "Obstacle/RoughSurface": {
+                    "name": "Rough Surface"
+                },
+                "Obstacle/Shelter": {
+                    "name": "Shelter",
+                    "terms": "public transit shelter,public transport shelter,pavilion,waiting"
+                },
+                "Obstacle/Toilets": {
+                    "name": "Toilets",
+                    "terms": "bathroom,lavatory,wc,water closet"
+                },
+                "Obstacle/Turnstile": {
+                    "name": "Turnstile",
+                    "terms": "baffle gate,turnstyle"
+                },
+                "Obstacle/Vegetation": {
+                    "name": "Vegetation",
+                    "terms": "tree,tree row,bush"
+                },
+                "Obstacle/Yes": {
+                    "name": "Obstacle",
+                    "terms": "barrier,wall"
+                },
+                "ParkingBay/Disabled": {
+                    "name": "Disabled Designated Parking Bay",
+                    "terms": "disabled parking stall,handicap parking spot,disabled parking spot,disabled parking space,cccessible parking space"
+                },
+                "PathJunction": {
+                    "name": "Path Junction"
+                },
                 "point": {
                     "name": "Point",
                     "terms": "node,other,vertex,vertices"
+                },
+                "PointOfInterest": {
+                    "name": "PointOfInterest"
+                },
+                "PointOfInterest/Bank": {
+                    "name": "Bank",
+                    "terms": "check,deposit,fund,investment,repository,reserve,safe,savings,stock,treasury,trust,vault"
+                },
+                "PointOfInterest/Museum": {
+                    "name": "Museum",
+                    "terms": "art*,exhibit*,gallery,foundation,hall,institution,paint*,photo*,sculpt*"
+                },
+                "PointOfInterest/Office": {
+                    "name": "Office",
+                    "terms": "company"
+                },
+                "PointOfInterest/StopPlace": {
+                    "name": "StopPlace"
+                },
+                "PointOfInterest/StopPlace/Airport": {
+                    "name": "Airport",
+                    "terms": "aerodrome,aeroway station"
+                },
+                "PointOfInterest/StopPlace/BusStation": {
+                    "name": "Bus Station",
+                    "terms": "bus terminal"
+                },
+                "PointOfInterest/StopPlace/CoachStation": {
+                    "name": "Coach Station",
+                    "terms": "coach terminal"
+                },
+                "PointOfInterest/StopPlace/FerryPort": {
+                    "name": "Ferry Port",
+                    "terms": "boat station,boat terminal,dock,ferry station,pier"
+                },
+                "PointOfInterest/StopPlace/LiftStation": {
+                    "name": "Lift Station",
+                    "terms": "aerialway terminal,gondola station,gondola terminal"
+                },
+                "PointOfInterest/StopPlace/MetroStation": {
+                    "name": "Metro Station",
+                    "terms": "underground station,subway station"
+                },
+                "PointOfInterest/StopPlace/RailStation": {
+                    "name": "Train Station",
+                    "terms": "train terminal,railway station,rail station"
+                },
+                "PointOfInterest/StopPlace/TramStation": {
+                    "name": "Tramway Station",
+                    "terms": "tram terminal,tramway terminal"
                 },
                 "relation": {
                     "name": "Relation"
@@ -381,6 +853,10 @@
                 "SitePathLink/Crossing/UrbanRail": {
                     "name": "Tram Crossing",
                     "terms": "grade crossing,level crossing,pedestrian crossing,road tram crossing,streetcar crossing,tram road crossing,tramway crossing,trolley crossing"
+                },
+                "SitePathLink/Elevator": {
+                    "name": "Elevator",
+                    "terms": "lift"
                 },
                 "SitePathLink/Escalator": {
                     "name": "Escalator",
@@ -454,6 +930,21 @@
                 "SitePathLink/Travelator": {
                     "name": "Travelator",
                     "terms": "moving walkway,moving sidewalk,autwalk,skywalk,conveyor"
+                },
+                "StopPlace": {
+                    "name": "StopPlace Feature"
+                },
+                "StopPlace/FerryStop": {
+                    "name": "Gathering of Ferry Stops",
+                    "terms": "monomodal stop place"
+                },
+                "StopPlace/OnstreetBus": {
+                    "name": "Gathering of On-street Bus Stops",
+                    "terms": "monomodal stop place"
+                },
+                "StopPlace/OnstreetTram": {
+                    "name": "Gathering of On-street Tram Stops",
+                    "terms": "monomodal stop place"
                 }
             }
         }

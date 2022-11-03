@@ -1,0 +1,26 @@
+{
+    "icon": "temaki-subway",
+    "geometry": [
+        "area"
+    ],
+    "terms": [
+        "underground station",
+        "subway station"
+    ],
+    "fields": [
+        "Name",
+        "WheelchairAccess",
+        "AudibleSignals",
+        "VisualSigns"
+    ],
+    "moreFields": [],
+    "tags": {
+        "StopPlace": "MetroStation"
+    },
+    "addTags": {
+        "PointOfInterest": "StopPlace",
+        "StopPlace": "MetroStation",
+        "area": "yes"
+    },
+    "name": "Metro Station"
+}

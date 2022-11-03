@@ -1,0 +1,17 @@
+{
+    "key": "TactileWarningStrip",
+    "type": "combo",
+    "label": "Status of Tactile Warning Strips",
+    "placeholder": "none, good, hazardous, ...",
+    "strings": {
+        "options": {
+            "None": "none",
+            "Good": "appropriate",
+            "Worn": "non-severe deteriorations",
+            "Discomfortable": "deteriorations causing discomfort or difficulty in use",
+            "Hazardous": "deteriorations causing safety issue"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

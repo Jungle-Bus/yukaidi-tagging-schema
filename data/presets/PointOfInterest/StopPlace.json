@@ -1,0 +1,34 @@
+{
+    "icon": "maki-transit",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "Name",
+        "StopPlace"
+    ],
+    "moreFields": [
+        "PublicCode",
+        "TransportModes",
+        "WheelchairAccess_Description",
+        "VisualSigns_Description",
+        "AudibleSignals_Description",
+        "Name",
+        "Outdoor",
+        "Image",
+        "Phone",
+        "Website",
+        "SIRET_FR",
+        "Lighting",
+        "Gated"
+    ],
+    "tags": {
+        "PointOfInterest": "StopPlace"
+    },
+    "addTags": {
+        "PointOfInterest": "StopPlace",
+        "area": "yes"
+    },
+    "searchable": false,
+    "name": "StopPlace"
+}

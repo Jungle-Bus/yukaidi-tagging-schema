@@ -1,0 +1,24 @@
+{
+    "icon": "maki-entrance-alt1",
+    "geometry": [
+        "vertex"
+    ],
+    "terms": [
+        "subway entrance",
+        "subway exit",
+        "station entrance",
+        "station exit"
+    ],
+    "fields": [
+        "Name",
+        "PublicCode"
+    ],
+    "moreFields": [],
+    "tags": {
+        "Entrance": "StopPlace"
+    },
+    "addTags": {
+        "Entrance": "StopPlace"
+    },
+    "name": "Stop Place Entrance"
+}

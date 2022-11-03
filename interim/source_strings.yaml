@@ -3,8 +3,12 @@ en:
     categories:
       category-crossing:
         name: Foot crossings
+      category-entrance:
+        name: Entrances
       category-indoor:
         name: Indoor features
+      category-obstacle:
+        name: Obstacles
       category-path:
         name: Foot paths
       category-poi:
@@ -29,6 +33,44 @@ en:
         # AccousticCrossingAid field placeholder
         placeholder: none, good, hazardous, ...
         terms: '[translate with synonyms or related terms for ''Status of accoustic crossing aid'', separated by commas]'
+      AcousticAnnouncements:
+        # AcousticAnnouncements=*
+        label: Acoustic Announcements
+        terms: '[translate with synonyms or related terms for ''Acoustic Announcements'', separated by commas]'
+      Amenity:
+        # Amenity=*
+        label: Amenity
+        options:
+          # Amenity=EmergencyPhone
+          EmergencyPhone: Emergency Phone
+          # Amenity=LuggageLocker
+          LuggageLocker: Luggage Locker
+          # Amenity=MeetingPoint
+          MeetingPoint: Meeting Point
+          # Amenity=ReceptionDesk
+          ReceptionDesk: Reception Desk
+          # Amenity=RubbishDisposal
+          RubbishDisposal: Rubbish Disposal
+          # Amenity=Seating
+          Seating: Seating
+          # Amenity=Shelter
+          Shelter: Shelter
+          # Amenity=Sign
+          Sign: Sign
+          # Amenity=TicketOffice
+          TicketOffice: Ticket Office
+          # Amenity=TicketValidator
+          TicketValidator: Ticket Validator
+          # Amenity=TicketVendingMachine
+          TicketVendingMachine: Ticket Vending Machine
+          # Amenity=Toilets
+          Toilets: Toilets
+          # Amenity=TrolleyStand
+          TrolleyStand: Trolley Stand
+      Attendant:
+        # Attendant=*
+        label: Attendant Providing Help
+        terms: '[translate with synonyms or related terms for ''Attendant Providing Help'', separated by commas]'
       AudibleSignals:
         # AudibleSignals=*
         label: Audible Signals available
@@ -46,6 +88,27 @@ en:
         placeholder: only available on disruptions ...
         # 'terms: details'
         terms: '[translate with synonyms or related terms for ''What is limited about the audible signals'', separated by commas]'
+      AutomaticDoor:
+        # AutomaticDoor=*
+        label: Automatic Door
+        terms: '[translate with synonyms or related terms for ''Automatic Door'', separated by commas]'
+      BayGeometry:
+        # BayGeometry=*
+        label: Bay Geometry
+        options:
+          # BayGeometry=Angled
+          Angled: Angled
+          # BayGeometry=FreeFormat
+          FreeFormat: FreeFormat
+          # BayGeometry=Orthogonal
+          Orthogonal: Orthogonal
+          # BayGeometry=Parallel
+          Parallel: Parallel
+          # BayGeometry=Unspecified
+          Unspecified: Unspecified
+        # BayGeometry field placeholder
+        placeholder: Orthogonal, Parallel, ...
+        terms: '[translate with synonyms or related terms for ''Bay Geometry'', separated by commas]'
       Conveying:
         # Conveying=*
         label: Conveying
@@ -73,11 +136,68 @@ en:
           RoadWithIsland: road crossing with island
           # Crossing=UrbanRail
           UrbanRail: barrow crossing
+      Depth:
+        # Depth=*
+        label: Depth (in meters)
+        terms: '[translate with synonyms or related terms for ''Depth (in meters)'', separated by commas]'
       Description:
         # Description=*
         label: Description
         # 'terms: details'
         terms: '[translate with synonyms or related terms for ''Description'', separated by commas]'
+      Door:
+        # Door=*
+        label: Door
+        options:
+          # Door=Hinged
+          Hinged: Hinged Door
+          # Door=Revolving
+          Revolving: Revolving Door
+          # Door=Sliding
+          Sliding: Sliding Door
+          # Door=Swing
+          Swing: Swing Door
+        # Door field placeholder
+        placeholder: sliding, revolving, ...
+        terms: '[translate with synonyms or related terms for ''Door'', separated by commas]'
+      DoorHandle:
+        # DoorHandle=*
+        label: Door Handle
+        options:
+          # DoorHandle=Button
+          Button: Button
+          # DoorHandle=Lever
+          Lever: Lever Handle
+          # DoorHandle=None
+          None: No Handle
+        # DoorHandle field placeholder
+        placeholder: lever, button, ...
+        terms: '[translate with synonyms or related terms for ''Door Handle'', separated by commas]'
+      Entrance:
+        # Entrance=*
+        label: Entrance
+        options:
+          # Entrance=Building
+          Building: Building Entrance
+          # Entrance=InsideSpace
+          InsideSpace: Inside Space Entrance
+          # Entrance=PointOfInterest
+          PointOfInterest: Point Of Interest Entrance
+          # Entrance=StopPlace
+          StopPlace: Stop Place Entrance
+      EntrancePassage:
+        # EntrancePassage=*
+        label: Entrance Passage
+        options:
+          # EntrancePassage=Barrier
+          Barrier: Barrier
+          # EntrancePassage=Door
+          Door: Door
+          # EntrancePassage=Gate
+          Gate: Gate
+          # EntrancePassage=Opening
+          Opening: Opening
+        terms: '[translate with synonyms or related terms for ''Entrance Passage'', separated by commas]'
       FixMe:
         # FixMe=*
         label: Fix Me
@@ -171,6 +291,10 @@ en:
         # Handrail field placeholder
         placeholder: left, right, ...
         terms: '[translate with synonyms or related terms for ''Handrail'', separated by commas]'
+      Height:
+        # Height=*
+        label: Height (in meters)
+        terms: '[translate with synonyms or related terms for ''Height (in meters)'', separated by commas]'
       HighwayType:
         # HighwayType=*
         label: HighwayType
@@ -190,6 +314,13 @@ en:
         # HighwayType field placeholder
         placeholder: living street, bicyble way, ...
         terms: '[translate with synonyms or related terms for ''HighwayType'', separated by commas]'
+      Image:
+        # Image=*
+        label: Image
+        # Image field placeholder
+        placeholder: https://example.com/photo.jpg
+        # 'terms: icon,image uri,photo,picture'
+        terms: '[translate with synonyms or related terms for ''Image'', separated by commas]'
       Incline:
         # Incline=*
         label: Incline
@@ -203,6 +334,37 @@ en:
         # Incline field placeholder
         placeholder: up, down, ...
         terms: '[translate with synonyms or related terms for ''Incline'', separated by commas]'
+      InsideSpace:
+        # InsideSpace=*
+        label: Inside Space
+        options:
+          # InsideSpace=Area
+          Area: Area
+          # InsideSpace=Corridor
+          Corridor: Corridor
+          # InsideSpace=Quay
+          Quay: Quay
+          # InsideSpace=Room
+          Room: Room
+      InternalWidth:
+        # InternalWidth=*
+        label: Internal Width (in meters)
+        terms: '[translate with synonyms or related terms for ''Internal Width (in meters)'', separated by commas]'
+      IsEntry:
+        # IsEntry=*
+        label: Is Entry ?
+        terms: '[translate with synonyms or related terms for ''Is Entry ?'', separated by commas]'
+      IsExit:
+        # IsExit=*
+        label: Is Exit ?
+        terms: '[translate with synonyms or related terms for ''Is Exit ?'', separated by commas]'
+      KerbHeight:
+        # KerbHeight=*
+        label: Kerb Height (in meters)
+      Length:
+        # Length=*
+        label: Length (in meters)
+        terms: '[translate with synonyms or related terms for ''Length (in meters)'', separated by commas]'
       Lighting:
         # Lighting=*
         label: Lighting
@@ -216,10 +378,18 @@ en:
         # Lighting field placeholder
         placeholder: yes, no ...
         terms: '[translate with synonyms or related terms for ''Lighting'', separated by commas]'
+      MagneticInductionLoop:
+        # MagneticInductionLoop=*
+        label: Magnetic Induction Loop
+        terms: '[translate with synonyms or related terms for ''Magnetic Induction Loop'', separated by commas]'
       ManoeuvringDiameter:
         # ManoeuvringDiameter=*
         label: Diameter for Wheelchair Manoeuvring (in meters)
         terms: '[translate with synonyms or related terms for ''Diameter for Wheelchair Manoeuvring (in meters)'', separated by commas]'
+      MirrorOnOppositeSide:
+        # MirrorOnOppositeSide=*
+        label: Mirror On Opposite Side
+        terms: '[translate with synonyms or related terms for ''Mirror On Opposite Side'', separated by commas]'
       Name:
         # Name=*
         label: Name
@@ -227,6 +397,55 @@ en:
         placeholder: Common name (if any)
         # 'terms: label,title'
         terms: '[translate with synonyms or related terms for ''Name'', separated by commas]'
+      NecessaryForceToOpen:
+        # NecessaryForceToOpen=*
+        label: Necessary Force To Open (in Newton)
+        terms: '[translate with synonyms or related terms for ''Necessary Force To Open (in Newton)'', separated by commas]'
+      NonGeographicalLocation:
+        # NonGeographicalLocation=*
+        label: Don't export geographical location
+        terms: '[translate with synonyms or related terms for ''Don''t export geographical location'', separated by commas]'
+      Obstacle:
+        # Obstacle=*
+        label: Type
+        options:
+          # Obstacle=Bench
+          Bench: Bench
+          # Obstacle=Bollard
+          Bollard: Bollard
+          # Obstacle=CycleBarrier
+          CycleBarrier: Cycle Barrier
+          # Obstacle=Kerb
+          Kerb: Kerb
+          # Obstacle=Pole
+          Pole: Pole
+          # Obstacle=PostBox
+          PostBox: Post Box
+          # Obstacle=RoughSurface
+          RoughSurface: Rough Surface
+          # Obstacle=Shelter
+          Shelter: Shelter
+          # Obstacle=Toilets
+          Toilets: Toilets
+          # Obstacle=Turnstile
+          Turnstile: Turnstile
+          # Obstacle=Vegetation
+          Vegetation: Vegetation
+          # Obstacle=Yes
+          'Yes': Other kind of obstacle
+      ObstacleType:
+        # ObstacleType=*
+        label: Obstacle Type
+        options:
+          # ObstacleType=Ground
+          Ground: Ground
+          # ObstacleType=Overhanging
+          Overhanging: Overhanging
+          # ObstacleType=Pass
+          Pass: Pass
+          # ObstacleType=Surface
+          Surface: Surface
+        terms: '[translate with synonyms or related terms for ''Obstacle Type'', separated by commas]'
       Outdoor:
         # Outdoor=*
         label: Outdoor
@@ -240,22 +459,100 @@ en:
         # Outdoor field placeholder
         placeholder: yes, no, ...
         terms: '[translate with synonyms or related terms for ''Outdoor'', separated by commas]'
+      ParkingVisibility:
+        # ParkingVisibility=*
+        label: Bay Visibility
+        options:
+          # ParkingVisibility=Demarcated
+          Demarcated: Demarcated
+          # ParkingVisibility=Docks
+          Docks: Docks
+          # ParkingVisibility=MarkingOnly
+          MarkingOnly: MarkingOnly
+          # ParkingVisibility=SignageOnly
+          SignageOnly: SignageOnly
+          # ParkingVisibility=Unmarked
+          Unmarked: Unmarked
+        # ParkingVisibility field placeholder
+        placeholder: Unmarked, SignageOnly, ...
+        terms: '[translate with synonyms or related terms for ''Bay Visibility'', separated by commas]'
       PedestrianLights:
         # PedestrianLights=*
         label: Pedestrian Lights
         terms: '[translate with synonyms or related terms for ''Pedestrian Lights'', separated by commas]'
       Phone:
-        # phone=*
+        # Phone=*
         label: Telephone
         # Phone field placeholder
         placeholder: +31 42 123 4567
+        # 'terms: phone number'
+        terms: '[translate with synonyms or related terms for ''Telephone'', separated by commas]'
+      PointOfInterest:
+        # PointOfInterest=*
+        label: Type
+        options:
+          # PointOfInterest=AltitudeHotelRestaurant
+          AltitudeHotelRestaurant: AltitudeHotelRestaurant
+          # PointOfInterest=Bank
+          Bank: Bank
+          # PointOfInterest=DisabledCare
+          DisabledCare: DisabledCare
+          # PointOfInterest=Exhibition
+          Exhibition: Exhibition
+          # PointOfInterest=Game
+          Game: Game
+          # PointOfInterest=Government
+          Government: Government
+          # PointOfInterest=Healthcare
+          Healthcare: Healthcare
+          # PointOfInterest=InflatableVenue
+          InflatableVenue: InflatableVenue
+          # PointOfInterest=Library
+          Library: Library
+          # PointOfInterest=Lodging
+          Lodging: Lodging
+          # PointOfInterest=MountainShelter
+          MountainShelter: MountainShelter
+          # PointOfInterest=Museum
+          Museum: Museum
+          # PointOfInterest=Office
+          Office: Office
+          # PointOfInterest=OutdoorVenue
+          OutdoorVenue: OutdoorVenue
+          # PointOfInterest=ParkingLots
+          ParkingLots: ParkingLots
+          # PointOfInterest=Religion
+          Religion: Religion
+          # PointOfInterest=Restaurant
+          Restaurant: Restaurant
+          # PointOfInterest=Senior
+          Senior: Senior
+          # PointOfInterest=Shop
+          Shop: Shop
+          # PointOfInterest=Sport
+          Sport: Sport
+          # PointOfInterest=StopPlace
+          StopPlace: StopPlace
+          # PointOfInterest=Theater
+          Theater: Theater
+          # PointOfInterest=Youth
+          Youth: Youth
       PublicCode:
         # PublicCode=*
-        label: Platform Number
+        label: Public Code
         # PublicCode field placeholder
         placeholder: Public code (if any)
-        # 'terms: ref,number'
-        terms: '[translate with synonyms or related terms for ''Platform Number'', separated by commas]'
+        # 'terms: ref,platform number,exit number,number'
+        terms: '[translate with synonyms or related terms for ''Public Code'', separated by commas]'
+      RaisedButtons:
+        # RaisedButtons=*
+        label: Raised Buttons
+        terms: '[translate with synonyms or related terms for ''Raised Buttons'', separated by commas]'
+      SIRET_FR:
+        # ref:FR:SIRET=*
+        label: SIRET Number
+        # 'terms: french company identification number,siret'
+        terms: '[translate with synonyms or related terms for ''SIRET Number'', separated by commas]'
       SitePathLink:
         # SitePathLink=*
         label: Type
@@ -266,6 +563,8 @@ en:
           Corridor: Corridor
           # SitePathLink=Crossing
           Crossing: Crossing
+          # SitePathLink=Elevator
+          Elevator: Elevator
           # SitePathLink=Escalator
           Escalator: Escalator
           # SitePathLink=Footpath
@@ -324,6 +623,26 @@ en:
         # StepHeight=*
         label: Step height (in meters)
         terms: '[translate with synonyms or related terms for ''Step height (in meters)'', separated by commas]'
+      StopPlace:
+        # StopPlace=*
+        label: Type
+        options:
+          # StopPlace=Airport
+          Airport: Airport
+          # StopPlace=BusStation
+          BusStation: BusStation
+          # StopPlace=CoachStation
+          CoachStation: CoachStation
+          # StopPlace=FerryPort
+          FerryPort: FerryPort
+          # StopPlace=LiftStation
+          LiftStation: LiftStation
+          # StopPlace=MetroStation
+          MetroStation: MetroStation
+          # StopPlace=RailStation
+          RailStation: RailStation
+          # StopPlace=TramStation
+          TramStation: TramStation
       StoppedIfUnused:
         # StoppedIfUnused=*
         label: Stopped If Unused
@@ -349,6 +668,44 @@ en:
         # TactileGuidingStrip=*
         label: Tactile Guiding Strip
         terms: '[translate with synonyms or related terms for ''Tactile Guiding Strip'', separated by commas]'
+      TactileWarningStrip:
+        # TactileWarningStrip=*
+        label: Status of Tactile Warning Strips
+        options:
+          # TactileWarningStrip=Discomfortable
+          Discomfortable: deteriorations causing discomfort or difficulty in use
+          # TactileWarningStrip=Good
+          Good: appropriate
+          # TactileWarningStrip=Hazardous
+          Hazardous: deteriorations causing safety issue
+          # TactileWarningStrip=None
+          None: none
+          # TactileWarningStrip=Worn
+          Worn: non-severe deteriorations
+        # TactileWarningStrip field placeholder
+        placeholder: none, good, hazardous, ...
+        terms: '[translate with synonyms or related terms for ''Status of Tactile Warning Strips'', separated by commas]'
+      TactileWarningStripInstallation:
+        # Tactile Warning Strip Installation=*
+        label: Tactile Warning Strip Installation
+        options:
+          # Tactile Warning Strip Installation=Across
+          Across: Across
+          # Tactile Warning Strip Installation=Curved
+          Curved: Curved
+          # Tactile Warning Strip Installation=InsufficientWidth
+          InsufficientWidth: Insufficient Width
+          # Tactile Warning Strip Installation=NonContrasting
+          NonContrasting: Non Contrasting
+          # Tactile Warning Strip Installation=ShallowDepth
+          ShallowDepth: Shallow Depth
+          # Tactile Warning Strip Installation=TooLargeWidth
+          TooLargeWidth: Too Large Width
+          # Tactile Warning Strip Installation=Usual
+          Usual: Usual
+        # TactileWarningStripInstallation field placeholder
+        placeholder: across, curved, ...
+        terms: '[translate with synonyms or related terms for ''Tactile Warning Strip Installation'', separated by commas]'
       Tilt:
         # Tilt=*
         label: Tilt Angle
@@ -372,6 +729,43 @@ en:
           TrolleyBus: TrolleyBus
           # TransportMode=Water
           Water: Water
+      TransportMode_area:
+        # TransportMode=*
+        label: Transport Mode
+        options:
+          # TransportMode=Metro
+          Metro: Metro
+          # TransportMode=Rail
+          Rail: Rail
+          # TransportMode=Tram
+          Tram: Tram
+      TransportModes:
+        # TransportModes=*
+        label: Transport modes
+        options:
+          # TransportModes=Air
+          Air: Air
+          # TransportModes=Bus
+          Bus: Bus
+          # TransportModes=CableWay
+          CableWay: CableWay
+          # TransportModes=Coach
+          Coach: Coach
+          # TransportModes=Funicular
+          Funicular: Funicular
+          # TransportModes=Rail
+          Rail: Rail
+          # TransportModes=Tram
+          Tram: Tram
+          # TransportModes=TrolleyBus
+          TrolleyBus: TrolleyBus
+          # TransportModes=Water
+          Water: Water
+        terms: '[translate with synonyms or related terms for ''Transport modes'', separated by commas]'
+      VehicleRecharging:
+        # VehicleRecharging=*
+        label: Electric Vehicle Can Be Charged
+        terms: '[translate with synonyms or related terms for ''Electric Vehicle Can Be Charged'', separated by commas]'
       VisualGuidanceBands:
         # VisualGuidanceBands=*
         label: Visual Guidance Bands
@@ -394,10 +788,12 @@ en:
         # 'terms: details'
         terms: '[translate with synonyms or related terms for ''What is limited about the visual signs'', separated by commas]'
       Website:
-        # website=*
+        # Website=*
         label: Website
         # Website field placeholder
         placeholder: https://example.com
+        # 'terms: internet presence,uri,url,webpage'
+        terms: '[translate with synonyms or related terms for ''Website'', separated by commas]'
       WheelchairAccess:
         # WheelchairAccess=*
         label: Wheelchair Access
@@ -408,8 +804,6 @@ en:
           'No': 'No'
           # WheelchairAccess=Yes
           'Yes': 'Yes'
-        # 'terms: handicap access'
-        terms: '[translate with synonyms or related terms for ''Wheelchair Access'', separated by commas]'
       WheelchairAccess_Description:
         # WheelchairAccess:Description=*
         label: What is limited about the wheelchair access
@@ -467,11 +861,267 @@ en:
           # source=survey
           survey: Survey
     presets:
-      ERP/bank:
-        # object=PointOfInterest | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+      Amenity:
+        # Amenity=* | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Amenity
+      Amenity/EmergencyPhone:
+        # Amenity=EmergencyPhone | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Emergency Phone
+        terms: <translate with synonyms or related terms for 'Emergency Phone', separated by commas>
+      Amenity/LuggageLocker:
+        # Amenity=LuggageLocker | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Luggage Locker
+        terms: <translate with synonyms or related terms for 'Luggage Locker', separated by commas>
+      Amenity/MeetingPoint:
+        # Amenity=MeetingPoint | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Meeting Point
+        # 'terms: eap,emergency assembly point,muster point,staging area'
+        terms: <translate with synonyms or related terms for 'Meeting Point', separated by commas>
+      Amenity/ReceptionDesk:
+        # Amenity=ReceptionDesk | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Reception Desk
+        # 'terms: information office,visitor center,tourism office,tourist information center,visitors center,visitors information center,welcome center'
+        terms: <translate with synonyms or related terms for 'Reception Desk', separated by commas>
+      Amenity/RubbishDisposal:
+        # Amenity=RubbishDisposal | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Rubbish Disposal
+        # 'terms: bin,garbage,waste basket,litter,trash'
+        terms: <translate with synonyms or related terms for 'Rubbish Disposal', separated by commas>
+      Amenity/Seating:
+        # Amenity=Seating | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Seating
+        # 'terms: seat,bench,chair'
+        terms: <translate with synonyms or related terms for 'Seating', separated by commas>
+      Amenity/Shelter:
+        # Amenity=Shelter | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Shelter
+        # 'terms: public transit shelter,public transport shelter,pavilion,waiting'
+        terms: <translate with synonyms or related terms for 'Shelter', separated by commas>
+      Amenity/Sign:
+        # Amenity=Sign | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Sign
+        # 'terms: information board,guidepost,cairn,painted blaze,route flag,route marker,stone pile,trail blaze,trail post,way marker'
+        terms: <translate with synonyms or related terms for 'Sign', separated by commas>
+      Amenity/TicketOffice:
+        # Amenity=TicketOffice | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Ticket Office
+        # 'terms: ticket shop'
+        terms: <translate with synonyms or related terms for 'Ticket Office', separated by commas>
+      Amenity/TicketValidator:
+        # Amenity=TicketValidator | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Ticket Validator
+        # 'terms: baffle gate,turnstyle,ticket puncher,punching machine,ticket marker'
+        terms: <translate with synonyms or related terms for 'Ticket Validator', separated by commas>
+      Amenity/TicketValidator_vertex:
+        # Amenity=TicketValidator | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Ticket Validator
+        # 'terms: baffle gate,turnstyle,ticket puncher,punching machine,ticket marker'
+        terms: <translate with synonyms or related terms for 'Ticket Validator', separated by commas>
+      Amenity/TicketVendingMachine:
+        # Amenity=TicketVendingMachine | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Ticket Vending Machine
+        # 'terms: ticket machine'
+        terms: <translate with synonyms or related terms for 'Ticket Vending Machine', separated by commas>
+      Amenity/Toilets:
+        # Amenity=Toilets | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Toilets
+        # 'terms: bathroom,lavatory,wc,water closet'
+        terms: <translate with synonyms or related terms for 'Toilets', separated by commas>
+      Amenity/TrolleyStand:
+        # Amenity=TrolleyStand | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Trolley Stand
+        # 'terms: carriage return,cart return,trolley bay'
+        terms: <translate with synonyms or related terms for 'Trolley Stand', separated by commas>
+      Entrance:
+        # Entrance=* | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Entrance
+      Entrance/Building:
+        # Entrance=Building | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Building Entrance
+        # 'terms: entrance,exit,door'
+        terms: <translate with synonyms or related terms for 'Building Entrance', separated by commas>
+      Entrance/InsideSpace:
+        # Entrance=InsideSpace | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Inside Space Entrance
+        # 'terms: entrance,exit,door'
+        terms: <translate with synonyms or related terms for 'Inside Space Entrance', separated by commas>
+      Entrance/PointOfInterest:
+        # Entrance=PointOfInterest | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Point Of Interest Entrance
+        # 'terms: entrance,exit,gate,door'
+        terms: <translate with synonyms or related terms for 'Point Of Interest Entrance', separated by commas>
+      Entrance/StopPlace:
+        # Entrance=StopPlace | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Stop Place Entrance
+        # 'terms: subway entrance,subway exit,station entrance,station exit'
+        terms: <translate with synonyms or related terms for 'Stop Place Entrance', separated by commas>
+      InsideSpace:
+        # InsideSpace=* | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: InsideSpace
+      InsideSpace/Area:
+        # InsideSpace=Area | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Area
+        # 'terms: plazza'
+        terms: <translate with synonyms or related terms for 'Area', separated by commas>
+      InsideSpace/Corridor:
+        # InsideSpace=Corridor | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Corridor
+        # 'terms: concourse,foyer,hallway,passageway'
+        terms: <translate with synonyms or related terms for 'Corridor', separated by commas>
+      InsideSpace/Quay:
+        # InsideSpace=Quay | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Quay
+      InsideSpace/Quay/Metro:
+        # InsideSpace=Quay + TransportMode=Metro | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Metro Quay
+        # 'terms: subway,platform,public transit,public transportation'
+        terms: <translate with synonyms or related terms for 'Metro Quay', separated by commas>
+      InsideSpace/Quay/Rail:
+        # InsideSpace=Quay + TransportMode=Rail | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Train Quay
+        # 'terms: train,platform,public transit,public transportation'
+        terms: <translate with synonyms or related terms for 'Train Quay', separated by commas>
+      InsideSpace/Quay/Tram:
+        # InsideSpace=Quay + TransportMode=Tram | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Tram Quay
+        # 'terms: electric,light rail,platform,rail,streetcar,track,tram,tramway'
+        terms: <translate with synonyms or related terms for 'Tram Quay', separated by commas>
+      InsideSpace/Room:
+        # InsideSpace=Room | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Indoor Room
+        # 'terms: antechamber,anteroom,atrium,cell,chamber,concourse,foyer,lobby,elevator room,elevator shaft,vestibule'
+        terms: <translate with synonyms or related terms for 'Indoor Room', separated by commas>
+      Obstacle:
+        # Obstacle=* | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Obstacle
+      Obstacle/Bench:
+        # Obstacle=Bench | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Bench
+        # 'terms: seat,seating,chair'
+        terms: <translate with synonyms or related terms for 'Bench', separated by commas>
+      Obstacle/Bollard:
+        # Obstacle=Bollard | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Bollard
+        # 'terms: bollard row'
+        terms: <translate with synonyms or related terms for 'Bollard', separated by commas>
+      Obstacle/CycleBarrier:
+        # Obstacle=CycleBarrier | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Cycle Barrier
+        # 'terms: bicycle barrier,bicycling barrier,bike gates,cycling barrier'
+        terms: <translate with synonyms or related terms for 'Cycle Barrier', separated by commas>
+      Obstacle/Kerb:
+        # Obstacle=Kerb | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Kerb
+        # 'terms: curb,raised kerb,step'
+        terms: <translate with synonyms or related terms for 'Kerb', separated by commas>
+      Obstacle/Pole:
+        # Obstacle=Pole | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Pole
+        terms: <translate with synonyms or related terms for 'Pole', separated by commas>
+      Obstacle/PostBox:
+        # Obstacle=PostBox | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Post Box
+        # 'terms: drop box,dropbox,letter drop,mail box,mail collection box,mail drop,mail dropoff,mailbox,package drop,pillar box,pillarbox,postal box,postbox'
+        terms: <translate with synonyms or related terms for 'Post Box', separated by commas>
+      Obstacle/RoughSurface:
+        # Obstacle=RoughSurface | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Rough Surface
+        terms: <translate with synonyms or related terms for 'Rough Surface', separated by commas>
+      Obstacle/Shelter:
+        # Obstacle=Shelter | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Shelter
+        # 'terms: public transit shelter,public transport shelter,pavilion,waiting'
+        terms: <translate with synonyms or related terms for 'Shelter', separated by commas>
+      Obstacle/Toilets:
+        # Obstacle=Toilets | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Toilets
+        # 'terms: bathroom,lavatory,wc,water closet'
+        terms: <translate with synonyms or related terms for 'Toilets', separated by commas>
+      Obstacle/Turnstile:
+        # Obstacle=Turnstile | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Turnstile
+        # 'terms: baffle gate,turnstyle'
+        terms: <translate with synonyms or related terms for 'Turnstile', separated by commas>
+      Obstacle/Vegetation:
+        # Obstacle=Vegetation | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Vegetation
+        # 'terms: tree,tree row,bush'
+        terms: <translate with synonyms or related terms for 'Vegetation', separated by commas>
+      Obstacle/Yes:
+        # Obstacle=Yes | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Obstacle
+        # 'terms: barrier,wall'
+        terms: <translate with synonyms or related terms for 'Obstacle', separated by commas>
+      ParkingBay/Disabled:
+        # ParkingBay=Disabled | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Disabled Designated Parking Bay
+        # 'terms: disabled parking stall,handicap parking spot,disabled parking spot,disabled parking space,cccessible parking space'
+        terms: <translate with synonyms or related terms for 'Disabled Designated Parking Bay', separated by commas>
+      PathJunction:
+        # PathJunction=Yes | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Path Junction
+        terms: <translate with synonyms or related terms for 'Path Junction', separated by commas>
+      PointOfInterest:
+        # PointOfInterest=* | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: PointOfInterest
+      PointOfInterest/Bank:
+        # PointOfInterest=Bank | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Bank
         # 'terms: check,deposit,fund,investment,repository,reserve,safe,savings,stock,treasury,trust,vault'
         terms: <translate with synonyms or related terms for 'Bank', separated by commas>
+      PointOfInterest/Museum:
+        # PointOfInterest=Museum | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Museum
+        # 'terms: art*,exhibit*,gallery,foundation,hall,institution,paint*,photo*,sculpt*'
+        terms: <translate with synonyms or related terms for 'Museum', separated by commas>
+      PointOfInterest/Office:
+        # PointOfInterest=Office | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Office
+        # 'terms: company'
+        terms: <translate with synonyms or related terms for 'Office', separated by commas>
+      PointOfInterest/StopPlace:
+        # PointOfInterest=StopPlace | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: StopPlace
+      PointOfInterest/StopPlace/Airport:
+        # StopPlace=Airport | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Airport
+        # 'terms: aerodrome,aeroway station'
+        terms: <translate with synonyms or related terms for 'Airport', separated by commas>
+      PointOfInterest/StopPlace/BusStation:
+        # StopPlace=BusStation | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Bus Station
+        # 'terms: bus terminal'
+        terms: <translate with synonyms or related terms for 'Bus Station', separated by commas>
+      PointOfInterest/StopPlace/CoachStation:
+        # StopPlace=CoachStation | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Coach Station
+        # 'terms: coach terminal'
+        terms: <translate with synonyms or related terms for 'Coach Station', separated by commas>
+      PointOfInterest/StopPlace/FerryPort:
+        # StopPlace=FerryPort | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Ferry Port
+        # 'terms: boat station,boat terminal,dock,ferry station,pier'
+        terms: <translate with synonyms or related terms for 'Ferry Port', separated by commas>
+      PointOfInterest/StopPlace/LiftStation:
+        # StopPlace=LiftStation | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Lift Station
+        # 'terms: aerialway terminal,gondola station,gondola terminal'
+        terms: <translate with synonyms or related terms for 'Lift Station', separated by commas>
+      PointOfInterest/StopPlace/MetroStation:
+        # StopPlace=MetroStation | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Metro Station
+        # 'terms: underground station,subway station'
+        terms: <translate with synonyms or related terms for 'Metro Station', separated by commas>
+      PointOfInterest/StopPlace/RailStation:
+        # StopPlace=RailStation | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Train Station
+        # 'terms: train terminal,railway station,rail station'
+        terms: <translate with synonyms or related terms for 'Train Station', separated by commas>
+      PointOfInterest/StopPlace/TramStation:
+        # StopPlace=TramStation | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Tramway Station
+        # 'terms: tram terminal,tramway terminal'
+        terms: <translate with synonyms or related terms for 'Tramway Station', separated by commas>
       SitePathLink:
         # SitePathLink=* | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: SitePathLink Feature
@@ -513,6 +1163,11 @@ en:
         name: Tram Crossing
         # 'terms: grade crossing,level crossing,pedestrian crossing,road tram crossing,streetcar crossing,tram road crossing,tramway crossing,trolley crossing'
         terms: <translate with synonyms or related terms for 'Tram Crossing', separated by commas>
+      SitePathLink/Elevator:
+        # SitePathLink=Elevator | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Elevator
+        # 'terms: lift'
+        terms: <translate with synonyms or related terms for 'Elevator', separated by commas>
       SitePathLink/Escalator:
         # SitePathLink=Escalator | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Escalator
@@ -604,6 +1259,24 @@ en:
         name: Travelator
         # 'terms: moving walkway,moving sidewalk,autwalk,skywalk,conveyor'
         terms: <translate with synonyms or related terms for 'Travelator', separated by commas>
+      StopPlace:
+        # StopPlace=* | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: StopPlace Feature
+      StopPlace/FerryStop:
+        # StopPlace=FerryStop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Gathering of Ferry Stops
+        # 'terms: monomodal stop place'
+        terms: <translate with synonyms or related terms for 'Gathering of Ferry Stops', separated by commas>
+      StopPlace/OnstreetBus:
+        # StopPlace=OnstreetBus | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Gathering of On-street Bus Stops
+        # 'terms: monomodal stop place'
+        terms: <translate with synonyms or related terms for 'Gathering of On-street Bus Stops', separated by commas>
+      StopPlace/OnstreetTram:
+        # StopPlace=OnstreetTram | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Gathering of On-street Tram Stops
+        # 'terms: monomodal stop place'
+        terms: <translate with synonyms or related terms for 'Gathering of On-street Tram Stops', separated by commas>
       area:
         # area=yes | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Area

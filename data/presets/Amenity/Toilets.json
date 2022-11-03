@@ -1,0 +1,22 @@
+{
+    "icon": "maki-toilet",
+    "geometry": [
+        "vertex",
+        "point"
+    ],
+    "terms": [
+        "bathroom",
+        "lavatory",
+        "WC",
+        "Water Closet"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Amenity": "Toilets"
+    },
+    "addTags": {
+        "Amenity": "Toilets"
+    },
+    "name": "Toilets"
+}

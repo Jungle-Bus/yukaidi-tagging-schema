@@ -1,0 +1,20 @@
+{
+    "key": "TransportModes",
+    "type": "semiCombo",
+    "label": "Transport modes",
+    "strings": {
+        "options": {
+            "Bus": "Bus",
+            "Coach": "Coach",
+            "Tram": "Tram",
+            "Water": "Water",
+            "Funicular": "Funicular",
+            "TrolleyBus": "TrolleyBus",
+            "CableWay": "CableWay",
+            "Rail": "Rail",
+            "Air": "Air"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

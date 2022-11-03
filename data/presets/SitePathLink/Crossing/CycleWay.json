@@ -7,10 +7,12 @@
         "PedestrianLights",
         "ZebraCrossing",
         "VisualGuidanceBands",
-        "AccousticCrossingAid"
+        "AccousticCrossingAid",
+        "{SitePathLink}"
     ],
     "geometry": [
-        "line"
+        "line",
+        "vertex"
     ],
     "tags": {
         "SitePathLink": "Crossing",

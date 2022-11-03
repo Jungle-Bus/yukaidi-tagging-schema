@@ -1,0 +1,30 @@
+{
+    "icon": "temaki-accessible_space",
+    "geometry": [
+        "vertex"
+    ],
+    "terms": [
+        "disabled parking stall",
+        "handicap parking spot",
+        "disabled parking spot",
+        "disabled parking space",
+        "cccessible parking space"
+    ],
+    "fields": [],
+    "moreFields": [
+        "BayGeometry",
+        "ParkingVisibility",
+        "FlooringMaterial",
+        "Flooring",
+        "Length",
+        "Width",
+        "VehicleRecharging"
+    ],
+    "tags": {
+        "ParkingBay": "Disabled"
+    },
+    "addTags": {
+        "ParkingBay": "Disabled"
+    },
+    "name": "Disabled Designated Parking Bay"
+}

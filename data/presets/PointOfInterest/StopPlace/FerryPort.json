@@ -1,0 +1,29 @@
+{
+    "icon": "temaki-ferry",
+    "geometry": [
+        "area"
+    ],
+    "terms": [
+        "boat station",
+        "boat terminal",
+        "dock",
+        "ferry station",
+        "pier"
+    ],
+    "fields": [
+        "Name",
+        "WheelchairAccess",
+        "AudibleSignals",
+        "VisualSigns"
+    ],
+    "moreFields": [],
+    "tags": {
+        "StopPlace": "FerryPort"
+    },
+    "addTags": {
+        "PointOfInterest": "StopPlace",
+        "StopPlace": "FerryPort",
+        "area": "yes"
+    },
+    "name": "Ferry Port"
+}

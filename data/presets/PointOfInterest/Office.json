@@ -1,0 +1,24 @@
+{
+    "icon": "maki-suitcase",
+    "geometry": [
+        "area"
+    ],
+    "terms": [
+        "company"
+    ],
+    "fields": [
+        "Name",
+        "WheelchairAccess",
+        "AudibleSignals",
+        "VisualSigns"
+    ],
+    "moreFields": [],
+    "tags": {
+        "PointOfInterest": "Office"
+    },
+    "addTags": {
+        "PointOfInterest": "Office",
+        "area": "yes"
+    },
+    "name": "Office"
+}

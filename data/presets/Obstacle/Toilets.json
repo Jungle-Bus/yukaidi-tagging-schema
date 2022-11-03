@@ -1,0 +1,22 @@
+{
+    "icon": "maki-toilet",
+    "geometry": [
+        "vertex"
+    ],
+    "terms": [
+        "bathroom",
+        "lavatory",
+        "WC",
+        "Water Closet"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Obstacle": "Toilets"
+    },
+    "addTags": {
+        "Obstacle": "Toilets",
+        "ObstacleType": "Ground"
+    },
+    "name": "Toilets"
+}

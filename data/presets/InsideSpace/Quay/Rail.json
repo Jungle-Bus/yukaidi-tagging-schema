@@ -1,0 +1,34 @@
+{
+    "icon": "temaki-board_train_diesel",
+    "fields": [
+        "Name",
+        "PublicCode",
+        "WheelchairAccess",
+        "VisualSigns",
+        "AudibleSignals"
+    ],
+    "moreFields": [
+        "ManoeuvringDiameter",
+        "WheelchairAccess_Description",
+        "VisualSigns_Description",
+        "AudibleSignals_Description"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "InsideSpace": "Quay",
+        "TransportMode": "Rail"
+    },
+    "addTags": {
+        "InsideSpace": "Quay",
+        "TransportMode": "Rail"
+    },
+    "terms": [
+        "train",
+        "platform",
+        "public transit",
+        "public transportation"
+    ],
+    "name": "Train Quay"
+}

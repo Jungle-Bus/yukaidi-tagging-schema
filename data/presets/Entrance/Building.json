@@ -1,0 +1,20 @@
+{
+    "icon": "maki-entrance-alt1",
+    "geometry": [
+        "vertex"
+    ],
+    "terms": [
+        "entrance",
+        "exit",
+        "door"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Entrance": "Building"
+    },
+    "addTags": {
+        "Entrance": "Building"
+    },
+    "name": "Building Entrance"
+}

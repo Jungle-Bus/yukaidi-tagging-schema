@@ -1,0 +1,6 @@
+{
+    "key": "KerbHeight",
+    "type": "number",
+    "minValue": 0,
+    "label": "Kerb Height (in meters)"
+}

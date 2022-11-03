@@ -1,0 +1,6 @@
+{
+    "key": "NecessaryForceToOpen",
+    "type": "number",
+    "minValue": 0,
+    "label": "Necessary Force To Open (in Newton)"
+}

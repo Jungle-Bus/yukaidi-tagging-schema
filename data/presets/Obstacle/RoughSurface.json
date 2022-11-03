@@ -1,0 +1,17 @@
+{
+    "icon": "temaki-boulder1",
+    "geometry": [
+        "vertex"
+    ],
+    "terms": [],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Obstacle": "RoughSurface"
+    },
+    "addTags": {
+        "Obstacle": "RoughSurface",
+        "ObstacleType": "Surface"
+    },
+    "name": "Rough Surface"
+}

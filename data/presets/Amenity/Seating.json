@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-bench",
+    "geometry": [
+        "vertex",
+        "point"
+    ],
+    "terms": [
+        "seat",
+        "bench",
+        "chair"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Amenity": "Seating"
+    },
+    "addTags": {
+        "Amenity": "Seating"
+    },
+    "name": "Seating"
+}

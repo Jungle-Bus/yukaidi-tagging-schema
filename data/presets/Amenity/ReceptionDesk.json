@@ -1,0 +1,24 @@
+{
+    "icon": "maki-information",
+    "geometry": [
+        "point"
+    ],
+    "terms": [
+        "information office",
+        "visitor center",
+        "tourism office",
+        "tourist information center",
+        "visitors center",
+        "visitors information center",
+        "welcome center"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Amenity": "ReceptionDesk"
+    },
+    "addTags": {
+        "Amenity": "ReceptionDesk"
+    },
+    "name": "Reception Desk"
+}

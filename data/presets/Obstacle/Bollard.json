@@ -1,0 +1,19 @@
+{
+    "icon": "temaki-bollard_row",
+    "geometry": [
+        "vertex"
+    ],
+    "terms": [
+        "bollard row"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Obstacle": "Bollard"
+    },
+    "addTags": {
+        "Obstacle": "Bollard",
+        "ObstacleType": "Ground"
+    },
+    "name": "Bollard"
+}

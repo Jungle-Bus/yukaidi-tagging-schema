@@ -1,0 +1,6 @@
+{
+    "key": "Depth",
+    "type": "number",
+    "minValue": 0,
+    "label": "Depth (in meters)"
+}

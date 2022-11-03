@@ -1,0 +1,15 @@
+{
+    "key": "InsideSpace",
+    "type": "combo",
+    "label": "Inside Space",
+    "strings": {
+        "options": {
+            "Room": "Room",
+            "Area": "Area",
+            "Corridor": "Corridor",
+            "Quay": "Quay"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

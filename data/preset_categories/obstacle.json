@@ -1,0 +1,10 @@
+{
+    "icon": "temaki-height_restrictor",
+    "name": "Obstacles",
+    "members": [
+        "Obstacle/CycleBarrier",
+        "Obstacle/Bollard",
+        "Obstacle/Vegetation",
+        "Obstacle/Kerb"
+    ]
+}

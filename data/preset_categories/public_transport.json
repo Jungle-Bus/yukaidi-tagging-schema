@@ -4,6 +4,12 @@
     "members": [
         "SitePathLink/Quay/Bus",
         "SitePathLink/Quay/Coach",
-        "SitePathLink/Quay/Tram"
+        "SitePathLink/Quay/Tram",
+        "InsideSpace/Quay/Tram",
+        "InsideSpace/Quay/Metro",
+        "InsideSpace/Quay/Rail",
+        "PointOfInterest/StopPlace/RailStation",
+        "PointOfInterest/StopPlace/MetroStation",
+        "PointOfInterest/StopPlace/TramStation"
     ]
 }

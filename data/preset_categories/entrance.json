@@ -1,0 +1,8 @@
+{
+    "icon": "maki-entrance-alt1",
+    "name": "Entrances",
+    "members": [
+        "Entrance/PointOfInterest",
+        "Entrance/StopPlace"
+    ]
+}

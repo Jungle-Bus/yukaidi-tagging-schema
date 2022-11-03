@@ -19,27 +19,17 @@
     ],
     "fields": [
         "Name",
-        "Phone",
-        "Website"
+        "WheelchairAccess",
+        "AudibleSignals",
+        "VisualSigns"
     ],
-    "moreFields": [
-        "Description",
-        "Outdoor",
-        "Lighting",
-        "Gated"
-    ],
+    "moreFields": [],
     "tags": {
-        "object": "PointOfInterest"
+        "PointOfInterest": "Bank"
     },
     "addTags": {
-        "object": "PointOfInterest",
-        "PublicUse": "yes",
-        "area": "yes",
-        "Covered": "indoors"
-    },
-    "reference": {
-        "key": "shop",
-        "value": "beauty"
+        "PointOfInterest": "Bank",
+        "area": "yes"
     },
     "name": "Bank"
 }

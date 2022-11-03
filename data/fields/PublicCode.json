@@ -1,10 +1,12 @@
 {
     "key": "PublicCode",
     "type": "text",
-    "label": "Platform Number",
+    "label": "Public Code",
     "placeholder": "Public code (if any)",
     "terms": [
         "ref",
+        "platform number",
+        "exit number",
         "number"
     ]
 }

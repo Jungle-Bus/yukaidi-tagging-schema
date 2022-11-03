@@ -1,0 +1,32 @@
+{
+    "icon": "maki-museum",
+    "geometry": [
+        "area"
+    ],
+    "terms": [
+        "art*",
+        "exhibit*",
+        "gallery",
+        "foundation",
+        "hall",
+        "institution",
+        "paint*",
+        "photo*",
+        "sculpt*"
+    ],
+    "fields": [
+        "Name",
+        "WheelchairAccess",
+        "AudibleSignals",
+        "VisualSigns"
+    ],
+    "moreFields": [],
+    "tags": {
+        "PointOfInterest": "Museum"
+    },
+    "addTags": {
+        "PointOfInterest": "Museum",
+        "area": "yes"
+    },
+    "name": "Museum"
+}

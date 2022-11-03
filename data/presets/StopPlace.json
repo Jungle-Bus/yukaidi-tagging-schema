@@ -1,0 +1,13 @@
+{
+    "icon": "iD-route",
+    "fields": [],
+    "moreFields": [],
+    "geometry": [
+        "relation"
+    ],
+    "tags": {
+        "StopPlace": "*"
+    },
+    "searchable": false,
+    "name": "StopPlace Feature"
+}

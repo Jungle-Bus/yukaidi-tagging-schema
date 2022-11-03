@@ -9,13 +9,34 @@
             "SitePathLink/Crossing/UrbanRail"
         ]
     },
+    "category-entrance": {
+        "icon": "maki-entrance-alt1",
+        "members": [
+            "Entrance/PointOfInterest",
+            "Entrance/StopPlace"
+        ]
+    },
     "category-indoor": {
         "icon": "temaki-room",
         "members": [
             "SitePathLink/Escalator",
             "SitePathLink/Travelator",
             "SitePathLink/Hall",
-            "SitePathLink/Corridor"
+            "SitePathLink/Corridor",
+            "InsideSpace/Room",
+            "InsideSpace/Area",
+            "InsideSpace/Corridor",
+            "Amenity/ReceptionDesk",
+            "Amenity/Toilets"
+        ]
+    },
+    "category-obstacle": {
+        "icon": "temaki-height_restrictor",
+        "members": [
+            "Obstacle/CycleBarrier",
+            "Obstacle/Bollard",
+            "Obstacle/Vegetation",
+            "Obstacle/Kerb"
         ]
     },
     "category-path": {
@@ -34,7 +55,8 @@
     "category-poi": {
         "icon": "maki-shop",
         "members": [
-            "ERP/bank"
+            "PointOfInterest/Bank",
+            "PointOfInterest/Museum"
         ]
     },
     "category-public_transport": {
@@ -42,7 +64,13 @@
         "members": [
             "SitePathLink/Quay/Bus",
             "SitePathLink/Quay/Coach",
-            "SitePathLink/Quay/Tram"
+            "SitePathLink/Quay/Tram",
+            "InsideSpace/Quay/Tram",
+            "InsideSpace/Quay/Metro",
+            "InsideSpace/Quay/Rail",
+            "PointOfInterest/StopPlace/RailStation",
+            "PointOfInterest/StopPlace/MetroStation",
+            "PointOfInterest/StopPlace/TramStation"
         ]
     }
 }

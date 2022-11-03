@@ -1,0 +1,22 @@
+{
+    "icon": "temaki-turnstile",
+    "geometry": [
+        "point"
+    ],
+    "terms": [
+        "baffle gate",
+        "turnstyle",
+        "ticket puncher",
+        "punching machine",
+        "ticket marker"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Amenity": "TicketValidator"
+    },
+    "addTags": {
+        "Amenity": "TicketValidator"
+    },
+    "name": "Ticket Validator"
+}

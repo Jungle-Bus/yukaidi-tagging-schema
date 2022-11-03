@@ -1,0 +1,15 @@
+{
+    "icon": "temaki-vending_lockers",
+    "geometry": [
+        "point"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Amenity": "LuggageLocker"
+    },
+    "addTags": {
+        "Amenity": "LuggageLocker"
+    },
+    "name": "Luggage Locker"
+}

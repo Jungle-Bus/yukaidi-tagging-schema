@@ -9,8 +9,7 @@
     "moreFields": [
         "PublicCode",
         "ManoeuvringDiameter",
-        "VisualSigns_Description",
-        "AudibleSignals_Description"
+        "{SitePathLink}"
     ],
     "geometry": [
         "line"

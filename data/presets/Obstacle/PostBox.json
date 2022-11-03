@@ -1,0 +1,32 @@
+{
+    "icon": "temaki-post_box",
+    "geometry": [
+        "vertex"
+    ],
+    "terms": [
+        "drop box",
+        "dropbox",
+        "letter drop",
+        "mail box",
+        "mail collection box",
+        "mail drop",
+        "mail dropoff",
+        "mailbox",
+        "package drop",
+        "pillar box",
+        "pillarbox",
+        "post box",
+        "postal box",
+        "postbox"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Obstacle": "PostBox"
+    },
+    "addTags": {
+        "Obstacle": "PostBox",
+        "ObstacleType": "Ground"
+    },
+    "name": "Post Box"
+}

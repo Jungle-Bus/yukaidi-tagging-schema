@@ -1,0 +1,26 @@
+{
+    "fields": [
+        "Entrance"
+    ],
+    "moreFields": [
+        "Name",
+        "PublicCode",
+        "EntrancePassage",
+        "IsEntry",
+        "IsExit",
+        "Width",
+        "Height",
+        "Door",
+        "AutomaticDoor",
+        "DoorHandle",
+        "NecessaryForceToOpen"
+    ],
+    "geometry": [
+        "vertex"
+    ],
+    "tags": {
+        "Entrance": "*"
+    },
+    "searchable": false,
+    "name": "Entrance"
+}

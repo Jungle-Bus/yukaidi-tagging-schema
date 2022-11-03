@@ -1,0 +1,16 @@
+{
+    "fields": [
+        "KerbHeight"
+    ],
+    "moreFields": [
+        "TactileWarningStrip",
+        "TactileWarningStripInstallation"
+    ],
+    "geometry": [
+        "vertex"
+    ],
+    "tags": {
+        "PathJunction": "Yes"
+    },
+    "name": "Path Junction"
+}

@@ -20,6 +20,35 @@
             "Hazardous"
         ]
     },
+    "AcousticAnnouncements": {
+        "key": "AcousticAnnouncements",
+        "type": "check"
+    },
+    "Amenity": {
+        "key": "Amenity",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "ReceptionDesk",
+            "TicketOffice",
+            "Shelter",
+            "Toilets",
+            "EmergencyPhone",
+            "RubbishDisposal",
+            "LuggageLocker",
+            "TrolleyStand",
+            "Seating",
+            "Sign",
+            "TicketValidator",
+            "TicketVendingMachine",
+            "MeetingPoint"
+        ]
+    },
+    "Attendant": {
+        "key": "Attendant",
+        "type": "check"
+    },
     "AudibleSignals_Description": {
         "key": "AudibleSignals:Description",
         "type": "textarea"
@@ -31,6 +60,23 @@
             "Yes",
             "Limited",
             "No"
+        ]
+    },
+    "AutomaticDoor": {
+        "key": "AutomaticDoor",
+        "type": "check"
+    },
+    "BayGeometry": {
+        "key": "BayGeometry",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "Orthogonal",
+            "Angled",
+            "Parallel",
+            "FreeFormat",
+            "Unspecified"
         ]
     },
     "comment": {
@@ -62,10 +108,62 @@
             "RoadWithIsland"
         ]
     },
+    "Depth": {
+        "key": "Depth",
+        "type": "number",
+        "minValue": 0
+    },
     "Description": {
         "key": "Description",
         "type": "textarea",
         "universal": true
+    },
+    "Door": {
+        "key": "Door",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "Hinged",
+            "Sliding",
+            "Revolving",
+            "Swing"
+        ]
+    },
+    "DoorHandle": {
+        "key": "DoorHandle",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "None",
+            "Lever",
+            "Button"
+        ]
+    },
+    "Entrance": {
+        "key": "Entrance",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "PointOfInterest",
+            "StopPlace",
+            "Building",
+            "InsideSpace"
+        ]
+    },
+    "EntrancePassage": {
+        "key": "EntrancePassage",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "Opening",
+            "Door",
+            "Gate",
+            "Barrier"
+        ]
     },
     "FixMe": {
         "key": "FixMe",
@@ -138,6 +236,11 @@
         "type": "semiCombo",
         "usage": "changeset"
     },
+    "Height": {
+        "key": "Height",
+        "type": "number",
+        "minValue": 0
+    },
     "HighwayType": {
         "key": "HighwayType",
         "type": "combo",
@@ -152,6 +255,10 @@
             "Unclassified"
         ]
     },
+    "Image": {
+        "key": "Image",
+        "type": "url"
+    },
     "Incline": {
         "key": "Incline",
         "type": "combo",
@@ -162,6 +269,41 @@
             "Down",
             "No"
         ]
+    },
+    "InsideSpace": {
+        "key": "InsideSpace",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "Room",
+            "Area",
+            "Corridor",
+            "Quay"
+        ]
+    },
+    "InternalWidth": {
+        "key": "InternalWidth",
+        "type": "number",
+        "minValue": 0
+    },
+    "IsEntry": {
+        "key": "IsEntry",
+        "type": "check"
+    },
+    "IsExit": {
+        "key": "IsExit",
+        "type": "check"
+    },
+    "KerbHeight": {
+        "key": "KerbHeight",
+        "type": "number",
+        "minValue": 0
+    },
+    "Length": {
+        "key": "Length",
+        "type": "number",
+        "minValue": 0
     },
     "Lighting": {
         "key": "Lighting",
@@ -174,14 +316,63 @@
             "No"
         ]
     },
+    "MagneticInductionLoop": {
+        "key": "MagneticInductionLoop",
+        "type": "check"
+    },
     "ManoeuvringDiameter": {
         "key": "ManoeuvringDiameter",
         "type": "number",
         "minValue": 0
     },
+    "MirrorOnOppositeSide": {
+        "key": "MirrorOnOppositeSide",
+        "type": "check"
+    },
     "Name": {
         "key": "Name",
         "type": "text"
+    },
+    "NecessaryForceToOpen": {
+        "key": "NecessaryForceToOpen",
+        "type": "number",
+        "minValue": 0
+    },
+    "NonGeographicalLocation": {
+        "key": "NonGeographicalLocation",
+        "type": "check"
+    },
+    "Obstacle": {
+        "key": "Obstacle",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "Kerb",
+            "Bench",
+            "Shelter",
+            "Toilets",
+            "Pole",
+            "PostBox",
+            "Vegetation",
+            "Turnstile",
+            "Bollard",
+            "CycleBarrier",
+            "RoughSurface",
+            "Yes"
+        ]
+    },
+    "ObstacleType": {
+        "key": "ObstacleType",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "Surface",
+            "Ground",
+            "Pass",
+            "Overhanging"
+        ]
     },
     "Outdoor": {
         "key": "Outdoor",
@@ -194,18 +385,77 @@
             "Covered"
         ]
     },
+    "ParkingVisibility": {
+        "key": "ParkingVisibility",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "Unmarked",
+            "SignageOnly",
+            "MarkingOnly",
+            "Docks",
+            "Demarcated"
+        ]
+    },
     "PedestrianLights": {
         "key": "PedestrianLights",
         "type": "check"
     },
     "Phone": {
-        "key": "phone",
+        "key": "Phone",
         "type": "tel",
         "icon": "maki-telephone"
+    },
+    "PointOfInterest": {
+        "key": "PointOfInterest",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "Shop",
+            "Government",
+            "Restaurant",
+            "Lodging",
+            "Youth",
+            "Library",
+            "Healthcare",
+            "Religion",
+            "Bank",
+            "Office",
+            "Sport",
+            "Museum",
+            "Game",
+            "Exhibition",
+            "DisabledCare",
+            "Senior",
+            "Theater",
+            "OutdoorVenue",
+            "StopPlace",
+            "ParkingLots",
+            "MountainShelter",
+            "AltitudeHotelRestaurant",
+            "InflatableVenue"
+        ]
     },
     "PublicCode": {
         "key": "PublicCode",
         "type": "text"
+    },
+    "RaisedButtons": {
+        "key": "RaisedButtons",
+        "type": "check"
+    },
+    "SIRET_FR": {
+        "key": "ref:FR:SIRET",
+        "type": "identifier",
+        "urlFormat": "https://annuaire-entreprises.data.gouv.fr/etablissement/{value}",
+        "pattern": "^[0-9]{9}([1-7][0-9]{3}|0[1-9][0-9]{2}|00[1-9][0-9]|000[1-9])[0-9]$",
+        "locationSet": {
+            "include": [
+                "fr"
+            ]
+        }
     },
     "SitePathLink": {
         "key": "SitePathLink",
@@ -224,6 +474,7 @@
             "Travelator",
             "Ramp",
             "Stairs",
+            "Elevator",
             "Quay",
             "QueueManagement",
             "Corridor",
@@ -280,6 +531,22 @@
         "key": "StoppedIfUnused",
         "type": "check"
     },
+    "StopPlace": {
+        "key": "StopPlace",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "RailStation",
+            "MetroStation",
+            "BusStation",
+            "CoachStation",
+            "TramStation",
+            "FerryPort",
+            "LiftStation",
+            "Airport"
+        ]
+    },
     "StructureType": {
         "key": "StructureType",
         "type": "combo",
@@ -297,6 +564,45 @@
         "key": "TactileGuidingStrip",
         "type": "check"
     },
+    "TactileWarningStrip": {
+        "key": "TactileWarningStrip",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "None",
+            "Good",
+            "Worn",
+            "Discomfortable",
+            "Hazardous"
+        ]
+    },
+    "TactileWarningStripInstallation": {
+        "key": "Tactile Warning Strip Installation",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "Usual",
+            "Across",
+            "Curved",
+            "InsufficientWidth",
+            "TooLargeWidth",
+            "ShallowDepth",
+            "NonContrasting"
+        ]
+    },
+    "TransportMode_area": {
+        "key": "TransportMode",
+        "type": "combo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "Rail",
+            "Metro",
+            "Tram"
+        ]
+    },
     "TransportMode": {
         "key": "TransportMode",
         "type": "combo",
@@ -311,6 +617,27 @@
             "TrolleyBus",
             "CableWay"
         ]
+    },
+    "TransportModes": {
+        "key": "TransportModes",
+        "type": "semiCombo",
+        "autoSuggestions": false,
+        "customValues": false,
+        "options": [
+            "Bus",
+            "Coach",
+            "Tram",
+            "Water",
+            "Funicular",
+            "TrolleyBus",
+            "CableWay",
+            "Rail",
+            "Air"
+        ]
+    },
+    "VehicleRecharging": {
+        "key": "VehicleRecharging",
+        "type": "check"
     },
     "VisualGuidanceBands": {
         "key": "VisualGuidanceBands",
@@ -330,7 +657,7 @@
         ]
     },
     "Website": {
-        "key": "website",
+        "key": "Website",
         "type": "url",
         "icon": "website"
     },

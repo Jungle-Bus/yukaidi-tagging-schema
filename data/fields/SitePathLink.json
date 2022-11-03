@@ -15,6 +15,7 @@
             "Travelator": "Travelator",
             "Ramp": "Ramp",
             "Stairs": "Stairs",
+            "Elevator": "Elevator",
             "Quay": "Quay",
             "QueueManagement": "QueueManagement",
             "Corridor": "Corridor",

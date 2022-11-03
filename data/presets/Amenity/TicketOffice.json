@@ -1,0 +1,19 @@
+{
+    "icon": "temaki-ticket",
+    "geometry": [
+        "point"
+    ],
+    "terms": [
+        "ticket office",
+        "ticket shop"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Amenity": "TicketOffice"
+    },
+    "addTags": {
+        "Amenity": "TicketOffice"
+    },
+    "name": "Ticket Office"
+}

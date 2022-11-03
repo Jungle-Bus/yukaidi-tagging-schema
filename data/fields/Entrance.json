@@ -1,0 +1,15 @@
+{
+    "key": "Entrance",
+    "type": "combo",
+    "label": "Entrance",
+    "strings": {
+        "options": {
+            "PointOfInterest": "Point Of Interest Entrance",
+            "StopPlace": "Stop Place Entrance",
+            "Building": "Building Entrance",
+            "InsideSpace": "Inside Space Entrance"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

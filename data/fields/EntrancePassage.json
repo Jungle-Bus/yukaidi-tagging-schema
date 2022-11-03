@@ -1,0 +1,15 @@
+{
+    "key": "EntrancePassage",
+    "type": "combo",
+    "label": "Entrance Passage",
+    "strings": {
+        "options": {
+            "Opening": "Opening",
+            "Door": "Door",
+            "Gate": "Gate",
+            "Barrier": "Barrier"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

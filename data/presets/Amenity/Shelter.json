@@ -1,0 +1,22 @@
+{
+    "icon": "maki-shelter",
+    "geometry": [
+        "vertex",
+        "point"
+    ],
+    "terms": [
+        "public transit shelter",
+        "public transport shelter",
+        "pavilion",
+        "waiting"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Amenity": "Shelter"
+    },
+    "addTags": {
+        "Amenity": "Shelter"
+    },
+    "name": "Shelter"
+}

@@ -1,0 +1,17 @@
+{
+    "key": "BayGeometry",
+    "type": "combo",
+    "label": "Bay Geometry",
+    "placeholder": "Orthogonal, Parallel, ...",
+    "strings": {
+        "options": {
+            "Orthogonal": "Orthogonal",
+            "Angled": "Angled",
+            "Parallel": "Parallel",
+            "FreeFormat": "FreeFormat",
+            "Unspecified": "Unspecified"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

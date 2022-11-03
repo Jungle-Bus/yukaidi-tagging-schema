@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-bench",
+    "geometry": [
+        "vertex"
+    ],
+    "terms": [
+        "seat",
+        "seating",
+        "chair"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Obstacle": "Bench"
+    },
+    "addTags": {
+        "Obstacle": "Bench",
+        "ObstacleType": "Ground"
+    },
+    "name": "Bench"
+}

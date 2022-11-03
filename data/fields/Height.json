@@ -1,0 +1,6 @@
+{
+    "key": "Height",
+    "type": "number",
+    "minValue": 0,
+    "label": "Height (in meters)"
+}

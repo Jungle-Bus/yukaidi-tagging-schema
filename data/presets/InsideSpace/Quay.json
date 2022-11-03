@@ -1,0 +1,15 @@
+{
+    "icon": "temaki-board_transit",
+    "geometry": [
+        "area"
+    ],
+    "fields": [
+        "Name",
+        "TransportMode_area"
+    ],
+    "tags": {
+        "InsideSpace": "Quay"
+    },
+    "searchable": false,
+    "name": "Quay"
+}

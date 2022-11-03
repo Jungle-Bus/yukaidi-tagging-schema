@@ -1,0 +1,26 @@
+{
+    "icon": "temaki-room",
+    "geometry": [
+        "area"
+    ],
+    "terms": [
+        "area",
+        "plazza"
+    ],
+    "fields": [
+        "Name",
+        "WheelchairAccess",
+        "AudibleSignals",
+        "VisualSigns",
+        "Outdoor"
+    ],
+    "moreFields": [],
+    "tags": {
+        "InsideSpace": "Area"
+    },
+    "addTags": {
+        "InsideSpace": "Area",
+        "area": "yes"
+    },
+    "name": "Area"
+}
