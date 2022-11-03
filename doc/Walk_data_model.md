@@ -24,7 +24,7 @@ Les noeuds d'origine et de destination doivent correspondre au début d'un autre
 | SitePathLink | Stairs     | un escalier                                                                                                         |
 | SitePathLink | Escalator  | un escalator                                                                                                        |
 | SitePathLink | Travelator | un tapis roulant                                                                                                    |
-| SitePathLink | Ramp       | une rampe d'accès, ttructure en pente permettant de franchir une dénivellation, un changement de niveau ou d'étage. |
+| SitePathLink | Ramp       | une rampe d'accès, structure en pente permettant de franchir une dénivellation, un changement de niveau ou d'étage. |
 | SitePathLink | Crossing   | un passage piéton, un passage à niveau pour les piétons, ou une traversée                                           |
 | SitePathLink | Hall       | un cheminement en intérieur, dans une salle ou un hall                                                              |
 | SitePathLink | Corridor   | un cheminement en intérieur dans un couloir, etc                                                                    |
