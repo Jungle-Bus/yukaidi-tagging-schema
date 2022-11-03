@@ -1,0 +1,21 @@
+{
+    "fields": [
+        "Obstacle"
+    ],
+    "icon": "maki-roadblock",
+    "moreFields": [
+        "ObstacleType",
+        "Width",
+        "Height",
+        "Length",
+        "Image"
+    ],
+    "geometry": [
+        "vertex"
+    ],
+    "tags": {
+        "Obstacle": "*"
+    },
+    "searchable": false,
+    "name": "Obstacle"
+}

@@ -1,0 +1,16 @@
+{
+    "icon": "temaki-street_lamp_arm",
+    "geometry": [
+        "vertex"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Obstacle": "Pole"
+    },
+    "addTags": {
+        "Obstacle": "Pole",
+        "ObstacleType": "Ground"
+    },
+    "name": "Pole"
+}

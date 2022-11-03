@@ -1,0 +1,23 @@
+{
+    "icon": "maki-shelter",
+    "geometry": [
+        "vertex"
+    ],
+    "terms": [
+        "public transit shelter",
+        "public transport shelter",
+        "pavilion",
+        "waiting"
+    ],
+    "fields": [
+        "ObstacleType"
+    ],
+    "moreFields": [],
+    "tags": {
+        "Obstacle": "Shelter"
+    },
+    "addTags": {
+        "Obstacle": "Shelter"
+    },
+    "name": "Shelter"
+}

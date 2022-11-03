@@ -1,0 +1,27 @@
+{
+    "icon": "temaki-gondola_lift",
+    "geometry": [
+        "area"
+    ],
+    "terms": [
+        "aerialway terminal",
+        "gondola station",
+        "gondola terminal"
+    ],
+    "fields": [
+        "Name",
+        "WheelchairAccess",
+        "AudibleSignals",
+        "VisualSigns"
+    ],
+    "moreFields": [],
+    "tags": {
+        "StopPlace": "LiftStation"
+    },
+    "addTags": {
+        "PointOfInterest": "StopPlace",
+        "StopPlace": "LiftStation",
+        "area": "yes"
+    },
+    "name": "Lift Station"
+}

@@ -2,6 +2,7 @@
     "icon": "maki-shop",
     "name": "Points of interest",
     "members": [
-        "ERP/bank"
+        "PointOfInterest/Bank",
+        "PointOfInterest/Museum"
     ]
 }

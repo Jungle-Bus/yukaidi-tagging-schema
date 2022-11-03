@@ -1,0 +1,22 @@
+{
+    "icon": "fas-compress-arrows-alt",
+    "geometry": [
+        "point"
+    ],
+    "terms": [
+        "EAP",
+        "emergency assembly point",
+        "muster point",
+        "meeting point",
+        "staging area"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Amenity": "MeetingPoint"
+    },
+    "addTags": {
+        "Amenity": "MeetingPoint"
+    },
+    "name": "Meeting Point"
+}

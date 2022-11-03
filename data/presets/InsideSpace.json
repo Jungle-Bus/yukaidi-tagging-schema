@@ -1,0 +1,20 @@
+{
+    "fields": [
+        "InsideSpace"
+    ],
+    "moreFields": [
+        "Name",
+        "NonGeographicalLocation",
+        "Outdoor",
+        "Lighting",
+        "Gated"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "InsideSpace": "*"
+    },
+    "searchable": false,
+    "name": "InsideSpace"
+}

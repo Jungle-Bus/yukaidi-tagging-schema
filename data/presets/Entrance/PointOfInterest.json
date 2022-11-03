@@ -1,0 +1,21 @@
+{
+    "icon": "maki-entrance-alt1",
+    "geometry": [
+        "vertex"
+    ],
+    "terms": [
+        "entrance",
+        "exit",
+        "gate",
+        "door"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Entrance": "PointOfInterest"
+    },
+    "addTags": {
+        "Entrance": "PointOfInterest"
+    },
+    "name": "Point Of Interest Entrance"
+}

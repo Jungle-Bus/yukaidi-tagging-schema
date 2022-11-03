@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-tree_row",
+    "geometry": [
+        "vertex"
+    ],
+    "terms": [
+        "tree",
+        "tree row",
+        "bush"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Obstacle": "Vegetation"
+    },
+    "addTags": {
+        "Obstacle": "Vegetation",
+        "ObstacleType": "Ground"
+    },
+    "name": "Vegetation"
+}

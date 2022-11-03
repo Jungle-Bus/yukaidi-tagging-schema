@@ -1,0 +1,20 @@
+{
+    "icon": "iD-route",
+    "geometry": [
+        "relation"
+    ],
+    "terms": [
+        "monomodal stop place"
+    ],
+    "fields": [
+        "Name"
+    ],
+    "moreFields": [],
+    "tags": {
+        "StopPlace": "OnstreetBus"
+    },
+    "addTags": {
+        "StopPlace": "OnstreetBus"
+    },
+    "name": "Gathering of On-street Bus Stops"
+}

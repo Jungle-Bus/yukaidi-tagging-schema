@@ -1,0 +1,27 @@
+{
+    "icon": "temaki-info_board",
+    "geometry": [
+        "point"
+    ],
+    "terms": [
+        "information board",
+        "guidepost",
+        "cairn",
+        "painted blaze",
+        "route flag",
+        "route marker",
+        "stone pile",
+        "trail blaze",
+        "trail post",
+        "way marker"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Amenity": "Sign"
+    },
+    "addTags": {
+        "Amenity": "Sign"
+    },
+    "name": "Sign"
+}

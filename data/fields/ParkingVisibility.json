@@ -1,0 +1,17 @@
+{
+    "key": "ParkingVisibility",
+    "type": "combo",
+    "label": "Bay Visibility",
+    "placeholder": "Unmarked, SignageOnly, ...",
+    "strings": {
+        "options": {
+            "Unmarked": "Unmarked",
+            "SignageOnly": "SignageOnly",
+            "MarkingOnly": "MarkingOnly",
+            "Docks": "Docks",
+            "Demarcated": "Demarcated"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

@@ -4,6 +4,10 @@
         "Name",
         "WheelchairAccess"
     ],
+    "moreFields": [
+        "NonGeographicalLocation",
+        "{SitePathLink}"
+    ],
     "geometry": [
         "line"
     ],

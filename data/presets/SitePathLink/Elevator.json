@@ -1,0 +1,35 @@
+{
+    "icon": "iD-elevator",
+    "fields": [
+        "WheelchairAccess"
+    ],
+    "moreFields": [
+        "Depth",
+        "Width",
+        "FlooringMaterial",
+        "Flooring",
+        "Lighting",
+        "InternalWidth",
+        "RaisedButtons",
+        "AcousticAnnouncements",
+        "MagneticInductionLoop",
+        "MirrorOnOppositeSide",
+        "AutomaticDoor",
+        "Attendant",
+        "Handrail"
+    ],
+    "geometry": [
+        "line",
+        "vertex"
+    ],
+    "tags": {
+        "SitePathLink": "Elevator"
+    },
+    "addTags": {
+        "SitePathLink": "Elevator"
+    },
+    "terms": [
+        "lift"
+    ],
+    "name": "Elevator"
+}

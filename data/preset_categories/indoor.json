@@ -5,6 +5,11 @@
         "SitePathLink/Escalator",
         "SitePathLink/Travelator",
         "SitePathLink/Hall",
-        "SitePathLink/Corridor"
+        "SitePathLink/Corridor",
+        "InsideSpace/Room",
+        "InsideSpace/Area",
+        "InsideSpace/Corridor",
+        "Amenity/ReceptionDesk",
+        "Amenity/Toilets"
     ]
 }

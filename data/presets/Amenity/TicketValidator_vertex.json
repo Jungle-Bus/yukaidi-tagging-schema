@@ -1,0 +1,24 @@
+{
+    "icon": "temaki-turnstile",
+    "geometry": [
+        "vertex"
+    ],
+    "terms": [
+        "baffle gate",
+        "turnstyle",
+        "ticket puncher",
+        "punching machine",
+        "ticket marker"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Amenity": "TicketValidator"
+    },
+    "addTags": {
+        "Amenity": "TicketValidator",
+        "Obstacle": "Turnstile",
+        "ObstacleType": "Pass"
+    },
+    "name": "Ticket Validator"
+}

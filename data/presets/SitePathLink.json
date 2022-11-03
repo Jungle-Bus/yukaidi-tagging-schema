@@ -3,8 +3,9 @@
         "SitePathLink"
     ],
     "moreFields": [
-        "WheelchairAccess",
         "WheelchairAccess_Description",
+        "VisualSigns_Description",
+        "AudibleSignals_Description",
         "Name",
         "Incline",
         "TactileGuidingStrip",

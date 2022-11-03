@@ -1,0 +1,25 @@
+{
+    "icon": "temaki-bus",
+    "geometry": [
+        "area"
+    ],
+    "terms": [
+        "bus terminal"
+    ],
+    "fields": [
+        "Name",
+        "WheelchairAccess",
+        "AudibleSignals",
+        "VisualSigns"
+    ],
+    "moreFields": [],
+    "tags": {
+        "StopPlace": "BusStation"
+    },
+    "addTags": {
+        "PointOfInterest": "StopPlace",
+        "StopPlace": "BusStation",
+        "area": "yes"
+    },
+    "name": "Bus Station"
+}

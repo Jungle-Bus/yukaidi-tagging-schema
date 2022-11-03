@@ -10,6 +10,130 @@
     },
     "tags": [
         {
+            "key": "Amenity",
+            "description": "🄿 Amenity (unsearchable), 🄵 Amenity",
+            "object_types": [
+                "node"
+            ]
+        },
+        {
+            "key": "Amenity",
+            "value": "EmergencyPhone",
+            "description": "🄿 Emergency Phone, 🄵🅅 Amenity: Emergency Phone",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/emergency-phone-15.svg"
+        },
+        {
+            "key": "Amenity",
+            "value": "LuggageLocker",
+            "description": "🄿 Luggage Locker, 🄵🅅 Amenity: Luggage Locker",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/vending_lockers.svg"
+        },
+        {
+            "key": "Amenity",
+            "value": "MeetingPoint",
+            "description": "🄿 Meeting Point, 🄵🅅 Amenity: Meeting Point",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-compress-arrows-alt.svg"
+        },
+        {
+            "key": "Amenity",
+            "value": "ReceptionDesk",
+            "description": "🄿 Reception Desk, 🄵🅅 Amenity: Reception Desk",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/information-15.svg"
+        },
+        {
+            "key": "Amenity",
+            "value": "RubbishDisposal",
+            "description": "🄿 Rubbish Disposal, 🄵🅅 Amenity: Rubbish Disposal",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/waste-basket-15.svg"
+        },
+        {
+            "key": "Amenity",
+            "value": "Seating",
+            "description": "🄿 Seating, 🄵🅅 Amenity: Seating",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/bench.svg"
+        },
+        {
+            "key": "Amenity",
+            "value": "Shelter",
+            "description": "🄿 Shelter, 🄵🅅 Amenity: Shelter",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/shelter-15.svg"
+        },
+        {
+            "key": "Amenity",
+            "value": "Sign",
+            "description": "🄿 Sign, 🄵🅅 Amenity: Sign",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/info_board.svg"
+        },
+        {
+            "key": "Amenity",
+            "value": "TicketOffice",
+            "description": "🄿 Ticket Office, 🄵🅅 Amenity: Ticket Office",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/ticket.svg"
+        },
+        {
+            "key": "Amenity",
+            "value": "TicketValidator",
+            "description": "🄿 Ticket Validator, 🄵🅅 Amenity: Ticket Validator",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/turnstile.svg"
+        },
+        {
+            "key": "Amenity",
+            "value": "TicketVendingMachine",
+            "description": "🄿 Ticket Vending Machine, 🄵🅅 Amenity: Ticket Vending Machine",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/vending_tickets.svg"
+        },
+        {
+            "key": "Amenity",
+            "value": "Toilets",
+            "description": "🄿 Toilets, 🄵🅅 Amenity: Toilets",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/toilet-15.svg"
+        },
+        {
+            "key": "Amenity",
+            "value": "TrolleyStand",
+            "description": "🄿 Trolley Stand, 🄵🅅 Amenity: Trolley Stand",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-shopping-cart.svg"
+        },
+        {
             "key": "area",
             "value": "yes",
             "description": "🄿 Area",
@@ -18,13 +142,365 @@
             ]
         },
         {
-            "key": "object",
+            "key": "Entrance",
+            "description": "🄿 Entrance (unsearchable), 🄵 Entrance",
+            "object_types": [
+                "node"
+            ]
+        },
+        {
+            "key": "Entrance",
+            "value": "Building",
+            "description": "🄿 Building Entrance, 🄵🅅 Entrance: Building Entrance",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/entrance-alt1-15.svg"
+        },
+        {
+            "key": "Entrance",
+            "value": "InsideSpace",
+            "description": "🄿 Inside Space Entrance, 🄵🅅 Entrance: Inside Space Entrance",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/entrance-alt1-15.svg"
+        },
+        {
+            "key": "Entrance",
             "value": "PointOfInterest",
-            "description": "🄿 Bank",
+            "description": "🄿 Point Of Interest Entrance, 🄵🅅 Entrance: Point Of Interest Entrance",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/entrance-alt1-15.svg"
+        },
+        {
+            "key": "Entrance",
+            "value": "StopPlace",
+            "description": "🄿 Stop Place Entrance, 🄵🅅 Entrance: Stop Place Entrance",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/entrance-alt1-15.svg"
+        },
+        {
+            "key": "InsideSpace",
+            "description": "🄿 InsideSpace (unsearchable), 🄵 Inside Space",
+            "object_types": [
+                "area"
+            ]
+        },
+        {
+            "key": "InsideSpace",
+            "value": "Area",
+            "description": "🄿 Area, 🄵🅅 Inside Space: Area",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/room.svg"
+        },
+        {
+            "key": "InsideSpace",
+            "value": "Corridor",
+            "description": "🄿 Corridor, 🄵🅅 Inside Space: Corridor",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/room.svg"
+        },
+        {
+            "key": "InsideSpace",
+            "value": "Quay",
+            "description": "🄿 Quay (unsearchable), 🄵🅅 Inside Space: Quay",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/board_transit.svg"
+        },
+        {
+            "key": "TransportMode",
+            "value": "Metro",
+            "description": "🄿 Metro Quay, 🄵🅅 Transport Mode: Metro",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/board_subway.svg"
+        },
+        {
+            "key": "TransportMode",
+            "value": "Rail",
+            "description": "🄿 Train Quay, 🄵🅅 Transport Mode: Rail",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/board_train_diesel.svg"
+        },
+        {
+            "key": "TransportMode",
+            "value": "Tram",
+            "description": "🄿 Tram Quay, 🄵🅅 Transport Mode: Tram",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/board_tram.svg"
+        },
+        {
+            "key": "InsideSpace",
+            "value": "Room",
+            "description": "🄿 Indoor Room, 🄵🅅 Inside Space: Room",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/room.svg"
+        },
+        {
+            "key": "Obstacle",
+            "description": "🄿 Obstacle (unsearchable), 🄵 Type",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/roadblock-15.svg"
+        },
+        {
+            "key": "Obstacle",
+            "value": "Bench",
+            "description": "🄿 Bench, 🄵🅅 Type: Bench",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/bench.svg"
+        },
+        {
+            "key": "Obstacle",
+            "value": "Bollard",
+            "description": "🄿 Bollard, 🄵🅅 Type: Bollard",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/bollard_row.svg"
+        },
+        {
+            "key": "Obstacle",
+            "value": "CycleBarrier",
+            "description": "🄿 Cycle Barrier, 🄵🅅 Type: Cycle Barrier",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/cycle_barrier.svg"
+        },
+        {
+            "key": "Obstacle",
+            "value": "Kerb",
+            "description": "🄿 Kerb, 🄵🅅 Type: Kerb",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/kerb-raised.svg"
+        },
+        {
+            "key": "Obstacle",
+            "value": "Pole",
+            "description": "🄿 Pole, 🄵🅅 Type: Pole",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/street_lamp_arm.svg"
+        },
+        {
+            "key": "Obstacle",
+            "value": "PostBox",
+            "description": "🄿 Post Box, 🄵🅅 Type: Post Box",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/post_box.svg"
+        },
+        {
+            "key": "Obstacle",
+            "value": "RoughSurface",
+            "description": "🄿 Rough Surface, 🄵🅅 Type: Rough Surface",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/boulder1.svg"
+        },
+        {
+            "key": "Obstacle",
+            "value": "Shelter",
+            "description": "🄿 Shelter, 🄵🅅 Type: Shelter",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/shelter-15.svg"
+        },
+        {
+            "key": "Obstacle",
+            "value": "Toilets",
+            "description": "🄿 Toilets, 🄵🅅 Type: Toilets",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/toilet-15.svg"
+        },
+        {
+            "key": "Obstacle",
+            "value": "Turnstile",
+            "description": "🄿 Turnstile, 🄵🅅 Type: Turnstile",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/turnstile.svg"
+        },
+        {
+            "key": "Obstacle",
+            "value": "Vegetation",
+            "description": "🄿 Vegetation, 🄵🅅 Type: Vegetation",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/tree_row.svg"
+        },
+        {
+            "key": "Obstacle",
+            "value": "Yes",
+            "description": "🄿 Obstacle, 🄵🅅 Type: Other kind of obstacle",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/height_restrictor.svg"
+        },
+        {
+            "key": "ParkingBay",
+            "value": "Disabled",
+            "description": "🄿 Disabled Designated Parking Bay",
+            "object_types": [
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/accessible_space.svg"
+        },
+        {
+            "key": "PathJunction",
+            "value": "Yes",
+            "description": "🄿 Path Junction",
+            "object_types": [
+                "node"
+            ]
+        },
+        {
+            "key": "PointOfInterest",
+            "description": "🄿 PointOfInterest (unsearchable), 🄵 Type",
+            "object_types": [
+                "area"
+            ]
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "Bank",
+            "description": "🄿 Bank, 🄵🅅 Type: Bank",
             "object_types": [
                 "area"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/bank-15.svg"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "Museum",
+            "description": "🄿 Museum, 🄵🅅 Type: Museum",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/museum-15.svg"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "Office",
+            "description": "🄿 Office, 🄵🅅 Type: Office",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/suitcase-15.svg"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "StopPlace",
+            "description": "🄿 StopPlace (unsearchable), 🄵🅅 Type: StopPlace",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/transit-15.svg"
+        },
+        {
+            "key": "StopPlace",
+            "value": "Airport",
+            "description": "🄿 Airport, 🄵🅅 Type: Airport",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/airport.svg"
+        },
+        {
+            "key": "StopPlace",
+            "value": "BusStation",
+            "description": "🄿 Bus Station, 🄵🅅 Type: BusStation",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/bus.svg"
+        },
+        {
+            "key": "StopPlace",
+            "value": "CoachStation",
+            "description": "🄿 Coach Station, 🄵🅅 Type: CoachStation",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/bus.svg"
+        },
+        {
+            "key": "StopPlace",
+            "value": "FerryPort",
+            "description": "🄿 Ferry Port, 🄵🅅 Type: FerryPort",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/ferry.svg"
+        },
+        {
+            "key": "StopPlace",
+            "value": "LiftStation",
+            "description": "🄿 Lift Station, 🄵🅅 Type: LiftStation",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/gondola_lift.svg"
+        },
+        {
+            "key": "StopPlace",
+            "value": "MetroStation",
+            "description": "🄿 Metro Station, 🄵🅅 Type: MetroStation",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/subway.svg"
+        },
+        {
+            "key": "StopPlace",
+            "value": "RailStation",
+            "description": "🄿 Train Station, 🄵🅅 Type: RailStation",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/train.svg"
+        },
+        {
+            "key": "StopPlace",
+            "value": "TramStation",
+            "description": "🄿 Tramway Station, 🄵🅅 Type: TramStation",
+            "object_types": [
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/tram.svg"
         },
         {
             "key": "SitePathLink",
@@ -56,7 +532,8 @@
             "value": "Crossing",
             "description": "🄿 Crossing, 🄵🅅 Type: Crossing",
             "object_types": [
-                "way"
+                "way",
+                "node"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/pedestrian_crosswalk.svg"
         },
@@ -65,7 +542,8 @@
             "value": "CycleWay",
             "description": "🄿 Cycle Road Crossing, 🄵🅅 Crossing Type: bicycle road crossing",
             "object_types": [
-                "way"
+                "way",
+                "node"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/cyclist_crosswalk.svg"
         },
@@ -83,7 +561,8 @@
             "value": "Road",
             "description": "🄿 Road Crossing, 🄵🅅 Crossing Type: road crossing",
             "object_types": [
-                "way"
+                "way",
+                "node"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/pedestrian_crosswalk.svg"
         },
@@ -104,6 +583,16 @@
                 "way"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/iD-sprite/presets/tram-crossing.svg"
+        },
+        {
+            "key": "SitePathLink",
+            "value": "Elevator",
+            "description": "🄿 Elevator, 🄵🅅 Type: Elevator",
+            "object_types": [
+                "way",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/iD-sprite/presets/elevator.svg"
         },
         {
             "key": "SitePathLink",
@@ -206,15 +695,6 @@
         },
         {
             "key": "TransportMode",
-            "value": "Tram",
-            "description": "🄿 Tram Quay, 🄵🅅 Transport Mode: Tram",
-            "object_types": [
-                "way"
-            ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/board_tram.svg"
-        },
-        {
-            "key": "TransportMode",
             "value": "TrolleyBus",
             "description": "🄿 Trolleybus Quay, 🄵🅅 Transport Mode: TrolleyBus",
             "object_types": [
@@ -247,7 +727,7 @@
             "object_types": [
                 "way"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/pedestrian.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/iD-sprite/presets/ramp.svg"
         },
         {
             "key": "SitePathLink",
@@ -275,6 +755,41 @@
                 "way"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/iD-sprite/presets/travelator.svg"
+        },
+        {
+            "key": "StopPlace",
+            "description": "🄿 StopPlace Feature (unsearchable), 🄵 Type",
+            "object_types": [
+                "relation"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/iD-sprite/presets/route.svg"
+        },
+        {
+            "key": "StopPlace",
+            "value": "FerryStop",
+            "description": "🄿 Gathering of Ferry Stops",
+            "object_types": [
+                "relation"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/iD-sprite/presets/route.svg"
+        },
+        {
+            "key": "StopPlace",
+            "value": "OnstreetBus",
+            "description": "🄿 Gathering of On-street Bus Stops",
+            "object_types": [
+                "relation"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/iD-sprite/presets/route.svg"
+        },
+        {
+            "key": "StopPlace",
+            "value": "OnstreetTram",
+            "description": "🄿 Gathering of On-street Tram Stops",
+            "object_types": [
+                "relation"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/iD-sprite/presets/route.svg"
         },
         {
             "key": "Slope",
@@ -314,12 +829,53 @@
             "description": "🄵🅅 Status of accoustic crossing aid: accoustic crossing aid deteriorations causing safety issue"
         },
         {
+            "key": "AcousticAnnouncements",
+            "description": "🄵 Acoustic Announcements"
+        },
+        {
+            "key": "Attendant",
+            "description": "🄵 Attendant Providing Help"
+        },
+        {
             "key": "AudibleSignals:Description",
             "description": "🄵 What is limited about the audible signals"
         },
         {
             "key": "AudibleSignals",
             "description": "🄵 Audible Signals available"
+        },
+        {
+            "key": "AutomaticDoor",
+            "description": "🄵 Automatic Door"
+        },
+        {
+            "key": "BayGeometry",
+            "description": "🄵 Bay Geometry"
+        },
+        {
+            "key": "BayGeometry",
+            "value": "Orthogonal",
+            "description": "🄵🅅 Bay Geometry: Orthogonal"
+        },
+        {
+            "key": "BayGeometry",
+            "value": "Angled",
+            "description": "🄵🅅 Bay Geometry: Angled"
+        },
+        {
+            "key": "BayGeometry",
+            "value": "Parallel",
+            "description": "🄵🅅 Bay Geometry: Parallel"
+        },
+        {
+            "key": "BayGeometry",
+            "value": "FreeFormat",
+            "description": "🄵🅅 Bay Geometry: FreeFormat"
+        },
+        {
+            "key": "BayGeometry",
+            "value": "Unspecified",
+            "description": "🄵🅅 Bay Geometry: Unspecified"
         },
         {
             "key": "comment",
@@ -349,8 +905,79 @@
             "description": "🄵 Crossing Type"
         },
         {
+            "key": "Depth",
+            "description": "🄵 Depth (in meters)"
+        },
+        {
             "key": "Description",
             "description": "🄵 Description"
+        },
+        {
+            "key": "Door",
+            "description": "🄵 Door"
+        },
+        {
+            "key": "Door",
+            "value": "Hinged",
+            "description": "🄵🅅 Door: Hinged Door"
+        },
+        {
+            "key": "Door",
+            "value": "Sliding",
+            "description": "🄵🅅 Door: Sliding Door"
+        },
+        {
+            "key": "Door",
+            "value": "Revolving",
+            "description": "🄵🅅 Door: Revolving Door"
+        },
+        {
+            "key": "Door",
+            "value": "Swing",
+            "description": "🄵🅅 Door: Swing Door"
+        },
+        {
+            "key": "DoorHandle",
+            "description": "🄵 Door Handle"
+        },
+        {
+            "key": "DoorHandle",
+            "value": "None",
+            "description": "🄵🅅 Door Handle: No Handle"
+        },
+        {
+            "key": "DoorHandle",
+            "value": "Lever",
+            "description": "🄵🅅 Door Handle: Lever Handle"
+        },
+        {
+            "key": "DoorHandle",
+            "value": "Button",
+            "description": "🄵🅅 Door Handle: Button"
+        },
+        {
+            "key": "EntrancePassage",
+            "description": "🄵 Entrance Passage"
+        },
+        {
+            "key": "EntrancePassage",
+            "value": "Opening",
+            "description": "🄵🅅 Entrance Passage: Opening"
+        },
+        {
+            "key": "EntrancePassage",
+            "value": "Door",
+            "description": "🄵🅅 Entrance Passage: Door"
+        },
+        {
+            "key": "EntrancePassage",
+            "value": "Gate",
+            "description": "🄵🅅 Entrance Passage: Gate"
+        },
+        {
+            "key": "EntrancePassage",
+            "value": "Barrier",
+            "description": "🄵🅅 Entrance Passage: Barrier"
         },
         {
             "key": "FixMe",
@@ -522,6 +1149,10 @@
             "description": "🄵 Hashtags"
         },
         {
+            "key": "Height",
+            "description": "🄵 Height (in meters)"
+        },
+        {
             "key": "HighwayType",
             "description": "🄵 HighwayType"
         },
@@ -556,6 +1187,10 @@
             "description": "🄵🅅 HighwayType: other kind of Highway"
         },
         {
+            "key": "Image",
+            "description": "🄵 Image"
+        },
+        {
             "key": "Incline",
             "description": "🄵 Incline"
         },
@@ -573,6 +1208,26 @@
             "key": "Incline",
             "value": "No",
             "description": "🄵🅅 Incline: no change of level"
+        },
+        {
+            "key": "InternalWidth",
+            "description": "🄵 Internal Width (in meters)"
+        },
+        {
+            "key": "IsEntry",
+            "description": "🄵 Is Entry ?"
+        },
+        {
+            "key": "IsExit",
+            "description": "🄵 Is Exit ?"
+        },
+        {
+            "key": "KerbHeight",
+            "description": "🄵 Kerb Height (in meters)"
+        },
+        {
+            "key": "Length",
+            "description": "🄵 Length (in meters)"
         },
         {
             "key": "Lighting",
@@ -594,12 +1249,52 @@
             "description": "🄵🅅 Lighting: unlit"
         },
         {
+            "key": "MagneticInductionLoop",
+            "description": "🄵 Magnetic Induction Loop"
+        },
+        {
             "key": "ManoeuvringDiameter",
             "description": "🄵 Diameter for Wheelchair Manoeuvring (in meters)"
         },
         {
+            "key": "MirrorOnOppositeSide",
+            "description": "🄵 Mirror On Opposite Side"
+        },
+        {
             "key": "Name",
             "description": "🄵 Name"
+        },
+        {
+            "key": "NecessaryForceToOpen",
+            "description": "🄵 Necessary Force To Open (in Newton)"
+        },
+        {
+            "key": "NonGeographicalLocation",
+            "description": "🄵 Don't export geographical location"
+        },
+        {
+            "key": "ObstacleType",
+            "description": "🄵 Obstacle Type"
+        },
+        {
+            "key": "ObstacleType",
+            "value": "Surface",
+            "description": "🄵🅅 Obstacle Type: Surface"
+        },
+        {
+            "key": "ObstacleType",
+            "value": "Ground",
+            "description": "🄵🅅 Obstacle Type: Ground"
+        },
+        {
+            "key": "ObstacleType",
+            "value": "Pass",
+            "description": "🄵🅅 Obstacle Type: Pass"
+        },
+        {
+            "key": "ObstacleType",
+            "value": "Overhanging",
+            "description": "🄵🅅 Obstacle Type: Overhanging"
         },
         {
             "key": "Outdoor",
@@ -621,16 +1316,148 @@
             "description": "🄵🅅 Outdoor: is outside, but beside a roof"
         },
         {
+            "key": "ParkingVisibility",
+            "description": "🄵 Bay Visibility"
+        },
+        {
+            "key": "ParkingVisibility",
+            "value": "Unmarked",
+            "description": "🄵🅅 Bay Visibility: Unmarked"
+        },
+        {
+            "key": "ParkingVisibility",
+            "value": "SignageOnly",
+            "description": "🄵🅅 Bay Visibility: SignageOnly"
+        },
+        {
+            "key": "ParkingVisibility",
+            "value": "MarkingOnly",
+            "description": "🄵🅅 Bay Visibility: MarkingOnly"
+        },
+        {
+            "key": "ParkingVisibility",
+            "value": "Docks",
+            "description": "🄵🅅 Bay Visibility: Docks"
+        },
+        {
+            "key": "ParkingVisibility",
+            "value": "Demarcated",
+            "description": "🄵🅅 Bay Visibility: Demarcated"
+        },
+        {
             "key": "PedestrianLights",
             "description": "🄵 Pedestrian Lights"
         },
         {
-            "key": "phone",
+            "key": "Phone",
             "description": "🄵 Telephone"
         },
         {
+            "key": "PointOfInterest",
+            "value": "Shop",
+            "description": "🄵🅅 Type: Shop"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "Government",
+            "description": "🄵🅅 Type: Government"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "Restaurant",
+            "description": "🄵🅅 Type: Restaurant"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "Lodging",
+            "description": "🄵🅅 Type: Lodging"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "Youth",
+            "description": "🄵🅅 Type: Youth"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "Library",
+            "description": "🄵🅅 Type: Library"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "Healthcare",
+            "description": "🄵🅅 Type: Healthcare"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "Religion",
+            "description": "🄵🅅 Type: Religion"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "Sport",
+            "description": "🄵🅅 Type: Sport"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "Game",
+            "description": "🄵🅅 Type: Game"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "Exhibition",
+            "description": "🄵🅅 Type: Exhibition"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "DisabledCare",
+            "description": "🄵🅅 Type: DisabledCare"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "Senior",
+            "description": "🄵🅅 Type: Senior"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "Theater",
+            "description": "🄵🅅 Type: Theater"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "OutdoorVenue",
+            "description": "🄵🅅 Type: OutdoorVenue"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "ParkingLots",
+            "description": "🄵🅅 Type: ParkingLots"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "MountainShelter",
+            "description": "🄵🅅 Type: MountainShelter"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "AltitudeHotelRestaurant",
+            "description": "🄵🅅 Type: AltitudeHotelRestaurant"
+        },
+        {
+            "key": "PointOfInterest",
+            "value": "InflatableVenue",
+            "description": "🄵🅅 Type: InflatableVenue"
+        },
+        {
             "key": "PublicCode",
-            "description": "🄵 Platform Number"
+            "description": "🄵 Public Code"
+        },
+        {
+            "key": "RaisedButtons",
+            "description": "🄵 Raised Buttons"
+        },
+        {
+            "key": "ref:FR:SIRET",
+            "description": "🄵 SIRET Number"
         },
         {
             "key": "source",
@@ -750,8 +1577,129 @@
             "description": "🄵 Tactile Guiding Strip"
         },
         {
+            "key": "TactileWarningStrip",
+            "description": "🄵 Status of Tactile Warning Strips"
+        },
+        {
+            "key": "TactileWarningStrip",
+            "value": "None",
+            "description": "🄵🅅 Status of Tactile Warning Strips: none"
+        },
+        {
+            "key": "TactileWarningStrip",
+            "value": "Good",
+            "description": "🄵🅅 Status of Tactile Warning Strips: appropriate"
+        },
+        {
+            "key": "TactileWarningStrip",
+            "value": "Worn",
+            "description": "🄵🅅 Status of Tactile Warning Strips: non-severe deteriorations"
+        },
+        {
+            "key": "TactileWarningStrip",
+            "value": "Discomfortable",
+            "description": "🄵🅅 Status of Tactile Warning Strips: deteriorations causing discomfort or difficulty in use"
+        },
+        {
+            "key": "TactileWarningStrip",
+            "value": "Hazardous",
+            "description": "🄵🅅 Status of Tactile Warning Strips: deteriorations causing safety issue"
+        },
+        {
+            "key": "Tactile Warning Strip Installation",
+            "description": "🄵 Tactile Warning Strip Installation"
+        },
+        {
+            "key": "Tactile Warning Strip Installation",
+            "value": "Usual",
+            "description": "🄵🅅 Tactile Warning Strip Installation: Usual"
+        },
+        {
+            "key": "Tactile Warning Strip Installation",
+            "value": "Across",
+            "description": "🄵🅅 Tactile Warning Strip Installation: Across"
+        },
+        {
+            "key": "Tactile Warning Strip Installation",
+            "value": "Curved",
+            "description": "🄵🅅 Tactile Warning Strip Installation: Curved"
+        },
+        {
+            "key": "Tactile Warning Strip Installation",
+            "value": "InsufficientWidth",
+            "description": "🄵🅅 Tactile Warning Strip Installation: Insufficient Width"
+        },
+        {
+            "key": "Tactile Warning Strip Installation",
+            "value": "TooLargeWidth",
+            "description": "🄵🅅 Tactile Warning Strip Installation: Too Large Width"
+        },
+        {
+            "key": "Tactile Warning Strip Installation",
+            "value": "ShallowDepth",
+            "description": "🄵🅅 Tactile Warning Strip Installation: Shallow Depth"
+        },
+        {
+            "key": "Tactile Warning Strip Installation",
+            "value": "NonContrasting",
+            "description": "🄵🅅 Tactile Warning Strip Installation: Non Contrasting"
+        },
+        {
             "key": "TransportMode",
             "description": "🄵 Transport Mode"
+        },
+        {
+            "key": "TransportModes",
+            "description": "🄵 Transport modes"
+        },
+        {
+            "key": "TransportModes",
+            "value": "Bus",
+            "description": "🄵🅅 Transport modes: Bus"
+        },
+        {
+            "key": "TransportModes",
+            "value": "Coach",
+            "description": "🄵🅅 Transport modes: Coach"
+        },
+        {
+            "key": "TransportModes",
+            "value": "Tram",
+            "description": "🄵🅅 Transport modes: Tram"
+        },
+        {
+            "key": "TransportModes",
+            "value": "Water",
+            "description": "🄵🅅 Transport modes: Water"
+        },
+        {
+            "key": "TransportModes",
+            "value": "Funicular",
+            "description": "🄵🅅 Transport modes: Funicular"
+        },
+        {
+            "key": "TransportModes",
+            "value": "TrolleyBus",
+            "description": "🄵🅅 Transport modes: TrolleyBus"
+        },
+        {
+            "key": "TransportModes",
+            "value": "CableWay",
+            "description": "🄵🅅 Transport modes: CableWay"
+        },
+        {
+            "key": "TransportModes",
+            "value": "Rail",
+            "description": "🄵🅅 Transport modes: Rail"
+        },
+        {
+            "key": "TransportModes",
+            "value": "Air",
+            "description": "🄵🅅 Transport modes: Air"
+        },
+        {
+            "key": "VehicleRecharging",
+            "description": "🄵 Electric Vehicle Can Be Charged"
         },
         {
             "key": "VisualGuidanceBands",
@@ -766,7 +1714,7 @@
             "description": "🄵 Visual Signs available"
         },
         {
-            "key": "website",
+            "key": "Website",
             "description": "🄵 Website"
         },
         {

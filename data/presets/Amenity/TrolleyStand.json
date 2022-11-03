@@ -1,0 +1,20 @@
+{
+    "icon": "fas-shopping-cart",
+    "geometry": [
+        "point"
+    ],
+    "terms": [
+        "carriage return",
+        "cart return",
+        "trolley bay"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Amenity": "TrolleyStand"
+    },
+    "addTags": {
+        "Amenity": "TrolleyStand"
+    },
+    "name": "Trolley Stand"
+}

@@ -1,0 +1,34 @@
+{
+    "icon": "temaki-board_subway",
+    "fields": [
+        "Name",
+        "WheelchairAccess",
+        "VisualSigns",
+        "AudibleSignals"
+    ],
+    "moreFields": [
+        "PublicCode",
+        "ManoeuvringDiameter",
+        "WheelchairAccess_Description",
+        "VisualSigns_Description",
+        "AudibleSignals_Description"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "InsideSpace": "Quay",
+        "TransportMode": "Metro"
+    },
+    "addTags": {
+        "InsideSpace": "Quay",
+        "TransportMode": "Metro"
+    },
+    "terms": [
+        "subway",
+        "platform",
+        "public transit",
+        "public transportation"
+    ],
+    "name": "Metro Quay"
+}

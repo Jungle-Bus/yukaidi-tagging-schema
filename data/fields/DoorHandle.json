@@ -1,0 +1,15 @@
+{
+    "key": "DoorHandle",
+    "type": "combo",
+    "label": "Door Handle",
+    "placeholder": "lever, button, ...",
+    "strings": {
+        "options": {
+            "None": "No Handle",
+            "Lever": "Lever Handle",
+            "Button": "Button"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

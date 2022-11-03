@@ -1,0 +1,21 @@
+{
+    "icon": "temaki-height_restrictor",
+    "geometry": [
+        "vertex"
+    ],
+    "terms": [
+        "barrier",
+        "wall"
+    ],
+    "fields": [
+        "ObstacleType"
+    ],
+    "moreFields": [],
+    "tags": {
+        "Obstacle": "Yes"
+    },
+    "addTags": {
+        "Obstacle": "Yes"
+    },
+    "name": "Obstacle"
+}

@@ -1,0 +1,19 @@
+{
+    "key": "Tactile Warning Strip Installation",
+    "type": "combo",
+    "label": "Tactile Warning Strip Installation",
+    "placeholder": "across, curved, ...",
+    "strings": {
+        "options": {
+            "Usual": "Usual",
+            "Across": "Across",
+            "Curved": "Curved",
+            "InsufficientWidth": "Insufficient Width",
+            "TooLargeWidth": "Too Large Width",
+            "ShallowDepth": "Shallow Depth",
+            "NonContrasting": "Non Contrasting"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

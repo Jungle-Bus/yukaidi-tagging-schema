@@ -1,0 +1,27 @@
+{
+    "icon": "temaki-train",
+    "geometry": [
+        "area"
+    ],
+    "terms": [
+        "train terminal",
+        "railway station",
+        "rail station"
+    ],
+    "fields": [
+        "Name",
+        "WheelchairAccess",
+        "AudibleSignals",
+        "VisualSigns"
+    ],
+    "moreFields": [],
+    "tags": {
+        "StopPlace": "RailStation"
+    },
+    "addTags": {
+        "PointOfInterest": "StopPlace",
+        "StopPlace": "RailStation",
+        "area": "yes"
+    },
+    "name": "Train Station"
+}

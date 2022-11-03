@@ -1,0 +1,26 @@
+{
+    "fields": [
+        "PointOfInterest"
+    ],
+    "moreFields": [
+        "WheelchairAccess_Description",
+        "VisualSigns_Description",
+        "AudibleSignals_Description",
+        "Name",
+        "Outdoor",
+        "Image",
+        "Phone",
+        "Website",
+        "SIRET_FR",
+        "Lighting",
+        "Gated"
+    ],
+    "geometry": [
+        "area"
+    ],
+    "tags": {
+        "PointOfInterest": "*"
+    },
+    "searchable": false,
+    "name": "PointOfInterest"
+}

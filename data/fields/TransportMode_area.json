@@ -1,0 +1,14 @@
+{
+    "key": "TransportMode",
+    "type": "combo",
+    "label": "Transport Mode",
+    "strings": {
+        "options": {
+            "Rail": "Rail",
+            "Metro": "Metro",
+            "Tram": "Tram"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

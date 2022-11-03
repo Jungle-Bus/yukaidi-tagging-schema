@@ -1,6 +1,7 @@
 {
     "area": [
         "category-poi",
+        "category-public_transport",
         "area"
     ],
     "line": [
@@ -11,9 +12,13 @@
         "line"
     ],
     "point": [
+        "category-indoor",
         "point"
     ],
     "vertex": [
+        "PathJunction",
+        "category-entrance",
+        "category-obstacle",
         "point"
     ],
     "relation": [

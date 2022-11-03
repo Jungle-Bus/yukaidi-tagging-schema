@@ -1,0 +1,34 @@
+{
+    "key": "PointOfInterest",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "Shop": "Shop",
+            "Government": "Government",
+            "Restaurant": "Restaurant",
+            "Lodging": "Lodging",
+            "Youth": "Youth",
+            "Library": "Library",
+            "Healthcare": "Healthcare",
+            "Religion": "Religion",
+            "Bank": "Bank",
+            "Office": "Office",
+            "Sport": "Sport",
+            "Museum": "Museum",
+            "Game": "Game",
+            "Exhibition": "Exhibition",
+            "DisabledCare": "DisabledCare",
+            "Senior": "Senior",
+            "Theater": "Theater",
+            "OutdoorVenue": "OutdoorVenue",
+            "StopPlace": "StopPlace",
+            "ParkingLots": "ParkingLots",
+            "MountainShelter": "MountainShelter",
+            "AltitudeHotelRestaurant": "AltitudeHotelRestaurant",
+            "InflatableVenue": "InflatableVenue"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

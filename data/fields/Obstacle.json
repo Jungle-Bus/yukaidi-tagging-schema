@@ -1,0 +1,23 @@
+{
+    "key": "Obstacle",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "Kerb": "Kerb",
+            "Bench": "Bench",
+            "Shelter": "Shelter",
+            "Toilets": "Toilets",
+            "Pole": "Pole",
+            "PostBox": "Post Box",
+            "Vegetation": "Vegetation",
+            "Turnstile": "Turnstile",
+            "Bollard": "Bollard",
+            "CycleBarrier": "Cycle Barrier",
+            "RoughSurface": "Rough Surface",
+            "Yes": "Other kind of obstacle"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

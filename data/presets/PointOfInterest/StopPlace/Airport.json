@@ -1,0 +1,26 @@
+{
+    "icon": "temaki-airport",
+    "geometry": [
+        "area"
+    ],
+    "terms": [
+        "aerodrome",
+        "aeroway station"
+    ],
+    "fields": [
+        "Name",
+        "WheelchairAccess",
+        "AudibleSignals",
+        "VisualSigns"
+    ],
+    "moreFields": [],
+    "tags": {
+        "StopPlace": "Airport"
+    },
+    "addTags": {
+        "PointOfInterest": "StopPlace",
+        "StopPlace": "Airport",
+        "area": "yes"
+    },
+    "name": "Airport"
+}

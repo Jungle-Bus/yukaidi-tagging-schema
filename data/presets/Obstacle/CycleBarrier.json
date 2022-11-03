@@ -1,0 +1,22 @@
+{
+    "icon": "temaki-cycle_barrier",
+    "geometry": [
+        "vertex"
+    ],
+    "terms": [
+        "bicycle barrier",
+        "bicycling barrier",
+        "bike gates",
+        "cycling barrier"
+    ],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Obstacle": "CycleBarrier"
+    },
+    "addTags": {
+        "Obstacle": "CycleBarrier",
+        "ObstacleType": "Pass"
+    },
+    "name": "Cycle Barrier"
+}

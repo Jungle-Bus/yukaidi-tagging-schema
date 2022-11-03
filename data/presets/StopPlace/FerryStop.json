@@ -1,0 +1,20 @@
+{
+    "icon": "iD-route",
+    "geometry": [
+        "relation"
+    ],
+    "terms": [
+        "monomodal stop place"
+    ],
+    "fields": [
+        "Name"
+    ],
+    "moreFields": [],
+    "tags": {
+        "StopPlace": "FerryStop"
+    },
+    "addTags": {
+        "StopPlace": "FerryStop"
+    },
+    "name": "Gathering of Ferry Stops"
+}

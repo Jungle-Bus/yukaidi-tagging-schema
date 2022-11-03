@@ -1,0 +1,16 @@
+{
+    "key": "Door",
+    "type": "combo",
+    "label": "Door",
+    "placeholder": "sliding, revolving, ...",
+    "strings": {
+        "options": {
+            "Hinged": "Hinged Door",
+            "Sliding": "Sliding Door",
+            "Revolving": "Revolving Door",
+            "Swing": "Swing Door"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

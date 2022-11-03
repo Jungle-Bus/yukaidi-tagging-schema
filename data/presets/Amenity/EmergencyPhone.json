@@ -1,0 +1,16 @@
+{
+    "icon": "maki-emergency-phone",
+    "geometry": [
+        "point"
+    ],
+    "terms": [],
+    "fields": [],
+    "moreFields": [],
+    "tags": {
+        "Amenity": "EmergencyPhone"
+    },
+    "addTags": {
+        "Amenity": "EmergencyPhone"
+    },
+    "name": "Emergency Phone"
+}

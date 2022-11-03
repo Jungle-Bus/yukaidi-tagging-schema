@@ -1,10 +1,11 @@
 {
-    "icon": "temaki-pedestrian",
+    "icon": "iD-ramp",
     "fields": [
         "WheelchairAccess"
     ],
     "moreFields": [
-        "Handrail"
+        "Handrail",
+        "{SitePathLink}"
     ],
     "geometry": [
         "line"

@@ -1,0 +1,5 @@
+{
+    "key": "NonGeographicalLocation",
+    "type": "check",
+    "label": "Don't export geographical location"
+}

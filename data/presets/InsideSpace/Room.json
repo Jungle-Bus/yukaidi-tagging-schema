@@ -1,0 +1,36 @@
+{
+    "icon": "temaki-room",
+    "geometry": [
+        "area"
+    ],
+    "terms": [
+        "antechamber",
+        "anteroom",
+        "atrium",
+        "cell",
+        "chamber",
+        "concourse",
+        "foyer",
+        "indoor room",
+        "lobby",
+        "elevator room",
+        "elevator shaft",
+        "vestibule"
+    ],
+    "fields": [
+        "Name",
+        "WheelchairAccess",
+        "AudibleSignals",
+        "VisualSigns"
+    ],
+    "moreFields": [],
+    "tags": {
+        "InsideSpace": "Room"
+    },
+    "addTags": {
+        "InsideSpace": "Room",
+        "Outdoor": "No",
+        "area": "yes"
+    },
+    "name": "Indoor Room"
+}

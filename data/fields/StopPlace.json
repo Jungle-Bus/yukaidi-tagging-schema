@@ -1,0 +1,19 @@
+{
+    "key": "StopPlace",
+    "type": "combo",
+    "label": "Type",
+    "strings": {
+        "options": {
+            "RailStation": "RailStation",
+            "MetroStation": "MetroStation",
+            "BusStation": "BusStation",
+            "CoachStation": "CoachStation",
+            "TramStation": "TramStation",
+            "FerryPort": "FerryPort",
+            "LiftStation": "LiftStation",
+            "Airport": "Airport"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

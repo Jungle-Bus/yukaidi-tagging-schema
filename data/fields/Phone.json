@@ -1,5 +1,5 @@
 {
-    "key": "phone",
+    "key": "Phone",
     "type": "tel",
     "icon": "maki-telephone",
     "label": "Telephone",

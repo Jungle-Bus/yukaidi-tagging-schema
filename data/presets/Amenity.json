@@ -1,0 +1,17 @@
+{
+    "fields": [
+        "Amenity"
+    ],
+    "moreFields": [
+        "NonGeographicalLocation"
+    ],
+    "geometry": [
+        "point",
+        "vertex"
+    ],
+    "tags": {
+        "Amenity": "*"
+    },
+    "searchable": false,
+    "name": "Amenity"
+}

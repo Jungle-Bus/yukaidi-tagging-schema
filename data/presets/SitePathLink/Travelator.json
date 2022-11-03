@@ -4,7 +4,8 @@
     "moreFields": [
         "Handrail",
         "StoppedIfUnused",
-        "Conveying"
+        "Conveying",
+        "{SitePathLink}"
     ],
     "geometry": [
         "line"

@@ -6,7 +6,8 @@
         "StepCount",
         "StairFlightCount",
         "StepColourContrast",
-        "StepHeight"
+        "StepHeight",
+        "{SitePathLink}"
     ],
     "geometry": [
         "line"

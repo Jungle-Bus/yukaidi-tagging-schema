@@ -1,0 +1,15 @@
+{
+    "key": "ObstacleType",
+    "type": "combo",
+    "label": "Obstacle Type",
+    "strings": {
+        "options": {
+            "Surface": "Surface",
+            "Ground": "Ground",
+            "Pass": "Pass",
+            "Overhanging": "Overhanging"
+        }
+    },
+    "autoSuggestions": false,
+    "customValues": false
+}

@@ -1,0 +1,6 @@
+{
+    "key": "InternalWidth",
+    "type": "number",
+    "minValue": 0,
+    "label": "Internal Width (in meters)"
+}
