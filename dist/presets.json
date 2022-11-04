@@ -1244,6 +1244,23 @@
             "Crossing": "UrbanRail"
         }
     },
+    "SitePathLink/CycleAndFootPath": {
+        "icon": "temaki-pedestrian_and_cyclist",
+        "fields": [
+            "WheelchairAccess"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "SitePathLink": "Footpath",
+            "HighwayType": "Bicycle"
+        },
+        "addTags": {
+            "SitePathLink": "Footpath",
+            "HighwayType": "Bicycle"
+        }
+    },
     "SitePathLink/Elevator": {
         "icon": "iD-elevator",
         "fields": [
@@ -1601,7 +1618,7 @@
         }
     },
     "SitePathLink/Stairs": {
-        "icon": "iD-highway-steps",
+        "icon": "iD-stairs",
         "fields": [],
         "moreFields": [
             "Handrail",

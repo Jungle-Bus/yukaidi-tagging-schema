@@ -585,6 +585,15 @@
             "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/iD-sprite/presets/tram-crossing.svg"
         },
         {
+            "key": "HighwayType",
+            "value": "Bicycle",
+            "description": "🄿 Cycle & Foot Path, 🄵🅅 HighwayType: Greenway, bicycle way",
+            "object_types": [
+                "way"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/pedestrian_and_cyclist.svg"
+        },
+        {
             "key": "SitePathLink",
             "value": "Elevator",
             "description": "🄿 Elevator, 🄵🅅 Type: Elevator",
@@ -736,7 +745,7 @@
             "object_types": [
                 "way"
             ],
-            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/iD-sprite/presets/highway-steps.svg"
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/iD-sprite/presets/stairs.svg"
         },
         {
             "key": "SitePathLink",
@@ -1175,11 +1184,6 @@
             "key": "HighwayType",
             "value": "Pedestrian",
             "description": "🄵🅅 HighwayType: pedestrian street, foot path"
-        },
-        {
-            "key": "HighwayType",
-            "value": "Bicycle",
-            "description": "🄵🅅 HighwayType: Greenway, bicycle way"
         },
         {
             "key": "HighwayType",
