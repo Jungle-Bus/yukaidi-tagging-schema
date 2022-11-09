@@ -1060,6 +1060,7 @@ en:
       PathJunction:
         # PathJunction=Yes | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Path Junction
+        # 'terms: tactile warning strip'
         terms: <translate with synonyms or related terms for 'Path Junction', separated by commas>
       PointOfInterest:
         # PointOfInterest=* | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
@@ -1163,6 +1164,11 @@ en:
         name: Tram Crossing
         # 'terms: grade crossing,level crossing,pedestrian crossing,road tram crossing,streetcar crossing,tram road crossing,tramway crossing,trolley crossing'
         terms: <translate with synonyms or related terms for 'Tram Crossing', separated by commas>
+      SitePathLink/CycleAndFootPath:
+        # SitePathLink=Footpath + HighwayType=Bicycle | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Cycle & Foot Path
+        # 'terms: bicycle and foot path,bike and pedestrian path,green way,greenway,mixed-use trail,multi-use trail,segregated trail,shared path,shared use path,rail trail'
+        terms: <translate with synonyms or related terms for 'Cycle & Foot Path', separated by commas>
       SitePathLink/Elevator:
         # SitePathLink=Elevator | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Elevator

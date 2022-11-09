@@ -762,7 +762,8 @@
                     "terms": "disabled parking stall,handicap parking spot,disabled parking spot,disabled parking space,cccessible parking space"
                 },
                 "PathJunction": {
-                    "name": "Path Junction"
+                    "name": "Path Junction",
+                    "terms": "tactile warning strip"
                 },
                 "point": {
                     "name": "Point",
@@ -853,6 +854,10 @@
                 "SitePathLink/Crossing/UrbanRail": {
                     "name": "Tram Crossing",
                     "terms": "grade crossing,level crossing,pedestrian crossing,road tram crossing,streetcar crossing,tram road crossing,tramway crossing,trolley crossing"
+                },
+                "SitePathLink/CycleAndFootPath": {
+                    "name": "Cycle & Foot Path",
+                    "terms": "bicycle and foot path,bike and pedestrian path,green way,greenway,mixed-use trail,multi-use trail,segregated trail,shared path,shared use path,rail trail"
                 },
                 "SitePathLink/Elevator": {
                     "name": "Elevator",
