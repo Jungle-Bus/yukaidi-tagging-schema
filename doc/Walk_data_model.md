@@ -12,7 +12,6 @@ Les noeuds d'origine et de destination doivent correspondre au début d'un autre
 
 ### Valeurs
 
-<<<<<<< HEAD
 | Clef         | Valeur          | Description                                                                                                         |
 | ------------ | --------------- | ------------------------------------------------------------------------------------------------------------------- |
 | SitePathLink | Pavement        | un trottoir                                                                                                         |
