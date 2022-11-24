@@ -18,8 +18,7 @@
     },
     "addTags": {
         "PointOfInterest": "StopPlace",
-        "StopPlace": "CoachStation",
-        "area": "yes"
+        "StopPlace": "CoachStation"
     },
     "name": "Coach Station"
 }

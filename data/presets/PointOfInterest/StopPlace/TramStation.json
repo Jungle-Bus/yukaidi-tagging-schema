@@ -19,8 +19,7 @@
     },
     "addTags": {
         "PointOfInterest": "StopPlace",
-        "StopPlace": "TramStation",
-        "area": "yes"
+        "StopPlace": "TramStation"
     },
     "name": "Tramway Station"
 }

@@ -28,8 +28,7 @@
         "PointOfInterest": "Bank"
     },
     "addTags": {
-        "PointOfInterest": "Bank",
-        "area": "yes"
+        "PointOfInterest": "Bank"
     },
     "name": "Bank"
 }

@@ -134,8 +134,8 @@
             "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-shopping-cart.svg"
         },
         {
-            "key": "area",
-            "value": "yes",
+            "key": "Area",
+            "value": "Yes",
             "description": "🄿 Area",
             "object_types": [
                 "area"

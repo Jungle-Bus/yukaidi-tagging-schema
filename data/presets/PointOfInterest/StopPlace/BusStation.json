@@ -18,8 +18,7 @@
     },
     "addTags": {
         "PointOfInterest": "StopPlace",
-        "StopPlace": "BusStation",
-        "area": "yes"
+        "StopPlace": "BusStation"
     },
     "name": "Bus Station"
 }

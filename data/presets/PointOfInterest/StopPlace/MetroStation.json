@@ -19,8 +19,7 @@
     },
     "addTags": {
         "PointOfInterest": "StopPlace",
-        "StopPlace": "MetroStation",
-        "area": "yes"
+        "StopPlace": "MetroStation"
     },
     "name": "Metro Station"
 }

@@ -19,8 +19,7 @@
         "InsideSpace": "Area"
     },
     "addTags": {
-        "InsideSpace": "Area",
-        "area": "yes"
+        "InsideSpace": "Area"
     },
     "name": "Area"
 }
