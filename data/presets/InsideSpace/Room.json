@@ -29,8 +29,7 @@
     },
     "addTags": {
         "InsideSpace": "Room",
-        "Outdoor": "No",
-        "area": "yes"
+        "Outdoor": "No"
     },
     "name": "Indoor Room"
 }

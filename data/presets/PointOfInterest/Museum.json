@@ -25,8 +25,7 @@
         "PointOfInterest": "Museum"
     },
     "addTags": {
-        "PointOfInterest": "Museum",
-        "area": "yes"
+        "PointOfInterest": "Museum"
     },
     "name": "Museum"
 }

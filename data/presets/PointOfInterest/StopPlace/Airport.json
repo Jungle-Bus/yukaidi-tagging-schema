@@ -19,8 +19,7 @@
     },
     "addTags": {
         "PointOfInterest": "StopPlace",
-        "StopPlace": "Airport",
-        "area": "yes"
+        "StopPlace": "Airport"
     },
     "name": "Airport"
 }

@@ -224,7 +224,7 @@
             "area"
         ],
         "tags": {
-            "area": "yes"
+            "Area": "Yes"
         },
         "matchScore": 0.1
     },
@@ -348,8 +348,7 @@
             "InsideSpace": "Area"
         },
         "addTags": {
-            "InsideSpace": "Area",
-            "area": "yes"
+            "InsideSpace": "Area"
         }
     },
     "InsideSpace/Corridor": {
@@ -368,8 +367,7 @@
             "InsideSpace": "Corridor"
         },
         "addTags": {
-            "InsideSpace": "Corridor",
-            "area": "yes"
+            "InsideSpace": "Corridor"
         }
     },
     "InsideSpace/Quay": {
@@ -484,8 +482,7 @@
         },
         "addTags": {
             "InsideSpace": "Room",
-            "Outdoor": "No",
-            "area": "yes"
+            "Outdoor": "No"
         }
     },
     "line": {
@@ -789,8 +786,7 @@
             "PointOfInterest": "Bank"
         },
         "addTags": {
-            "PointOfInterest": "Bank",
-            "area": "yes"
+            "PointOfInterest": "Bank"
         }
     },
     "PointOfInterest/Museum": {
@@ -809,8 +805,7 @@
             "PointOfInterest": "Museum"
         },
         "addTags": {
-            "PointOfInterest": "Museum",
-            "area": "yes"
+            "PointOfInterest": "Museum"
         }
     },
     "PointOfInterest/Office": {
@@ -829,8 +824,7 @@
             "PointOfInterest": "Office"
         },
         "addTags": {
-            "PointOfInterest": "Office",
-            "area": "yes"
+            "PointOfInterest": "Office"
         }
     },
     "PointOfInterest/StopPlace": {
@@ -861,8 +855,7 @@
             "PointOfInterest": "StopPlace"
         },
         "addTags": {
-            "PointOfInterest": "StopPlace",
-            "area": "yes"
+            "PointOfInterest": "StopPlace"
         },
         "searchable": false
     },
@@ -883,8 +876,7 @@
         },
         "addTags": {
             "PointOfInterest": "StopPlace",
-            "StopPlace": "Airport",
-            "area": "yes"
+            "StopPlace": "Airport"
         }
     },
     "PointOfInterest/StopPlace/BusStation": {
@@ -904,8 +896,7 @@
         },
         "addTags": {
             "PointOfInterest": "StopPlace",
-            "StopPlace": "BusStation",
-            "area": "yes"
+            "StopPlace": "BusStation"
         }
     },
     "PointOfInterest/StopPlace/CoachStation": {
@@ -925,8 +916,7 @@
         },
         "addTags": {
             "PointOfInterest": "StopPlace",
-            "StopPlace": "CoachStation",
-            "area": "yes"
+            "StopPlace": "CoachStation"
         }
     },
     "PointOfInterest/StopPlace/FerryPort": {
@@ -946,8 +936,7 @@
         },
         "addTags": {
             "PointOfInterest": "StopPlace",
-            "StopPlace": "FerryPort",
-            "area": "yes"
+            "StopPlace": "FerryPort"
         }
     },
     "PointOfInterest/StopPlace/LiftStation": {
@@ -967,8 +956,7 @@
         },
         "addTags": {
             "PointOfInterest": "StopPlace",
-            "StopPlace": "LiftStation",
-            "area": "yes"
+            "StopPlace": "LiftStation"
         }
     },
     "PointOfInterest/StopPlace/MetroStation": {
@@ -988,8 +976,7 @@
         },
         "addTags": {
             "PointOfInterest": "StopPlace",
-            "StopPlace": "MetroStation",
-            "area": "yes"
+            "StopPlace": "MetroStation"
         }
     },
     "PointOfInterest/StopPlace/RailStation": {
@@ -1009,8 +996,7 @@
         },
         "addTags": {
             "PointOfInterest": "StopPlace",
-            "StopPlace": "RailStation",
-            "area": "yes"
+            "StopPlace": "RailStation"
         }
     },
     "PointOfInterest/StopPlace/TramStation": {
@@ -1030,8 +1016,7 @@
         },
         "addTags": {
             "PointOfInterest": "StopPlace",
-            "StopPlace": "TramStation",
-            "area": "yes"
+            "StopPlace": "TramStation"
         }
     },
     "relation": {

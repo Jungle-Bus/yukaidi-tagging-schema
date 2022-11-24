@@ -26,8 +26,7 @@
         "PointOfInterest": "StopPlace"
     },
     "addTags": {
-        "PointOfInterest": "StopPlace",
-        "area": "yes"
+        "PointOfInterest": "StopPlace"
     },
     "searchable": false,
     "name": "StopPlace"

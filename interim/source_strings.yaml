@@ -1284,7 +1284,7 @@ en:
         # 'terms: monomodal stop place'
         terms: <translate with synonyms or related terms for 'Gathering of On-street Tram Stops', separated by commas>
       area:
-        # area=yes | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        # Area=Yes | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Area
         # 'terms: polygon'
         terms: <translate with synonyms or related terms for 'Area', separated by commas>

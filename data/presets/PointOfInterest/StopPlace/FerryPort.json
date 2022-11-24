@@ -22,8 +22,7 @@
     },
     "addTags": {
         "PointOfInterest": "StopPlace",
-        "StopPlace": "FerryPort",
-        "area": "yes"
+        "StopPlace": "FerryPort"
     },
     "name": "Ferry Port"
 }
