@@ -1,7 +1,6 @@
 {
     "key": "WheelchairAccess",
     "type": "radio",
-    "icon": "maki-wheelchair",
     "label": "Wheelchair Access",
     "strings": {
         "options": {

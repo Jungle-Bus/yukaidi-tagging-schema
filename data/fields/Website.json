@@ -1,7 +1,6 @@
 {
     "key": "Website",
     "type": "url",
-    "icon": "website",
     "placeholder": "https://example.com",
     "label": "Website",
     "terms": [
