@@ -1,0 +1,30 @@
+{
+    "name": "Tabletop Game Store",
+    "icon": "fas-dice",
+    "terms": [
+        "board game",
+        "card game",
+        "dice game",
+        "game shop",
+        "larp",
+        "live action role-playing game",
+        "miniature wargame",
+        "role-playing",
+        "strategy game",
+        "wargame"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Games"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

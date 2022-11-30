@@ -1,0 +1,26 @@
+{
+    "name": "Funeral Home",
+    "icon": "maki-cemetery",
+    "terms": [
+        "undertaker",
+        "memorial home",
+        "mortuary"
+    ],
+    "aliases": [
+        "Funeral Parlor"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "FuneralDirectors"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

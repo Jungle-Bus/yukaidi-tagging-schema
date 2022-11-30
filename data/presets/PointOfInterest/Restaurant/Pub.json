@@ -1,0 +1,26 @@
+{
+    "name": "Pub",
+    "icon": "maki-beer",
+    "terms": [
+        "alcohol",
+        "drink",
+        "dive",
+        "beer",
+        "bier",
+        "booze"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Restaurant",
+        "Restaurant": "Pub"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

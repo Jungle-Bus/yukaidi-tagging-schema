@@ -1,0 +1,18 @@
+{
+    "name": "Courthouse",
+    "icon": "fas-gavel",
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Government",
+        "Government": "CourtHouse"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

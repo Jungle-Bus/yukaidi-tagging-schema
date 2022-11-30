@@ -53,13 +53,13 @@ Les noeuds d'origine et de destination doivent correspondre au début d'un autre
 #### Tags complémentaires des SitePathLink = Crossing
 
 
-Les passages piétons et traversées peuvent avoir des tags complémentaires : 
+Les passages piétons et traversées peuvent avoir des tags complémentaires :
 | Clef | Description | Contraintes sur la valeur | Exemple |
 | ---- | ----------- | ------------------------- | ------- |
 | Crossing | type de traversée | Valeurs autorisées : <br> - Rail (passage à niveau)<br> - UrbanRail (passage à niveau croisant des voies de tram)<br> -  Road (passage piéton, traversée de route)<br> - RoadWithIsland (passage piéton avec îlot en centre de voirie)<br> -  CycleWay (passage piéton sur piste cyclable) | Crossing=RoadWithIsland |
 | PedestrianLights | présence de feux lunmineux | Valeurs autorisées : <br> - Yes <br> - No  | PedestrianLights=No |
 | ZebraCrossing | présence et état du marquage au sol | Valeurs autorisées : <br>- None (pas de marquage au sol) <br>- Good (bon état) <br>- Worn (dégradation sans gravité) <br>- Discomfortable (dégradation entraînant une difficulté d'usage ou d'inconfort) <br>- Hazardous (dégradation entraînant un problème de sécurité immédiat) | ZebraCrossing = None |
-| VisualGuidanceBands | présence de repère continu au sol |Valeurs autorisées : <br> - Yes <br> - No | VisualGuidanceBands=Yes  | 
+| VisualGuidanceBands | présence de repère continu au sol |Valeurs autorisées : <br> - Yes <br> - No | VisualGuidanceBands=Yes  |
 | AccousticCrossingAid | présence et état des répétiteurs sonores | Valeurs autorisées : <br>- None (pas de répétiteurs sonores) <br>- Good (bon état) <br>- Worn (dégradation sans gravité) <br>- Discomfortable (dégradation entraînant une difficulté d'usage ou d'inconfort) <br>- Hazardous (dégradation entraînant un problème de sécurité immédiat) | AccousticCrossingAid = Good |
 
 
@@ -143,9 +143,9 @@ Chaque PointOfInterest devra avoir au moins une entrée, et pourra contenir des 
 | PointOfInterest | AltitudeHotelRestaurant | Restaurant ou hôtel d’altitude | OA : Hôtels-restaurants d’Altitude |
 | PointOfInterest | InflatableVenue | Château gonflable | SG : Structures Gonflables |
 
-En complément, on pourra trouver un second tag précisant le type de point d'intérêt et reprenant pour clef la valeur du tag PointOfInterest : par exemple PointOfInterest=Government + Government=Townhall
+En complément, on pourra trouver un second tag précisant le type de point d'intérêt et reprenant pour clef la valeur du tag PointOfInterest : par exemple PointOfInterest=Government + Government=Townhall. La liste se trouve ci-dessous.
 
-Voici la liste : 
+#### StopPlace = *
 
 | Clef | Valeur | Description|
 | ---- | ------ | ---------- |
@@ -160,6 +160,133 @@ Voici la liste :
 | etc | etc | etc|
 
 Remarque : on pourra également trouver des StopPlace=OnstreetBus ou OnstreetTram sur des ![relation picto](https://wiki.openstreetmap.org/w/images/thumb/4/48/Osm_element_relation.svg/20px-Osm_element_relation.svg.png) relations. Il s'agit d'objets abstraits importés lors d'un import Netex et qu'on souhaite conserver lors de l'export Netex. Ils n'ont pas de tag PointOfInterest=StopPlace et il n'est pas nécessaire de renseigner d'information dessus.
+
+#### Shop = *
+
+| Clé   | Valeur             | Description                                |
+| :---- | :----------------- | :----------------------------------------- |
+| Shop  | Alcohol            | Magasin de vente d'alcool                  |
+| Shop  | Antiques           | Antiquaire                                 |
+| Shop  | Art                | Marchand d'art                             |
+| Shop  | Bag                | Bagagerie                                  |
+| Shop  | Bakery             | Boulangerie                                |
+| Shop  | Beauty             | Salon de beauté                            |
+| Shop  | Bed                | Magasin de literie                         |
+| Shop  | Beverages          | Magasin de boissons                        |
+| Shop  | Bicycle            | Magasin de vélos                           |
+| Shop  | BoatRental         | Location de bateau                         |
+| Shop  | Books              | Librairie                                  |
+| Shop  | BureauDeChange     | Bureau de change                           |
+| Shop  | Butcher            | Boucherie                                  |
+| Shop  | Car                | Concessionnaire automobile                 |
+| Shop  | CarParts           | Magasin de pièces automobiles              |
+| Shop  | Carpet             | Magasin de tapis                           |
+| Shop  | CarRental          | Location de voiture                        |
+| Shop  | CarRepair          | Garage de réparation automobile            |
+| Shop  | CarWash            | Station de lavage de voiture               |
+| Shop  | Cheese             | Fromagerie                                 |
+| Shop  | Chemist            | Parapharmacie                              |
+| Shop  | Chocolate          | Chocolatier                                |
+| Shop  | Clothes            | Magasin de vêtements                       |
+| Shop  | Coffee             | Boutique de vente de cafés                 |
+| Shop  | Computer           | Magasin d'informatique                     |
+| Shop  | Confectionery      | Confiserie                                 |
+| Shop  | Convenience        | Épicerie / Supérette                       |
+| Shop  | Copyshop           | Photocopie et impression                   |
+| Shop  | Cosmetics          | Magasin de cosmétiques                     |
+| Shop  | Crematorium        | Crématorium                                |
+| Shop  | Deli               | Épicerie fine                              |
+| Shop  | DepartmentStore    | Grand magasin                              |
+| Shop  | DoItYourself       | Magasin de bricolage                       |
+| Shop  | DrivingSchool      | Auto-école                                 |
+| Shop  | DryCleaning        | Pressing                                   |
+| Shop  | Ecigarette         | Magasin de cigarettes électroniques        |
+| Shop  | EstateAgent        | Agence immobilière                         |
+| Shop  | Fabric             | Magasin de tissus                          |
+| Shop  | Farm               | Magasin de producteurs                     |
+| Shop  | Florist            | Fleuriste                                  |
+| Shop  | FrozenFood         | Magasin de produits surgelés               |
+| Shop  | Fuel               | Station-service                            |
+| Shop  | FuneralDirectors   | Pompes funèbres                            |
+| Shop  | Furniture          | Magasin de meubles                         |
+| Shop  | Games              | Magasin de jeux de plateau                 |
+| Shop  | GardenCentre       | Jardinerie                                 |
+| Shop  | Gift               | Boutique de cadeaux                        |
+| Shop  | Greengrocer        | Marchand de fruits et légumes              |
+| Shop  | Guide              | Bureau des guides                          |
+| Shop  | Hairdresser        | Salon de coiffure                          |
+| Shop  | Hardware           | Quincaillerie                              |
+| Shop  | HearingAids        | Audioprothésiste                           |
+| Shop  | Hifi               | Magasin de matériel hi-fi                  |
+| Shop  | Insurance          | Agence d'assurance                         |
+| Shop  | InteriorDecoration | Magasin de décoration d'intérieur          |
+| Shop  | InternetCafe       | Cybercafé                                  |
+| Shop  | Jewelry            | Bijouterie                                 |
+| Shop  | Kiosk              | Kiosque                                    |
+| Shop  | Kitchen            | Cuisiniste                                 |
+| Shop  | Laundry            | Laverie                                    |
+| Shop  | Leather            | Maroquinerie                               |
+| Shop  | Massage            | Salon de massage                           |
+| Shop  | MedicalSupply      | Magasin de matériel médical                |
+| Shop  | MobilePhone        | Magasin de téléphonie mobile               |
+| Shop  | Motorcycle         | Magasin de motos                           |
+| Shop  | MotorcycleRepair   | Réparateur de motos                        |
+| Shop  | MovingCompany      | Entreprise de déménagement                 |
+| Shop  | Music              | Magasin de musique                         |
+| Shop  | Newsagent          | Kiosque à journaux                         |
+| Shop  | Nightclub          | Boîte de nuit                              |
+| Shop  | Optician           | Opticien                                   |
+| Shop  | Outdoor            | Magasin de matériel de sports de plein air |
+| Shop  | Pastry             | Pâtisserie                                 |
+| Shop  | Perfumery          | Parfumerie                                 |
+| Shop  | Pet                | Animalerie                                 |
+| Shop  | Pharmacy           | Pharmacie                                  |
+| Shop  | Seafood            | Poissonnerie / Vente de fruits de mer      |
+| Shop  | SecondHand         | Magasin de produits d'occasion             |
+| Shop  | Sewing             | Magasin de couture                         |
+| Shop  | Shoes              | Magasin de chaussures                      |
+| Shop  | Sports             | Magasin d'équipement sportif               |
+| Shop  | Stationery         | Papeterie                                  |
+| Shop  | Supermarket        | Supermarché                                |
+| Shop  | Tattoo             | Salon de tatouage                          |
+| Shop  | Tea                | Magasin de thés                            |
+| Shop  | Ticket             | Boutique de vente de billets               |
+| Shop  | Tobacco            | Bureau de tabac                            |
+| Shop  | Toys               | Magasin de jouets                          |
+| Shop  | TravelAgency       | Agence de voyages                          |
+| Shop  | Variety_Store      | Magasin discount                           |
+| Shop  | VehicleInspection  | Centre de contrôle technique               |
+| Shop  | VideoGames         | Magasin de location et vente de jeux vidéo |
+| Shop  | Watches            | Magasin de montres                         |
+
+#### Government = *
+
+| Clé        | Valeur                | Description            |
+| :--------- | :-------------------- | :--------------------- |
+| Government | CourtHouse            | Tribunal               |
+| Government | Police                | Police, Gendarmerie    |
+| Government | Post                  | Bureau de Poste        |
+| Government | Tax                   | Centre des impôts      |
+| Government | Townhall              | Mairie, hôtel de ville |
+| Government | UnemploymentInsurance | Pôle Emploi            |
+
+#### Restaurant = *
+
+| Clé        | Valeur     | Description                      |
+| :--------- | :--------- | :------------------------------- |
+| Restaurant | Cafe       | Café                             |
+| Restaurant | FastFood   | Restauration rapide              |
+| Restaurant | FoodCourt  | Aire de restauration, food-court |
+| Restaurant | IceCream   | Magasin de crèmes glacées        |
+| Restaurant | Pub        | Pub                              |
+| Restaurant | Restaurant | Restaurant                       |
+
+#### Theater = *
+
+| Clé     | Valeur  | Description |
+| :------ | :------ | :---------- |
+| Theater | Cinema  | Cinéma      |
+| Theater | Theater | Théâtre     |
 
 ### Tags fréquents
 
@@ -177,7 +304,7 @@ Remarque : on pourra également trouver des StopPlace=OnstreetBus ou OnstreetTra
 | Outdoor | couverture du lieu | Valeurs autorisées : <br> - Yes  (extérieur non couvert) <br> - No (intérieur) <br> - Covered (extérieur couvert) | StopPlace=BusStation par exemple |
 | Gated | indique s'il faut passer une porte pour accéder à ce point d'intérêt | <br> Valeurs autorisées : <br> - Yes <br> - No |  |
 
-Plus tard : 
+Plus tard :
 * NearbyBicyclePark et NearbyCarPark ? (pour accessModes et aussi les facililities)
 * NearbyDisabledCarPark ?? ou on zappe et on le fera par proximité avec un parking bay ?
 
@@ -274,7 +401,7 @@ Seules les entrées accessibles au public sont concernées (on ne cartographie p
 
 # ParkingBay=*
 
-Le tag ParkingBay=* est utilisé sur un ![node picto](https://wiki.openstreetmap.org/w/images/thumb/4/48/Osm_element_node.svg/20px-Osm_element_node.svg.png) noeud pour représenter un place de parking. 
+Le tag ParkingBay=* est utilisé sur un ![node picto](https://wiki.openstreetmap.org/w/images/thumb/4/48/Osm_element_node.svg/20px-Osm_element_node.svg.png) noeud pour représenter un place de parking.
 
 Un ParkingBay doit être relié au reste du cheminement piéton par un SitePathLink.
 
@@ -299,7 +426,7 @@ Un ParkingBay doit être relié au reste du cheminement piéton par un SitePathL
 
 # InsideSpace=*
 
-Le tag InsideSpace=* est utilisé sur une ![area picto](https://wiki.openstreetmap.org/w/images/thumb/4/48/Osm_element_area.svg/20px-Osm_element_area.svg.png) zone pour représenter une pièce ou un espace situé à l'intérieur d'un PointOfInterest. 
+Le tag InsideSpace=* est utilisé sur une ![area picto](https://wiki.openstreetmap.org/w/images/thumb/4/48/Osm_element_area.svg/20px-Osm_element_area.svg.png) zone pour représenter une pièce ou un espace situé à l'intérieur d'un PointOfInterest.
 
 Un InsideSpace doit avoir un ![node picto](https://wiki.openstreetmap.org/w/images/thumb/4/48/Osm_element_node.svg/20px-Osm_element_node.svg.png) noeud Entrance sur son contour et être à l'intérieur d'une une ![area picto](https://wiki.openstreetmap.org/w/images/thumb/4/48/Osm_element_area.svg/20px-Osm_element_area.svg.png) zone PointOfInterest (il peut partager des ![node picto](https://wiki.openstreetmap.org/w/images/thumb/4/48/Osm_element_node.svg/20px-Osm_element_node.svg.png) noeuds).
 
@@ -317,16 +444,16 @@ Un InsideSpace peut contenir des SitePathLink et des Amenity.
 | Clef | Description | Contraintes sur la valeur |
 | -------- | -------- | -------- |
 | WheelchairAccess | indique si l'access possible en fauteuil roulant | Valeurs autorisées : <br> - Yes (oui), <br> - No (non), <br>- Limited (partiellement, à préciser via le tag WheelchairAccess:Description) |
-| AudibleSignals | indique si une signalétique auditive est disponible |Valeurs autorisées : <br> - Yes (oui), <br> - No (non), <br>- Limited (partiellement, à préciser via le tag AudibleSignals:Description) | 
-| VisualSigns | indique si une signalétique visuelle est disponible |Valeurs autorisées : <br> - Yes (oui), <br> - No (non), <br>- Limited (partiellement, à préciser via le tag VisualSigns:Description) | 
-| TransportMode | le mode de transport en commun (pour Quay uniquement) | Valeurs autorisées : <br> - Rail (train) <br> - Metro <br> - Tram (tramway) | 
-| PublicCode | un identifiant public local (pour Quay uniquement) |  | 
+| AudibleSignals | indique si une signalétique auditive est disponible |Valeurs autorisées : <br> - Yes (oui), <br> - No (non), <br>- Limited (partiellement, à préciser via le tag AudibleSignals:Description) |
+| VisualSigns | indique si une signalétique visuelle est disponible |Valeurs autorisées : <br> - Yes (oui), <br> - No (non), <br>- Limited (partiellement, à préciser via le tag VisualSigns:Description) |
+| TransportMode | le mode de transport en commun (pour Quay uniquement) | Valeurs autorisées : <br> - Rail (train) <br> - Metro <br> - Tram (tramway) |
+| PublicCode | un identifiant public local (pour Quay uniquement) |  |
 
 # Autres objets
 
 ## PathJunction=Yes
 
-Les ![node picto](https://wiki.openstreetmap.org/w/images/thumb/4/48/Osm_element_node.svg/20px-Osm_element_node.svg.png) noeuds qui font parti d'un SitePathLink peuvent avoir des tags propres : 
+Les ![node picto](https://wiki.openstreetmap.org/w/images/thumb/4/48/Osm_element_node.svg/20px-Osm_element_node.svg.png) noeuds qui font parti d'un SitePathLink peuvent avoir des tags propres :
 
 | Clef                | Description                                                                                                                      | Contraintes sur la valeur    |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --------- |
@@ -342,7 +469,7 @@ Les ![node picto](https://wiki.openstreetmap.org/w/images/thumb/4/48/Osm_element
 On pourra trouver des ![relation picto](https://wiki.openstreetmap.org/w/images/thumb/4/48/Osm_element_relation.svg/20px-Osm_element_relation.svg.png) relations avec un attribut StopPlace.
 Il s'agit d'objets abstraits importés lors d'un import Netex et qu'on souhaite conserver lors de l'export Netex. Ils n'ont pas de tag PointOfInterest=StopPlace et il n'est pas nécessaire de renseigner d'information dessus.
 
-Les valeurs les plus fréquentes seront : 
+Les valeurs les plus fréquentes seront :
 
 | Clef | Valeur | Description |
 | -------- | -------- | -------- |

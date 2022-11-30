@@ -1,0 +1,21 @@
+{
+    "name": "Sporting Goods Store",
+    "icon": "fas-futbol",
+    "terms": [
+        "athletics"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Sports"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

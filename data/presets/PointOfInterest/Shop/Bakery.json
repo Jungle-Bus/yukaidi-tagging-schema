@@ -1,0 +1,23 @@
+{
+    "name": "Bakery",
+    "icon": "maki-bakery",
+    "terms": [
+        "bread",
+        "cakes",
+        "rolls"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Bakery"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

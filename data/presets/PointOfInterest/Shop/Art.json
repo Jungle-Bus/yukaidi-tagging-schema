@@ -1,0 +1,23 @@
+{
+    "name": "Art Store",
+    "icon": "maki-shop",
+    "terms": [
+        "art*",
+        "exhibit*",
+        "gallery"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Art"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

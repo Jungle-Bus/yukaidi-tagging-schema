@@ -1,0 +1,22 @@
+{
+    "name": "Optician",
+    "icon": "maki-optician",
+    "terms": [
+        "eye",
+        "glasses"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Optician"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

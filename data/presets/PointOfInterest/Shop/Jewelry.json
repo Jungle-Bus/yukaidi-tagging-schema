@@ -1,0 +1,35 @@
+{
+    "name": "Jewelry Store",
+    "icon": "maki-jewelry-store",
+    "terms": [
+        "bracelet",
+        "diamond",
+        "earrings",
+        "gem",
+        "gold",
+        "jeweler",
+        "jewellery",
+        "jeweller",
+        "necklace",
+        "pins",
+        "ring",
+        "silver"
+    ],
+    "aliases": [
+        "Jewelry Shop"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Jewelry"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

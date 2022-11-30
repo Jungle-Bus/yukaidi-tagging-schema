@@ -1,0 +1,24 @@
+{
+    "name": "Liquor Store",
+    "icon": "fas-wine-bottle",
+    "terms": [
+        "alcohol",
+        "beer",
+        "booze",
+        "wine"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Alcohol"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

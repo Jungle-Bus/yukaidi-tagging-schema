@@ -1,0 +1,26 @@
+{
+    "name": "Supermarket",
+    "icon": "maki-grocery",
+    "terms": [
+        "grocery",
+        "store",
+        "shop",
+        "grocery store",
+        "market",
+        "food market"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Supermarket"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

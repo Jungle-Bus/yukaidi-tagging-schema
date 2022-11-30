@@ -1,0 +1,27 @@
+{
+    "name": "Music Store",
+    "icon": "fas-compact-disc",
+    "terms": [
+        "tape cassettes",
+        "CDs",
+        "compact discs",
+        "vinyl records",
+        "CD store",
+        "casette",
+        "casette store"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Music"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

@@ -770,6 +770,31 @@
         },
         "searchable": false
     },
+    "PointOfInterest/default_POI": {
+        "icon": "fas-store",
+        "geometry": [
+            "point",
+            "area"
+        ],
+        "fields": [
+            "Name",
+            "WheelchairAccess",
+            "AudibleSignals",
+            "VisualSigns"
+        ],
+        "moreFields": [
+            "Outdoor",
+            "Image",
+            "Phone",
+            "Website",
+            "SIRET_FR",
+            "Lighting"
+        ],
+        "tags": {
+            "PointOfInterest": "Any"
+        },
+        "searchable": false
+    },
     "PointOfInterest/Bank": {
         "icon": "maki-bank",
         "geometry": [
@@ -788,6 +813,108 @@
         "addTags": {
             "PointOfInterest": "Bank"
         }
+    },
+    "PointOfInterest/Government/CourtHouse": {
+        "icon": "fas-gavel",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Government",
+            "Government": "CourtHouse"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Government/Police": {
+        "icon": "temaki-police_officer",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Government",
+            "Government": "Police"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Government/Post": {
+        "icon": "maki-post",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Government",
+            "Government": "Post"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Government/Tax": {
+        "icon": "temaki-town_hall",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Government",
+            "Government": "Tax"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Government/Townhall": {
+        "icon": "temaki-town_hall",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Government",
+            "Government": "Townhall"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Government/UnemploymentInsurance": {
+        "icon": "maki-suitcase",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Government",
+            "Government": "UnemploymentInsurance"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
     },
     "PointOfInterest/Museum": {
         "icon": "maki-museum",
@@ -826,6 +953,1700 @@
         "addTags": {
             "PointOfInterest": "Office"
         }
+    },
+    "PointOfInterest/Restaurant/Cafe": {
+        "icon": "maki-cafe",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Restaurant",
+            "Restaurant": "Cafe"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Restaurant/FastFood": {
+        "icon": "maki-fast-food",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Restaurant",
+            "Restaurant": "FastFood"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Restaurant/FoodCourt": {
+        "icon": "maki-restaurant",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Restaurant",
+            "Restaurant": "FoodCourt"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Restaurant/IceCream": {
+        "icon": "fas-ice-cream",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Restaurant",
+            "Restaurant": "IceCream"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Restaurant/Pub": {
+        "icon": "maki-beer",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Restaurant",
+            "Restaurant": "Pub"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Restaurant/Restaurant": {
+        "icon": "maki-restaurant",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Restaurant",
+            "Restaurant": "Restaurant"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Alcohol": {
+        "icon": "fas-wine-bottle",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Alcohol"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Antiques": {
+        "icon": "temaki-furniture",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Antiques"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Art": {
+        "icon": "maki-shop",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Art"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Bag": {
+        "icon": "fas-suitcase-rolling",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Bag"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Bakery": {
+        "icon": "maki-bakery",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Bakery"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Beauty": {
+        "icon": "temaki-lipstick",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Beauty"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Bed": {
+        "icon": "maki-lodging",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Bed"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Beverages": {
+        "icon": "temaki-bottles",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Beverages"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Bicycle": {
+        "icon": "maki-bicycle",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Bicycle"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/BoatRental": {
+        "icon": "temaki-boat_rental",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "BoatRental"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Books": {
+        "icon": "fas-book",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Books"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/BureauDeChange": {
+        "icon": "temaki-money_hand",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "BureauDeChange"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Butcher": {
+        "icon": "temaki-cleaver",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Butcher"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Car": {
+        "icon": "maki-car",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Car"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/CarParts": {
+        "icon": "fas-car-battery",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "CarParts"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Carpet": {
+        "icon": "fas-tape",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Carpet"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/CarRental": {
+        "icon": "maki-car-rental",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "CarRental"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/CarRepair": {
+        "icon": "maki-car-repair",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "CarRepair"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/CarWash": {
+        "icon": "temaki-car_wash",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "CarWash"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Cheese": {
+        "icon": "fas-cheese",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Cheese"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Chemist": {
+        "icon": "fas-shopping-basket",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Chemist"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Chocolate": {
+        "icon": "maki-confectionery",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Chocolate"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Clothes": {
+        "icon": "maki-clothing-store",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Clothes"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Coffee": {
+        "icon": "temaki-coffee",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Coffee"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Computer": {
+        "icon": "fas-laptop",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Computer"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Confectionery": {
+        "icon": "maki-confectionery",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Confectionery"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Convenience": {
+        "icon": "fas-shopping-basket",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Convenience"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Copyshop": {
+        "icon": "fas-print",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Copyshop"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Cosmetics": {
+        "icon": "temaki-lipstick",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Cosmetics"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Crematorium": {
+        "icon": "maki-cemetery",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Crematorium"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Deli": {
+        "icon": "fas-jar",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Deli"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/DepartmentStore": {
+        "icon": "maki-shop",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "DepartmentStore"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/DoItYourself": {
+        "icon": "temaki-tools",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "DoItYourself"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/DrivingSchool": {
+        "icon": "maki-car",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "DrivingSchool"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/DryCleaning": {
+        "icon": "temaki-clothes_hanger",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "DryCleaning"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Ecigarette": {
+        "icon": "maki-shop",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Ecigarette"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/EmploymentAgency": {
+        "icon": "maki-suitcase",
+        "geometry": [
+            "point",
+            "area"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "EmploymentAgency"
+        }
+    },
+    "PointOfInterest/Shop/EstateAgent": {
+        "icon": "temaki-real_estate_agency",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "EstateAgent"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Fabric": {
+        "icon": "fas-tape",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Fabric"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Farm": {
+        "icon": "fas-apple-alt",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Farm"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Florist": {
+        "icon": "maki-florist",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Florist"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/FrozenFood": {
+        "icon": "maki-shop",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "FrozenFood"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Fuel": {
+        "icon": "maki-fuel",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Fuel"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/FuneralDirectors": {
+        "icon": "maki-cemetery",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "FuneralDirectors"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Furniture": {
+        "icon": "fas-couch",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Furniture"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Games": {
+        "icon": "fas-dice",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Games"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/GardenCentre": {
+        "icon": "maki-garden-centre",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "GardenCentre"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Gift": {
+        "icon": "maki-gift",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Gift"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Greengrocer": {
+        "icon": "fas-carrot",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Greengrocer"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Guide": {
+        "icon": "maki-suitcase",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Guide"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Hairdresser": {
+        "icon": "temaki-beauty_salon",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Hairdresser"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Hardware": {
+        "icon": "temaki-tools",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Hardware"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/HearingAids": {
+        "icon": "temaki-hearing_aid",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "HearingAids"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Hifi": {
+        "icon": "temaki-speaker",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Hifi"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Insurance": {
+        "icon": "temaki-briefcase_shield",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Insurance"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/InteriorDecoration": {
+        "icon": "maki-shop",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "InteriorDecoration"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/InternetCafe": {
+        "icon": "temaki-antenna",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "InternetCafe"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Jewelry": {
+        "icon": "maki-jewelry-store",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Jewelry"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Kiosk": {
+        "icon": "fas-store",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Kiosk"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Kitchen": {
+        "icon": "temaki-kitchen_sink",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Kitchen"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Laundry": {
+        "icon": "temaki-laundry",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Laundry"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Leather": {
+        "icon": "temaki-handbag",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Leather"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Massage": {
+        "icon": "temaki-spa",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Massage"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/MedicalSupply": {
+        "icon": "fas-crutch",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "MedicalSupply"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/MobilePhone": {
+        "icon": "fas-mobile-alt",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "MobilePhone"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Motorcycle": {
+        "icon": "fas-motorcycle",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Motorcycle"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/MotorcycleRepair": {
+        "icon": "temaki-motorcycle_repair",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "MotorcycleRepair"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/MovingCompany": {
+        "icon": "fas-people-carry",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "MovingCompany"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Music": {
+        "icon": "fas-compact-disc",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Music"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Newsagent": {
+        "icon": "fas-newspaper",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Newsagent"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Nightclub": {
+        "icon": "fas-cocktail",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Nightclub"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Optician": {
+        "icon": "maki-optician",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Optician"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Outdoor": {
+        "icon": "temaki-compass",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Outdoor"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Pastry": {
+        "icon": "maki-bakery",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Pastry"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Perfumery": {
+        "icon": "temaki-perfume",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Perfumery"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Pet": {
+        "icon": "fas-cat",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Pet"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Pharmacy": {
+        "icon": "maki-pharmacy",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Pharmacy"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Seafood": {
+        "icon": "temaki-fish_cleaning",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Seafood"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/SecondHand": {
+        "icon": "maki-shop",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "SecondHand"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Sewing": {
+        "icon": "temaki-needle_and_spool",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Sewing"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Shoes": {
+        "icon": "maki-shoe",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Shoes"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Sports": {
+        "icon": "fas-futbol",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Sports"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Stationery": {
+        "icon": "fas-paperclip",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Stationery"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Supermarket": {
+        "icon": "maki-grocery",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Supermarket"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Tattoo": {
+        "icon": "temaki-tattoo_machine",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Tattoo"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Tea": {
+        "icon": "maki-teahouse",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Tea"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Ticket": {
+        "icon": "fas-ticket-alt",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Ticket"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Tobacco": {
+        "icon": "temaki-pipe",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Tobacco"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Toys": {
+        "icon": "fas-rocket",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Toys"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/TravelAgency": {
+        "icon": "fas-suitcase",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "TravelAgency"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Variety_Store": {
+        "icon": "maki-shop",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Variety_Store"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/VehicleInspection": {
+        "icon": "maki-car",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "VehicleInspection"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/VideoGames": {
+        "icon": "maki-gaming",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "VideoGames"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Shop/Watches": {
+        "icon": "maki-watch",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Shop",
+            "Shop": "Watches"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
     },
     "PointOfInterest/StopPlace": {
         "icon": "maki-transit",
@@ -1018,6 +2839,40 @@
             "PointOfInterest": "StopPlace",
             "StopPlace": "TramStation"
         }
+    },
+    "PointOfInterest/Theater/Cinema": {
+        "icon": "maki-cinema",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Theater",
+            "Theater": "Cinema"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
+    },
+    "PointOfInterest/Theater/Theater": {
+        "icon": "maki-theatre",
+        "geometry": [
+            "area",
+            "point"
+        ],
+        "tags": {
+            "PointOfInterest": "Theater",
+            "Theater": "Theater"
+        },
+        "fields": [
+            "{PointOfInterest/default_POI}"
+        ],
+        "moreFields": [
+            "{PointOfInterest/default_POI}"
+        ]
     },
     "relation": {
         "icon": "iD-relation",

@@ -1,0 +1,21 @@
+{
+    "name": "Tattoo Parlor",
+    "icon": "temaki-tattoo_machine",
+    "terms": [
+        "ink"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Tattoo"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

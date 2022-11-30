@@ -1,0 +1,21 @@
+{
+    "name": "Seafood Shop",
+    "icon": "temaki-fish_cleaning",
+    "aliases": [
+        "Fishmonger"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Seafood"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

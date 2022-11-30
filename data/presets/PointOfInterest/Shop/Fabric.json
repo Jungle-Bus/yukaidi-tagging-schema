@@ -1,0 +1,21 @@
+{
+    "name": "Fabric Store",
+    "icon": "fas-tape",
+    "terms": [
+        "sew"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Fabric"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

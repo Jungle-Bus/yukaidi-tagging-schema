@@ -1,0 +1,21 @@
+{
+    "name": "Employment Agency",
+    "icon": "maki-suitcase",
+    "terms": [
+        "job"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Government",
+        "Government": "UnemploymentInsurance"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

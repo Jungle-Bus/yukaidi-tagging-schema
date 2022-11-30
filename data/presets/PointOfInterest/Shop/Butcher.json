@@ -1,0 +1,30 @@
+{
+    "name": "Butcher",
+    "icon": "temaki-cleaver",
+    "terms": [
+        "chicken",
+        "beef",
+        "lamb",
+        "meat",
+        "pork"
+    ],
+    "aliases": [
+        "Butcher Shop",
+        "Pork Store",
+        "Butchery"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Butcher"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Cinema",
+    "icon": "maki-cinema",
+    "terms": [
+        "drive-in",
+        "film",
+        "flick",
+        "movie",
+        "theater",
+        "picture",
+        "show",
+        "screen"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Theater",
+        "Theater": "Cinema"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

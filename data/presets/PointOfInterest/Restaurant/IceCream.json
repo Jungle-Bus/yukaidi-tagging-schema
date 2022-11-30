@@ -1,0 +1,25 @@
+{
+    "name": "Ice Cream Shop",
+    "icon": "fas-ice-cream",
+    "terms": [
+        "gelato",
+        "sorbet",
+        "sherbet",
+        "frozen",
+        "yogurt"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Restaurant",
+        "Restaurant": "IceCream"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

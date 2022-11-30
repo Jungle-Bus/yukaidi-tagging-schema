@@ -1,0 +1,21 @@
+{
+    "name": "Real Estate Office",
+    "icon": "temaki-real_estate_agency",
+    "terms": [
+        "real estate"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "EstateAgent"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

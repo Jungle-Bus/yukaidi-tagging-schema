@@ -1,0 +1,15 @@
+{
+    "name": "Employment Agency",
+    "icon": "maki-suitcase",
+    "terms": [
+        "job"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "EmploymentAgency"
+    }
+}

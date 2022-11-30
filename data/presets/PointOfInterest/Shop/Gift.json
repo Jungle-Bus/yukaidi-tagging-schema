@@ -1,0 +1,24 @@
+{
+    "name": "Gift Shop",
+    "icon": "maki-gift",
+    "terms": [
+        "tourist trap"
+    ],
+    "aliases": [
+        "Souvenir Shop"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Gift"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

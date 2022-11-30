@@ -1,0 +1,28 @@
+{
+    "name": "Gas Station",
+    "icon": "maki-fuel",
+    "terms": [
+        "petrol",
+        "fuel",
+        "gasoline",
+        "propane",
+        "diesel",
+        "lng",
+        "cng",
+        "biodiesel"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Fuel"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

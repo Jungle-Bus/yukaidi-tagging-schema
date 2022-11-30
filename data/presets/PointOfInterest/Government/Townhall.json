@@ -1,0 +1,25 @@
+{
+    "name": "Town Hall",
+    "icon": "temaki-town_hall",
+    "terms": [
+        "village",
+        "city",
+        "government",
+        "courthouse",
+        "municipal"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Government",
+        "Government": "Townhall"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

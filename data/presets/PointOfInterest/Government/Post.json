@@ -1,0 +1,22 @@
+{
+    "name": "Post Office",
+    "icon": "maki-post",
+    "terms": [
+        "letter",
+        "mail"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Government",
+        "Government": "Post"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

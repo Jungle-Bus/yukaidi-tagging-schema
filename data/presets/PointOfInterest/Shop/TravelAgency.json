@@ -1,0 +1,25 @@
+{
+    "name": "Travel Agency",
+    "icon": "fas-suitcase",
+    "terms": [
+        "cruises",
+        "flights",
+        "hotels",
+        "tickets",
+        "travel packages"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "TravelAgency"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Theater",
+    "icon": "maki-theatre",
+    "terms": [
+        "theatre",
+        "performance",
+        "play",
+        "musical"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Theater",
+        "Theater": "Theater"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

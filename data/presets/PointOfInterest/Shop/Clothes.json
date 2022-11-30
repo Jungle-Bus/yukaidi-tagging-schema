@@ -1,0 +1,35 @@
+{
+    "name": "Clothing Store",
+    "icon": "maki-clothing-store",
+    "terms": [
+        "blouses",
+        "boutique",
+        "bras",
+        "clothes",
+        "dresses",
+        "fashion",
+        "outfits",
+        "pants",
+        "shirts",
+        "shorts",
+        "skirts",
+        "slacks",
+        "socks",
+        "suits",
+        "underwear"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Clothes"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

@@ -1070,6 +1070,35 @@ en:
         name: Bank
         # 'terms: check,deposit,fund,investment,repository,reserve,safe,savings,stock,treasury,trust,vault'
         terms: <translate with synonyms or related terms for 'Bank', separated by commas>
+      PointOfInterest/Government/CourtHouse:
+        # PointOfInterest=Government + Government=CourtHouse | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Courthouse
+        terms: <translate with synonyms or related terms for 'Courthouse', separated by commas>
+      PointOfInterest/Government/Police:
+        # PointOfInterest=Government + Government=Police | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Police
+        # 'terms: badge,constable,constabulary,cop,detective,fed,law,enforcement,officer,patrol'
+        terms: <translate with synonyms or related terms for 'Police', separated by commas>
+      PointOfInterest/Government/Post:
+        # PointOfInterest=Government + Government=Post | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Post Office
+        # 'terms: letter,mail'
+        terms: <translate with synonyms or related terms for 'Post Office', separated by commas>
+      PointOfInterest/Government/Tax:
+        # PointOfInterest=Government + Government=Tax | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Tax and Revenue Office
+        # 'terms: fiscal authorities,revenue office,tax office'
+        terms: <translate with synonyms or related terms for 'Tax and Revenue Office', separated by commas>
+      PointOfInterest/Government/Townhall:
+        # PointOfInterest=Government + Government=Townhall | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Town Hall
+        # 'terms: village,city,government,courthouse,municipal'
+        terms: <translate with synonyms or related terms for 'Town Hall', separated by commas>
+      PointOfInterest/Government/UnemploymentInsurance:
+        # PointOfInterest=Government + Government=UnemploymentInsurance | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Employment Agency
+        # 'terms: job'
+        terms: <translate with synonyms or related terms for 'Employment Agency', separated by commas>
       PointOfInterest/Museum:
         # PointOfInterest=Museum | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: Museum
@@ -1080,6 +1109,485 @@ en:
         name: Office
         # 'terms: company'
         terms: <translate with synonyms or related terms for 'Office', separated by commas>
+      PointOfInterest/Restaurant/Cafe:
+        # PointOfInterest=Restaurant + Restaurant=Cafe | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Cafe
+        # 'terms: bistro,coffee,tea'
+        terms: <translate with synonyms or related terms for 'Cafe', separated by commas>
+      PointOfInterest/Restaurant/FastFood:
+        # PointOfInterest=Restaurant + Restaurant=FastFood | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Fast Food
+        # 'terms: restaurant,takeaway'
+        terms: <translate with synonyms or related terms for 'Fast Food', separated by commas>
+      PointOfInterest/Restaurant/FoodCourt:
+        # PointOfInterest=Restaurant + Restaurant=FoodCourt | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Food Court
+        # 'terms: fast food,restaurant,food'
+        terms: <translate with synonyms or related terms for 'Food Court', separated by commas>
+      PointOfInterest/Restaurant/IceCream:
+        # PointOfInterest=Restaurant + Restaurant=IceCream | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Ice Cream Shop
+        # 'terms: gelato,sorbet,sherbet,frozen,yogurt'
+        terms: <translate with synonyms or related terms for 'Ice Cream Shop', separated by commas>
+      PointOfInterest/Restaurant/Pub:
+        # PointOfInterest=Restaurant + Restaurant=Pub | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Pub
+        # 'terms: alcohol,drink,dive,beer,bier,booze'
+        terms: <translate with synonyms or related terms for 'Pub', separated by commas>
+      PointOfInterest/Restaurant/Restaurant:
+        # PointOfInterest=Restaurant + Restaurant=Restaurant | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Restaurant
+        # 'terms: bar,breakfast,cafe,café,canteen,coffee,dine,dining,dinner,drive-in,eat,grill,lunch,table'
+        terms: <translate with synonyms or related terms for 'Restaurant', separated by commas>
+      PointOfInterest/Shop/Alcohol:
+        # PointOfInterest=Shop + Shop=Alcohol | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Liquor Store
+        # 'terms: alcohol,beer,booze,wine'
+        terms: <translate with synonyms or related terms for 'Liquor Store', separated by commas>
+      PointOfInterest/Shop/Antiques:
+        # PointOfInterest=Shop + Shop=Antiques | Antique Store, Antiques Shop, Antiques Store | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Antique Shop
+        terms: <translate with synonyms or related terms for 'Antique Shop', separated by commas>
+      PointOfInterest/Shop/Art:
+        # PointOfInterest=Shop + Shop=Art | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Art Store
+        # 'terms: art*,exhibit*,gallery'
+        terms: <translate with synonyms or related terms for 'Art Store', separated by commas>
+      PointOfInterest/Shop/Bag:
+        # PointOfInterest=Shop + Shop=Bag | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Bag/Luggage Store
+        # 'terms: handbag,purse'
+        terms: <translate with synonyms or related terms for 'Bag/Luggage Store', separated by commas>
+      PointOfInterest/Shop/Bakery:
+        # PointOfInterest=Shop + Shop=Bakery | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Bakery
+        # 'terms: bread,cakes,rolls'
+        terms: <translate with synonyms or related terms for 'Bakery', separated by commas>
+      PointOfInterest/Shop/Beauty:
+        # PointOfInterest=Shop + Shop=Beauty | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Beauty Shop
+        # 'terms: spa,salon,tanning'
+        terms: <translate with synonyms or related terms for 'Beauty Shop', separated by commas>
+      PointOfInterest/Shop/Bed:
+        # PointOfInterest=Shop + Shop=Bed | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Bedding/Mattress Store
+        # 'terms: bed,duvet,mattress,pillow'
+        terms: <translate with synonyms or related terms for 'Bedding/Mattress Store', separated by commas>
+      PointOfInterest/Shop/Beverages:
+        # PointOfInterest=Shop + Shop=Beverages | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Beverage Store
+        # 'terms: drinks'
+        terms: <translate with synonyms or related terms for 'Beverage Store', separated by commas>
+      PointOfInterest/Shop/Bicycle:
+        # PointOfInterest=Shop + Shop=Bicycle | Bike Shop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Bicycle Shop
+        # 'terms: bicycle store,bike,bike store,repair,tricycle,unicycle'
+        terms: <translate with synonyms or related terms for 'Bicycle Shop', separated by commas>
+      PointOfInterest/Shop/BoatRental:
+        # PointOfInterest=Shop + Shop=BoatRental | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Boat Rental
+        terms: <translate with synonyms or related terms for 'Boat Rental', separated by commas>
+      PointOfInterest/Shop/Books:
+        # PointOfInterest=Shop + Shop=Books | Bookshop, Bookseller, Book Store, Book Shop, Book Seller | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Bookstore
+        terms: <translate with synonyms or related terms for 'Bookstore', separated by commas>
+      PointOfInterest/Shop/BureauDeChange:
+        # PointOfInterest=Shop + Shop=BureauDeChange | Bureau de Change | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Currency Exchange
+        # 'terms: money changer'
+        terms: <translate with synonyms or related terms for 'Currency Exchange', separated by commas>
+      PointOfInterest/Shop/Butcher:
+        # PointOfInterest=Shop + Shop=Butcher | Butcher Shop, Pork Store, Butchery | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Butcher
+        # 'terms: chicken,beef,lamb,meat,pork'
+        terms: <translate with synonyms or related terms for 'Butcher', separated by commas>
+      PointOfInterest/Shop/Car:
+        # PointOfInterest=Shop + Shop=Car | Car Dealer | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Car Dealership
+        # 'terms: automobile,automotive'
+        terms: <translate with synonyms or related terms for 'Car Dealership', separated by commas>
+      PointOfInterest/Shop/CarParts:
+        # PointOfInterest=Shop + Shop=CarParts | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Car Parts Store
+        # 'terms: automobile,automotive'
+        terms: <translate with synonyms or related terms for 'Car Parts Store', separated by commas>
+      PointOfInterest/Shop/CarRental:
+        # PointOfInterest=Shop + Shop=CarRental | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Car Rental
+        terms: <translate with synonyms or related terms for 'Car Rental', separated by commas>
+      PointOfInterest/Shop/CarRepair:
+        # PointOfInterest=Shop + Shop=CarRepair | Automobile Repair Shop, Car Mechanic, Auto Mechanic | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Car Repair Shop
+        # 'terms: automechanic,automotive,garage,inspection,mechanic,oil change,service'
+        terms: <translate with synonyms or related terms for 'Car Repair Shop', separated by commas>
+      PointOfInterest/Shop/CarWash:
+        # PointOfInterest=Shop + Shop=CarWash | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Car Wash
+        terms: <translate with synonyms or related terms for 'Car Wash', separated by commas>
+      PointOfInterest/Shop/Carpet:
+        # PointOfInterest=Shop + Shop=Carpet | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Carpet Store
+        # 'terms: rug'
+        terms: <translate with synonyms or related terms for 'Carpet Store', separated by commas>
+      PointOfInterest/Shop/Cheese:
+        # PointOfInterest=Shop + Shop=Cheese | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Cheese Store
+        # 'terms: cheese'
+        terms: <translate with synonyms or related terms for 'Cheese Store', separated by commas>
+      PointOfInterest/Shop/Chemist:
+        # PointOfInterest=Shop + Shop=Chemist | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Drugstore
+        # 'terms: apothecary,beauty,drug store,gift,hair,med*,pharmacy,prescription,tooth'
+        terms: <translate with synonyms or related terms for 'Drugstore', separated by commas>
+      PointOfInterest/Shop/Chocolate:
+        # PointOfInterest=Shop + Shop=Chocolate | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Chocolate Store
+        # 'terms: cocoa'
+        terms: <translate with synonyms or related terms for 'Chocolate Store', separated by commas>
+      PointOfInterest/Shop/Clothes:
+        # PointOfInterest=Shop + Shop=Clothes | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Clothing Store
+        # 'terms: blouses,boutique,bras,clothes,dresses,fashion,outfits,pants,shirts,shorts,skirts,slacks,socks,suits,underwear'
+        terms: <translate with synonyms or related terms for 'Clothing Store', separated by commas>
+      PointOfInterest/Shop/Coffee:
+        # PointOfInterest=Shop + Shop=Coffee | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Coffee Store
+        terms: <translate with synonyms or related terms for 'Coffee Store', separated by commas>
+      PointOfInterest/Shop/Computer:
+        # PointOfInterest=Shop + Shop=Computer | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Computer Store
+        # 'terms: desktop,laptop,hardware,operating system,software'
+        terms: <translate with synonyms or related terms for 'Computer Store', separated by commas>
+      PointOfInterest/Shop/Confectionery:
+        # PointOfInterest=Shop + Shop=Confectionery | Candy Shop, Confectionery Store | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Candy Store
+        # 'terms: fudge,lollipop,sugar,sweet'
+        terms: <translate with synonyms or related terms for 'Candy Store', separated by commas>
+      PointOfInterest/Shop/Convenience:
+        # PointOfInterest=Shop + Shop=Convenience | Convenience Shop, Corner Store, Corner Shop, Superette, Bodega | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Convenience Store
+        # 'terms: mini-mart,mini-market'
+        terms: <translate with synonyms or related terms for 'Convenience Store', separated by commas>
+      PointOfInterest/Shop/Copyshop:
+        # PointOfInterest=Shop + Shop=Copyshop | Copy Shop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Copy Store
+        # 'terms: print,scan'
+        terms: <translate with synonyms or related terms for 'Copy Store', separated by commas>
+      PointOfInterest/Shop/Cosmetics:
+        # PointOfInterest=Shop + Shop=Cosmetics | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Cosmetics Store
+        # 'terms: make-up,makeup'
+        terms: <translate with synonyms or related terms for 'Cosmetics Store', separated by commas>
+      PointOfInterest/Shop/Crematorium:
+        # PointOfInterest=Shop + Shop=Crematorium | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Crematorium
+        # 'terms: cemetery,funeral'
+        terms: <translate with synonyms or related terms for 'Crematorium', separated by commas>
+      PointOfInterest/Shop/Deli:
+        # PointOfInterest=Shop + Shop=Deli | Specialty Food Store, Gourmet Food Store, Fine Food Store, Gourmet Food Shop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Delicatessen
+        # 'terms: deli'
+        terms: <translate with synonyms or related terms for 'Delicatessen', separated by commas>
+      PointOfInterest/Shop/DepartmentStore:
+        # PointOfInterest=Shop + Shop=DepartmentStore | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Department Store
+        terms: <translate with synonyms or related terms for 'Department Store', separated by commas>
+      PointOfInterest/Shop/DoItYourself:
+        # PointOfInterest=Shop + Shop=DoItYourself | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: DIY Store
+        # 'terms: craft,diy,do it yourself,hardware,home improvement,tools'
+        terms: <translate with synonyms or related terms for 'DIY Store', separated by commas>
+      PointOfInterest/Shop/DrivingSchool:
+        # PointOfInterest=Shop + Shop=DrivingSchool | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Driving School
+        terms: <translate with synonyms or related terms for 'Driving School', separated by commas>
+      PointOfInterest/Shop/DryCleaning:
+        # PointOfInterest=Shop + Shop=DryCleaning | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Dry Cleaner
+        terms: <translate with synonyms or related terms for 'Dry Cleaner', separated by commas>
+      PointOfInterest/Shop/Ecigarette:
+        # PointOfInterest=Shop + Shop=Ecigarette | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: E-Cigarette Shop
+        # 'terms: electronic,vape,vaping,vapor'
+        terms: <translate with synonyms or related terms for 'E-Cigarette Shop', separated by commas>
+      PointOfInterest/Shop/EmploymentAgency:
+        # PointOfInterest=Shop + Shop=EmploymentAgency | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Employment Agency
+        # 'terms: job'
+        terms: <translate with synonyms or related terms for 'Employment Agency', separated by commas>
+      PointOfInterest/Shop/EstateAgent:
+        # PointOfInterest=Shop + Shop=EstateAgent | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Real Estate Office
+        # 'terms: real estate'
+        terms: <translate with synonyms or related terms for 'Real Estate Office', separated by commas>
+      PointOfInterest/Shop/Fabric:
+        # PointOfInterest=Shop + Shop=Fabric | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Fabric Store
+        # 'terms: sew'
+        terms: <translate with synonyms or related terms for 'Fabric Store', separated by commas>
+      PointOfInterest/Shop/Farm:
+        # PointOfInterest=Shop + Shop=Farm | Farm Shop, Farm Stand | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Produce Stand
+        # 'terms: baked goods,fresh food,fruits,greengrocer,orchard,organics,vegetables'
+        terms: <translate with synonyms or related terms for 'Produce Stand', separated by commas>
+      PointOfInterest/Shop/Florist:
+        # PointOfInterest=Shop + Shop=Florist | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Florist
+        # 'terms: flower'
+        terms: <translate with synonyms or related terms for 'Florist', separated by commas>
+      PointOfInterest/Shop/FrozenFood:
+        # PointOfInterest=Shop + Shop=FrozenFood | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Frozen Food Store
+        terms: <translate with synonyms or related terms for 'Frozen Food Store', separated by commas>
+      PointOfInterest/Shop/Fuel:
+        # PointOfInterest=Shop + Shop=Fuel | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Gas Station
+        # 'terms: petrol,fuel,gasoline,propane,diesel,lng,cng,biodiesel'
+        terms: <translate with synonyms or related terms for 'Gas Station', separated by commas>
+      PointOfInterest/Shop/FuneralDirectors:
+        # PointOfInterest=Shop + Shop=FuneralDirectors | Funeral Parlor | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Funeral Home
+        # 'terms: undertaker,memorial home,mortuary'
+        terms: <translate with synonyms or related terms for 'Funeral Home', separated by commas>
+      PointOfInterest/Shop/Furniture:
+        # PointOfInterest=Shop + Shop=Furniture | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Furniture Store
+        # 'terms: chair,sofa,table'
+        terms: <translate with synonyms or related terms for 'Furniture Store', separated by commas>
+      PointOfInterest/Shop/Games:
+        # PointOfInterest=Shop + Shop=Games | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Tabletop Game Store
+        # 'terms: board game,card game,dice game,game shop,larp,live action role-playing game,miniature wargame,role-playing,strategy game,wargame'
+        terms: <translate with synonyms or related terms for 'Tabletop Game Store', separated by commas>
+      PointOfInterest/Shop/GardenCentre:
+        # PointOfInterest=Shop + Shop=GardenCentre | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Garden Center
+        # 'terms: landscape,mulch,nursery,plant nursery,retail plant nursery,shrub,tree'
+        terms: <translate with synonyms or related terms for 'Garden Center', separated by commas>
+      PointOfInterest/Shop/Gift:
+        # PointOfInterest=Shop + Shop=Gift | Souvenir Shop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Gift Shop
+        # 'terms: tourist trap'
+        terms: <translate with synonyms or related terms for 'Gift Shop', separated by commas>
+      PointOfInterest/Shop/Greengrocer:
+        # PointOfInterest=Shop + Shop=Greengrocer | Produce Store, Produce Shop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Greengrocer
+        # 'terms: fruit,produce,vegetable'
+        terms: <translate with synonyms or related terms for 'Greengrocer', separated by commas>
+      PointOfInterest/Shop/Guide:
+        # PointOfInterest=Shop + Shop=Guide | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Tour Guide Office
+        # 'terms: dive guide,mountain guide,tour guide'
+        terms: <translate with synonyms or related terms for 'Tour Guide Office', separated by commas>
+      PointOfInterest/Shop/Hairdresser:
+        # PointOfInterest=Shop + Shop=Hairdresser | Hair Salon, Barber Shop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Hairdresser
+        # 'terms: beard'
+        terms: <translate with synonyms or related terms for 'Hairdresser', separated by commas>
+      PointOfInterest/Shop/Hardware:
+        # PointOfInterest=Shop + Shop=Hardware | Hardware Shop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Hardware Store
+        # 'terms: craft,diy,do it yourself,hardware,home improvement,tools'
+        terms: <translate with synonyms or related terms for 'Hardware Store', separated by commas>
+      PointOfInterest/Shop/HearingAids:
+        # PointOfInterest=Shop + Shop=HearingAids | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Hearing Aids Store
+        terms: <translate with synonyms or related terms for 'Hearing Aids Store', separated by commas>
+      PointOfInterest/Shop/Hifi:
+        # PointOfInterest=Shop + Shop=Hifi | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Hifi Store
+        # 'terms: audio,hi-fi,high fidelity,stereo,video'
+        terms: <translate with synonyms or related terms for 'Hifi Store', separated by commas>
+      PointOfInterest/Shop/Insurance:
+        # PointOfInterest=Shop + Shop=Insurance | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Insurance Office
+        # 'terms: actuary,insurer,risk management'
+        terms: <translate with synonyms or related terms for 'Insurance Office', separated by commas>
+      PointOfInterest/Shop/InteriorDecoration:
+        # PointOfInterest=Shop + Shop=InteriorDecoration | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Interior Decoration Store
+        terms: <translate with synonyms or related terms for 'Interior Decoration Store', separated by commas>
+      PointOfInterest/Shop/InternetCafe:
+        # PointOfInterest=Shop + Shop=InternetCafe | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Internet Cafe
+        # 'terms: cybercafe,taxiphone,teleboutique,coffee,cafe,net,lanhouse'
+        terms: <translate with synonyms or related terms for 'Internet Cafe', separated by commas>
+      PointOfInterest/Shop/Jewelry:
+        # PointOfInterest=Shop + Shop=Jewelry | Jewelry Shop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Jewelry Store
+        # 'terms: bracelet,diamond,earrings,gem,gold,jeweler,jewellery,jeweller,necklace,pins,ring,silver'
+        terms: <translate with synonyms or related terms for 'Jewelry Store', separated by commas>
+      PointOfInterest/Shop/Kiosk:
+        # PointOfInterest=Shop + Shop=Kiosk | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Kiosk
+        # 'terms: beverages,cigarettes,mall kiosk,newsagent,newspaper,newsstand,snacks,sweets'
+        terms: <translate with synonyms or related terms for 'Kiosk', separated by commas>
+      PointOfInterest/Shop/Kitchen:
+        # PointOfInterest=Shop + Shop=Kitchen | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Kitchen Design Store
+        # 'terms: cabinets,countertops,sinks'
+        terms: <translate with synonyms or related terms for 'Kitchen Design Store', separated by commas>
+      PointOfInterest/Shop/Laundry:
+        # PointOfInterest=Shop + Shop=Laundry | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Laundry
+        terms: <translate with synonyms or related terms for 'Laundry', separated by commas>
+      PointOfInterest/Shop/Leather:
+        # PointOfInterest=Shop + Shop=Leather | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Leather Store
+        # 'terms: leather'
+        terms: <translate with synonyms or related terms for 'Leather Store', separated by commas>
+      PointOfInterest/Shop/Massage:
+        # PointOfInterest=Shop + Shop=Massage | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Massage Shop
+        terms: <translate with synonyms or related terms for 'Massage Shop', separated by commas>
+      PointOfInterest/Shop/MedicalSupply:
+        # PointOfInterest=Shop + Shop=MedicalSupply | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Medical Supply Store
+        terms: <translate with synonyms or related terms for 'Medical Supply Store', separated by commas>
+      PointOfInterest/Shop/MobilePhone:
+        # PointOfInterest=Shop + Shop=MobilePhone | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Mobile Phone Store
+        terms: <translate with synonyms or related terms for 'Mobile Phone Store', separated by commas>
+      PointOfInterest/Shop/Motorcycle:
+        # PointOfInterest=Shop + Shop=Motorcycle | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Motorcycle Dealership
+        # 'terms: bike'
+        terms: <translate with synonyms or related terms for 'Motorcycle Dealership', separated by commas>
+      PointOfInterest/Shop/MotorcycleRepair:
+        # PointOfInterest=Shop + Shop=MotorcycleRepair | Motorcycle Repair Workshop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Motorcycle Repair Shop
+        # 'terms: auto,bike,garage,motorcycle,repair,service'
+        terms: <translate with synonyms or related terms for 'Motorcycle Repair Shop', separated by commas>
+      PointOfInterest/Shop/MovingCompany:
+        # PointOfInterest=Shop + Shop=MovingCompany | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Moving Company Office
+        # 'terms: relocation,movers'
+        terms: <translate with synonyms or related terms for 'Moving Company Office', separated by commas>
+      PointOfInterest/Shop/Music:
+        # PointOfInterest=Shop + Shop=Music | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Music Store
+        # 'terms: tape cassettes,cds,compact discs,vinyl records,cd store,casette,casette store'
+        terms: <translate with synonyms or related terms for 'Music Store', separated by commas>
+      PointOfInterest/Shop/Newsagent:
+        # PointOfInterest=Shop + Shop=Newsagent | Newspaper/Magazine Shop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Newsstand
+        terms: <translate with synonyms or related terms for 'Newsstand', separated by commas>
+      PointOfInterest/Shop/Nightclub:
+        # PointOfInterest=Shop + Shop=Nightclub | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Nightclub
+        # 'terms: disco*,night club,dancing,dance club'
+        terms: <translate with synonyms or related terms for 'Nightclub', separated by commas>
+      PointOfInterest/Shop/Optician:
+        # PointOfInterest=Shop + Shop=Optician | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Optician
+        # 'terms: eye,glasses'
+        terms: <translate with synonyms or related terms for 'Optician', separated by commas>
+      PointOfInterest/Shop/Outdoor:
+        # PointOfInterest=Shop + Shop=Outdoor | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Outdoors Store
+        # 'terms: camping,climbing,hiking,outfitter,outdoor equipment,outdoor supplies'
+        terms: <translate with synonyms or related terms for 'Outdoors Store', separated by commas>
+      PointOfInterest/Shop/Pastry:
+        # PointOfInterest=Shop + Shop=Pastry | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Pastry Shop
+        # 'terms: patisserie,cake shop,cakery'
+        terms: <translate with synonyms or related terms for 'Pastry Shop', separated by commas>
+      PointOfInterest/Shop/Perfumery:
+        # PointOfInterest=Shop + Shop=Perfumery | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Perfume Store
+        # 'terms: cologne,fragrance,purfume'
+        terms: <translate with synonyms or related terms for 'Perfume Store', separated by commas>
+      PointOfInterest/Shop/Pet:
+        # PointOfInterest=Shop + Shop=Pet | Pet Shop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Pet Store
+        # 'terms: animal,cat,dog,fish,kitten,puppy,reptile'
+        terms: <translate with synonyms or related terms for 'Pet Store', separated by commas>
+      PointOfInterest/Shop/Pharmacy:
+        # PointOfInterest=Shop + Shop=Pharmacy | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Pharmacy Counter
+        # 'terms: apothecary,drug store,drugstore,med*,prescription'
+        terms: <translate with synonyms or related terms for 'Pharmacy Counter', separated by commas>
+      PointOfInterest/Shop/Seafood:
+        # PointOfInterest=Shop + Shop=Seafood | Fishmonger | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Seafood Shop
+        terms: <translate with synonyms or related terms for 'Seafood Shop', separated by commas>
+      PointOfInterest/Shop/SecondHand:
+        # PointOfInterest=Shop + Shop=SecondHand | Thrift Shop, Consignment Store, Resale Shop, Secondhand Shop | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Thrift Store
+        # 'terms: second-hand,resale,used'
+        terms: <translate with synonyms or related terms for 'Thrift Store', separated by commas>
+      PointOfInterest/Shop/Sewing:
+        # PointOfInterest=Shop + Shop=Sewing | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Sewing Supply Shop
+        # 'terms: haberdashery'
+        terms: <translate with synonyms or related terms for 'Sewing Supply Shop', separated by commas>
+      PointOfInterest/Shop/Shoes:
+        # PointOfInterest=Shop + Shop=Shoes | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Shoe Store
+        # 'terms: boots,cleats,clogs,heels,loafers,oxfords,sneakers'
+        terms: <translate with synonyms or related terms for 'Shoe Store', separated by commas>
+      PointOfInterest/Shop/Sports:
+        # PointOfInterest=Shop + Shop=Sports | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Sporting Goods Store
+        # 'terms: athletics'
+        terms: <translate with synonyms or related terms for 'Sporting Goods Store', separated by commas>
+      PointOfInterest/Shop/Stationery:
+        # PointOfInterest=Shop + Shop=Stationery | Office Supply Store | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Stationery Store
+        # 'terms: card,paper'
+        terms: <translate with synonyms or related terms for 'Stationery Store', separated by commas>
+      PointOfInterest/Shop/Supermarket:
+        # PointOfInterest=Shop + Shop=Supermarket | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Supermarket
+        # 'terms: grocery,store,shop,grocery store,market,food market'
+        terms: <translate with synonyms or related terms for 'Supermarket', separated by commas>
+      PointOfInterest/Shop/Tattoo:
+        # PointOfInterest=Shop + Shop=Tattoo | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Tattoo Parlor
+        # 'terms: ink'
+        terms: <translate with synonyms or related terms for 'Tattoo Parlor', separated by commas>
+      PointOfInterest/Shop/Tea:
+        # PointOfInterest=Shop + Shop=Tea | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Tea Store
+        terms: <translate with synonyms or related terms for 'Tea Store', separated by commas>
+      PointOfInterest/Shop/Ticket:
+        # PointOfInterest=Shop + Shop=Ticket | Ticket Vendor, Ticket Booth | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Ticket Seller
+        # 'terms: box office'
+        terms: <translate with synonyms or related terms for 'Ticket Seller', separated by commas>
+      PointOfInterest/Shop/Tobacco:
+        # PointOfInterest=Shop + Shop=Tobacco | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Tobacco Shop
+        # 'terms: cigarettes,cigars'
+        terms: <translate with synonyms or related terms for 'Tobacco Shop', separated by commas>
+      PointOfInterest/Shop/Toys:
+        # PointOfInterest=Shop + Shop=Toys | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Toy Store
+        # 'terms: games,teddy'
+        terms: <translate with synonyms or related terms for 'Toy Store', separated by commas>
+      PointOfInterest/Shop/TravelAgency:
+        # PointOfInterest=Shop + Shop=TravelAgency | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Travel Agency
+        # 'terms: cruises,flights,hotels,tickets,travel packages'
+        terms: <translate with synonyms or related terms for 'Travel Agency', separated by commas>
+      PointOfInterest/Shop/Variety_Store:
+        # PointOfInterest=Shop + Shop=Variety_Store | Dollar Store, Variety Store | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Discount Store
+        # 'terms: five and dime,five and ten'
+        terms: <translate with synonyms or related terms for 'Discount Store', separated by commas>
+      PointOfInterest/Shop/VehicleInspection:
+        # PointOfInterest=Shop + Shop=VehicleInspection | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Vehicle Inspection
+        # 'terms: car inspection'
+        terms: <translate with synonyms or related terms for 'Vehicle Inspection', separated by commas>
+      PointOfInterest/Shop/VideoGames:
+        # PointOfInterest=Shop + Shop=VideoGames | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Video Game Store
+        terms: <translate with synonyms or related terms for 'Video Game Store', separated by commas>
+      PointOfInterest/Shop/Watches:
+        # PointOfInterest=Shop + Shop=Watches | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Watches Shop
+        terms: <translate with synonyms or related terms for 'Watches Shop', separated by commas>
       PointOfInterest/StopPlace:
         # PointOfInterest=StopPlace | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: StopPlace
@@ -1123,6 +1631,19 @@ en:
         name: Tramway Station
         # 'terms: tram terminal,tramway terminal'
         terms: <translate with synonyms or related terms for 'Tramway Station', separated by commas>
+      PointOfInterest/Theater/Cinema:
+        # PointOfInterest=Theater + Theater=Cinema | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Cinema
+        # 'terms: drive-in,film,flick,movie,theater,picture,show,screen'
+        terms: <translate with synonyms or related terms for 'Cinema', separated by commas>
+      PointOfInterest/Theater/Theater:
+        # PointOfInterest=Theater + Theater=Theater | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Theater
+        # 'terms: theatre,performance,play,musical'
+        terms: <translate with synonyms or related terms for 'Theater', separated by commas>
+      PointOfInterest/default_POI:
+        # PointOfInterest=Any | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
+        name: Generic Point Of Interest
       SitePathLink:
         # SitePathLink=* | Translate the primary name. Optionally, add equivalent synonyms on newlines in order of preference (press the Return key).
         name: SitePathLink Feature

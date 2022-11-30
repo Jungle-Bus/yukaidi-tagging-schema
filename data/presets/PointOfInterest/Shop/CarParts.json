@@ -1,0 +1,22 @@
+{
+    "name": "Car Parts Store",
+    "icon": "fas-car-battery",
+    "terms": [
+        "automobile",
+        "automotive"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "CarParts"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

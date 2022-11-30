@@ -1,0 +1,30 @@
+{
+    "name": "Pet Store",
+    "icon": "fas-cat",
+    "terms": [
+        "animal",
+        "cat",
+        "dog",
+        "fish",
+        "kitten",
+        "puppy",
+        "reptile"
+    ],
+    "aliases": [
+        "Pet Shop"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Pet"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}
