@@ -1,0 +1,26 @@
+{
+    "icon": "fas-store",
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "fields": [
+        "Name",
+        "WheelchairAccess",
+        "AudibleSignals",
+        "VisualSigns"
+    ],
+    "moreFields": [
+        "Outdoor",
+        "Image",
+        "Phone",
+        "Website",
+        "SIRET_FR",
+        "Lighting"
+    ],
+    "tags": {
+        "PointOfInterest": "Any"
+    },
+    "name": "Generic Point Of Interest",
+    "searchable": false
+}

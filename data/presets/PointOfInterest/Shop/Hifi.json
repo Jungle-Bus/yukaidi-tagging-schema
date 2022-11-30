@@ -1,0 +1,25 @@
+{
+    "name": "Hifi Store",
+    "icon": "temaki-speaker",
+    "terms": [
+        "audio",
+        "hi-fi",
+        "high fidelity",
+        "stereo",
+        "video"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Hifi"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

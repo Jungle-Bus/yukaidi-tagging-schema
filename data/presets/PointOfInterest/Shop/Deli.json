@@ -1,0 +1,27 @@
+{
+    "name": "Delicatessen",
+    "icon": "fas-jar",
+    "terms": [
+        "deli"
+    ],
+    "aliases": [
+        "Specialty Food Store",
+        "Gourmet Food Store",
+        "Fine Food Store",
+        "Gourmet Food Shop"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Deli"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

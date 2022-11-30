@@ -404,8 +404,7 @@
     },
     "Phone": {
         "key": "Phone",
-        "type": "tel",
-        "icon": "maki-telephone"
+        "type": "tel"
     },
     "PointOfInterest": {
         "key": "PointOfInterest",
@@ -484,7 +483,6 @@
     "source": {
         "key": "source",
         "type": "semiCombo",
-        "icon": "source",
         "usage": "changeset",
         "snake_case": false,
         "caseSensitive": true,
@@ -658,8 +656,7 @@
     },
     "Website": {
         "key": "Website",
-        "type": "url",
-        "icon": "website"
+        "type": "url"
     },
     "WheelchairAccess_Description": {
         "key": "WheelchairAccess:Description",
@@ -668,7 +665,6 @@
     "WheelchairAccess": {
         "key": "WheelchairAccess",
         "type": "radio",
-        "icon": "maki-wheelchair",
         "options": [
             "Yes",
             "Limited",

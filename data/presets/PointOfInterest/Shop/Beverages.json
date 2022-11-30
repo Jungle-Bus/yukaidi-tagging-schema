@@ -1,0 +1,21 @@
+{
+    "name": "Beverage Store",
+    "icon": "temaki-bottles",
+    "terms": [
+        "drinks"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Beverages"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

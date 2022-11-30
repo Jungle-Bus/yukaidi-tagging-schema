@@ -1,0 +1,30 @@
+{
+    "name": "Drugstore",
+    "icon": "fas-shopping-basket",
+    "terms": [
+        "apothecary",
+        "beauty",
+        "drug store",
+        "drugstore",
+        "gift",
+        "hair",
+        "med*",
+        "pharmacy",
+        "prescription",
+        "tooth"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Chemist"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

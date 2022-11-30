@@ -1,0 +1,23 @@
+{
+    "name": "Antique Shop",
+    "icon": "temaki-furniture",
+    "aliases": [
+        "Antique Store",
+        "Antiques Shop",
+        "Antiques Store"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Antiques"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

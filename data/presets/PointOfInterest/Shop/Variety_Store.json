@@ -1,0 +1,26 @@
+{
+    "name": "Discount Store",
+    "icon": "maki-shop",
+    "terms": [
+        "five and dime",
+        "five and ten"
+    ],
+    "aliases": [
+        "Dollar Store",
+        "Variety Store"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Variety_Store"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

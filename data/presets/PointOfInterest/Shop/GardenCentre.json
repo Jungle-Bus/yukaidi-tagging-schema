@@ -1,0 +1,27 @@
+{
+    "name": "Garden Center",
+    "icon": "maki-garden-centre",
+    "terms": [
+        "landscape",
+        "mulch",
+        "nursery",
+        "plant nursery",
+        "retail plant nursery",
+        "shrub",
+        "tree"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "GardenCentre"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

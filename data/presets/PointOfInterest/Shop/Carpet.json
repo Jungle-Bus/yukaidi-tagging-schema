@@ -1,0 +1,21 @@
+{
+    "name": "Carpet Store",
+    "icon": "fas-tape",
+    "terms": [
+        "rug"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Carpet"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

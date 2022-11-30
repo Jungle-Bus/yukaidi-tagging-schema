@@ -1,0 +1,23 @@
+{
+    "name": "Tax and Revenue Office",
+    "icon": "temaki-town_hall",
+    "terms": [
+        "fiscal authorities",
+        "revenue office",
+        "tax office"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Government",
+        "Government": "Tax"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

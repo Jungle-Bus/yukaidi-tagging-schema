@@ -1,0 +1,24 @@
+{
+    "name": "Currency Exchange",
+    "icon": "temaki-money_hand",
+    "terms": [
+        "money changer"
+    ],
+    "aliases": [
+        "Bureau de Change"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "BureauDeChange"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

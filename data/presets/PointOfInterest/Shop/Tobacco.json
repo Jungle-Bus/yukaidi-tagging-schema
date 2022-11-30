@@ -1,0 +1,22 @@
+{
+    "name": "Tobacco Shop",
+    "icon": "temaki-pipe",
+    "terms": [
+        "cigarettes",
+        "cigars"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Tobacco"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Toy Store",
+    "icon": "fas-rocket",
+    "terms": [
+        "games",
+        "teddy"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Toys"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

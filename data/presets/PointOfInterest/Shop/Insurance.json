@@ -1,0 +1,23 @@
+{
+    "name": "Insurance Office",
+    "icon": "temaki-briefcase_shield",
+    "terms": [
+        "actuary",
+        "insurer",
+        "risk management"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Insurance"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

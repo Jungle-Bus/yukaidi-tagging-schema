@@ -1,0 +1,29 @@
+{
+    "name": "Bicycle Shop",
+    "icon": "maki-bicycle",
+    "terms": [
+        "bicycle store",
+        "bike",
+        "bike store",
+        "repair",
+        "tricycle",
+        "unicycle"
+    ],
+    "aliases": [
+        "Bike Shop"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Bicycle"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

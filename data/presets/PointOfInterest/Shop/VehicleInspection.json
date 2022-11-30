@@ -1,0 +1,21 @@
+{
+    "name": "Vehicle Inspection",
+    "icon": "maki-car",
+    "terms": [
+        "car inspection"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "VehicleInspection"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

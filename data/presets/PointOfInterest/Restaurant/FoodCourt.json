@@ -1,0 +1,23 @@
+{
+    "name": "Food Court",
+    "icon": "maki-restaurant",
+    "terms": [
+        "fast food",
+        "restaurant",
+        "food"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Restaurant",
+        "Restaurant": "FoodCourt"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

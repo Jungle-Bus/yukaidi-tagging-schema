@@ -1,0 +1,21 @@
+{
+    "name": "Sewing Supply Shop",
+    "icon": "temaki-needle_and_spool",
+    "terms": [
+        "haberdashery"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Sewing"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

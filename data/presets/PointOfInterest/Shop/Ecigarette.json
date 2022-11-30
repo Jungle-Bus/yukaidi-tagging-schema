@@ -1,0 +1,24 @@
+{
+    "name": "E-Cigarette Shop",
+    "icon": "maki-shop",
+    "terms": [
+        "electronic",
+        "vape",
+        "vaping",
+        "vapor"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Ecigarette"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

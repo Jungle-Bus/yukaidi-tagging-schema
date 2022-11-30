@@ -1,0 +1,31 @@
+{
+    "name": "Produce Stand",
+    "icon": "fas-apple-alt",
+    "terms": [
+        "baked goods",
+        "fresh food",
+        "fruits",
+        "greengrocer",
+        "orchard",
+        "organics",
+        "vegetables"
+    ],
+    "aliases": [
+        "Farm Shop",
+        "Farm Stand"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Farm"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

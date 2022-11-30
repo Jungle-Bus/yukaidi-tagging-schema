@@ -1,0 +1,28 @@
+{
+    "name": "Kiosk",
+    "icon": "fas-store",
+    "terms": [
+        "beverages",
+        "cigarettes",
+        "mall kiosk",
+        "newsagent",
+        "newspaper",
+        "newsstand",
+        "snacks",
+        "sweets"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Kiosk"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

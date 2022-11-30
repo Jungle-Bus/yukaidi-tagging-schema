@@ -1,0 +1,21 @@
+{
+    "name": "Chocolate Store",
+    "icon": "maki-confectionery",
+    "terms": [
+        "cocoa"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Chocolate"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

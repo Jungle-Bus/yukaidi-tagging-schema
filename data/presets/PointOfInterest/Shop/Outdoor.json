@@ -1,0 +1,26 @@
+{
+    "name": "Outdoors Store",
+    "icon": "temaki-compass",
+    "terms": [
+        "camping",
+        "climbing",
+        "hiking",
+        "outfitter",
+        "outdoor equipment",
+        "outdoor supplies"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Outdoor"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

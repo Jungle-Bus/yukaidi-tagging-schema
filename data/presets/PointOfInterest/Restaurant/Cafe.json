@@ -1,0 +1,23 @@
+{
+    "name": "Cafe",
+    "icon": "maki-cafe",
+    "terms": [
+        "bistro",
+        "coffee",
+        "tea"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Restaurant",
+        "Restaurant": "Cafe"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

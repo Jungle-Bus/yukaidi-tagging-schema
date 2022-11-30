@@ -1,0 +1,25 @@
+{
+    "name": "Computer Store",
+    "icon": "fas-laptop",
+    "terms": [
+        "desktop",
+        "laptop",
+        "hardware",
+        "operating system",
+        "software"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Computer"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

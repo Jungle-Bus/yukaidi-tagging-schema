@@ -1,0 +1,22 @@
+{
+    "name": "Fast Food",
+    "icon": "maki-fast-food",
+    "terms": [
+        "restaurant",
+        "takeaway"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Restaurant",
+        "Restaurant": "FastFood"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

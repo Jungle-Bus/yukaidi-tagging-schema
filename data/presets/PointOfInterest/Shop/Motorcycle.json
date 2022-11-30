@@ -1,0 +1,21 @@
+{
+    "name": "Motorcycle Dealership",
+    "icon": "fas-motorcycle",
+    "terms": [
+        "bike"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Motorcycle"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

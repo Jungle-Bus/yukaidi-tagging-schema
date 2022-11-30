@@ -1,0 +1,18 @@
+{
+    "name": "Dry Cleaner",
+    "icon": "temaki-clothes_hanger",
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "DryCleaning"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

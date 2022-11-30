@@ -396,12 +396,82 @@
         },
         {
             "key": "PointOfInterest",
+            "value": "Any",
+            "description": "🄿 Generic Point Of Interest (unsearchable)",
+            "object_types": [
+                "node",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-store.svg"
+        },
+        {
+            "key": "PointOfInterest",
             "value": "Bank",
             "description": "🄿 Bank, 🄵🅅 Type: Bank",
             "object_types": [
                 "area"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/bank-15.svg"
+        },
+        {
+            "key": "Government",
+            "value": "CourtHouse",
+            "description": "🄿 Courthouse",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-gavel.svg"
+        },
+        {
+            "key": "Government",
+            "value": "Police",
+            "description": "🄿 Police",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/police_officer.svg"
+        },
+        {
+            "key": "Government",
+            "value": "Post",
+            "description": "🄿 Post Office",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/post-15.svg"
+        },
+        {
+            "key": "Government",
+            "value": "Tax",
+            "description": "🄿 Tax and Revenue Office",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/town_hall.svg"
+        },
+        {
+            "key": "Government",
+            "value": "Townhall",
+            "description": "🄿 Town Hall",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/town_hall.svg"
+        },
+        {
+            "key": "Government",
+            "value": "UnemploymentInsurance",
+            "description": "🄿 Employment Agency",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/suitcase-15.svg"
         },
         {
             "key": "PointOfInterest",
@@ -420,6 +490,1006 @@
                 "area"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/suitcase-15.svg"
+        },
+        {
+            "key": "Restaurant",
+            "value": "Cafe",
+            "description": "🄿 Cafe",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/cafe-15.svg"
+        },
+        {
+            "key": "Restaurant",
+            "value": "FastFood",
+            "description": "🄿 Fast Food",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/fast-food-15.svg"
+        },
+        {
+            "key": "Restaurant",
+            "value": "FoodCourt",
+            "description": "🄿 Food Court",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/restaurant-15.svg"
+        },
+        {
+            "key": "Restaurant",
+            "value": "IceCream",
+            "description": "🄿 Ice Cream Shop",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-ice-cream.svg"
+        },
+        {
+            "key": "Restaurant",
+            "value": "Pub",
+            "description": "🄿 Pub",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/beer-15.svg"
+        },
+        {
+            "key": "Restaurant",
+            "value": "Restaurant",
+            "description": "🄿 Restaurant",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/restaurant-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Alcohol",
+            "description": "🄿 Liquor Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-wine-bottle.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Antiques",
+            "description": "🄿 Antique Shop",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/furniture.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Art",
+            "description": "🄿 Art Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/shop-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Bag",
+            "description": "🄿 Bag/Luggage Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-suitcase-rolling.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Bakery",
+            "description": "🄿 Bakery",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/bakery-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Beauty",
+            "description": "🄿 Beauty Shop",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/lipstick.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Bed",
+            "description": "🄿 Bedding/Mattress Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/lodging-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Beverages",
+            "description": "🄿 Beverage Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/bottles.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Bicycle",
+            "description": "🄿 Bicycle Shop",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/bicycle-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "BoatRental",
+            "description": "🄿 Boat Rental",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/boat_rental.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Books",
+            "description": "🄿 Bookstore",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-book.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "BureauDeChange",
+            "description": "🄿 Currency Exchange",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/money_hand.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Butcher",
+            "description": "🄿 Butcher",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/cleaver.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Car",
+            "description": "🄿 Car Dealership",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/car-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "CarParts",
+            "description": "🄿 Car Parts Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-car-battery.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Carpet",
+            "description": "🄿 Carpet Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-tape.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "CarRental",
+            "description": "🄿 Car Rental",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/car-rental-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "CarRepair",
+            "description": "🄿 Car Repair Shop",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/car-repair-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "CarWash",
+            "description": "🄿 Car Wash",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/car_wash.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Cheese",
+            "description": "🄿 Cheese Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-cheese.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Chemist",
+            "description": "🄿 Drugstore",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-shopping-basket.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Chocolate",
+            "description": "🄿 Chocolate Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/confectionery-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Clothes",
+            "description": "🄿 Clothing Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/clothing-store-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Coffee",
+            "description": "🄿 Coffee Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/coffee.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Computer",
+            "description": "🄿 Computer Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-laptop.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Confectionery",
+            "description": "🄿 Candy Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/confectionery-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Convenience",
+            "description": "🄿 Convenience Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-shopping-basket.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Copyshop",
+            "description": "🄿 Copy Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-print.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Cosmetics",
+            "description": "🄿 Cosmetics Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/lipstick.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Crematorium",
+            "description": "🄿 Crematorium",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/cemetery-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Deli",
+            "description": "🄿 Delicatessen",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-jar.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "DepartmentStore",
+            "description": "🄿 Department Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/shop-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "DoItYourself",
+            "description": "🄿 DIY Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/tools.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "DrivingSchool",
+            "description": "🄿 Driving School",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/car-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "DryCleaning",
+            "description": "🄿 Dry Cleaner",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/clothes_hanger.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Ecigarette",
+            "description": "🄿 E-Cigarette Shop",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/shop-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "EmploymentAgency",
+            "description": "🄿 Employment Agency",
+            "object_types": [
+                "node",
+                "area"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/suitcase-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "EstateAgent",
+            "description": "🄿 Real Estate Office",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/real_estate_agency.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Fabric",
+            "description": "🄿 Fabric Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-tape.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Farm",
+            "description": "🄿 Produce Stand",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-apple-alt.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Florist",
+            "description": "🄿 Florist",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/florist-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "FrozenFood",
+            "description": "🄿 Frozen Food Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/shop-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Fuel",
+            "description": "🄿 Gas Station",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/fuel-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "FuneralDirectors",
+            "description": "🄿 Funeral Home",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/cemetery-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Furniture",
+            "description": "🄿 Furniture Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-couch.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Games",
+            "description": "🄿 Tabletop Game Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-dice.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "GardenCentre",
+            "description": "🄿 Garden Center",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/garden-centre-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Gift",
+            "description": "🄿 Gift Shop",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/gift-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Greengrocer",
+            "description": "🄿 Greengrocer",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-carrot.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Guide",
+            "description": "🄿 Tour Guide Office",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/suitcase-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Hairdresser",
+            "description": "🄿 Hairdresser",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/beauty_salon.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Hardware",
+            "description": "🄿 Hardware Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/tools.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "HearingAids",
+            "description": "🄿 Hearing Aids Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/hearing_aid.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Hifi",
+            "description": "🄿 Hifi Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/speaker.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Insurance",
+            "description": "🄿 Insurance Office",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/briefcase_shield.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "InteriorDecoration",
+            "description": "🄿 Interior Decoration Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/shop-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "InternetCafe",
+            "description": "🄿 Internet Cafe",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/antenna.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Jewelry",
+            "description": "🄿 Jewelry Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/jewelry-store-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Kiosk",
+            "description": "🄿 Kiosk",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-store.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Kitchen",
+            "description": "🄿 Kitchen Design Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/kitchen_sink.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Laundry",
+            "description": "🄿 Laundry",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/laundry.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Leather",
+            "description": "🄿 Leather Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/handbag.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Massage",
+            "description": "🄿 Massage Shop",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/spa.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "MedicalSupply",
+            "description": "🄿 Medical Supply Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-crutch.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "MobilePhone",
+            "description": "🄿 Mobile Phone Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-mobile-alt.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Motorcycle",
+            "description": "🄿 Motorcycle Dealership",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-motorcycle.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "MotorcycleRepair",
+            "description": "🄿 Motorcycle Repair Shop",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/motorcycle_repair.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "MovingCompany",
+            "description": "🄿 Moving Company Office",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-people-carry.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Music",
+            "description": "🄿 Music Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-compact-disc.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Newsagent",
+            "description": "🄿 Newsstand",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-newspaper.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Nightclub",
+            "description": "🄿 Nightclub",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-cocktail.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Optician",
+            "description": "🄿 Optician",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/optician-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Outdoor",
+            "description": "🄿 Outdoors Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/compass.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Pastry",
+            "description": "🄿 Pastry Shop",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/bakery-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Perfumery",
+            "description": "🄿 Perfume Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/perfume.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Pet",
+            "description": "🄿 Pet Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-cat.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Pharmacy",
+            "description": "🄿 Pharmacy Counter",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/pharmacy-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Seafood",
+            "description": "🄿 Seafood Shop",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/fish_cleaning.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "SecondHand",
+            "description": "🄿 Thrift Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/shop-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Sewing",
+            "description": "🄿 Sewing Supply Shop",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/needle_and_spool.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Shoes",
+            "description": "🄿 Shoe Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/shoe-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Sports",
+            "description": "🄿 Sporting Goods Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-futbol.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Stationery",
+            "description": "🄿 Stationery Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-paperclip.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Supermarket",
+            "description": "🄿 Supermarket",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/grocery-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Tattoo",
+            "description": "🄿 Tattoo Parlor",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/tattoo_machine.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Tea",
+            "description": "🄿 Tea Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/teahouse-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Ticket",
+            "description": "🄿 Ticket Seller",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-ticket-alt.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Tobacco",
+            "description": "🄿 Tobacco Shop",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/pipe.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Toys",
+            "description": "🄿 Toy Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-rocket.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "TravelAgency",
+            "description": "🄿 Travel Agency",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/openstreetmap/iD@develop/svg/fontawesome/fas-suitcase.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Variety_Store",
+            "description": "🄿 Discount Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/shop-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "VehicleInspection",
+            "description": "🄿 Vehicle Inspection",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/car-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "VideoGames",
+            "description": "🄿 Video Game Store",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/gaming-15.svg"
+        },
+        {
+            "key": "Shop",
+            "value": "Watches",
+            "description": "🄿 Watches Shop",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/watch-15.svg"
         },
         {
             "key": "PointOfInterest",
@@ -501,6 +1571,26 @@
                 "area"
             ],
             "icon_url": "https://cdn.jsdelivr.net/gh/ideditor/temaki/icons/tram.svg"
+        },
+        {
+            "key": "Theater",
+            "value": "Cinema",
+            "description": "🄿 Cinema",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/cinema-15.svg"
+        },
+        {
+            "key": "Theater",
+            "value": "Theater",
+            "description": "🄿 Theater",
+            "object_types": [
+                "area",
+                "node"
+            ],
+            "icon_url": "https://cdn.jsdelivr.net/gh/mapbox/maki/icons/theatre-15.svg"
         },
         {
             "key": "SitePathLink",

@@ -1,0 +1,25 @@
+{
+    "name": "Bookstore",
+    "icon": "fas-book",
+    "aliases": [
+        "Bookshop",
+        "Bookseller",
+        "Book Store",
+        "Book Shop",
+        "Book Seller"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Books"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Thrift Store",
+    "icon": "maki-shop",
+    "terms": [
+        "second-hand",
+        "resale",
+        "used"
+    ],
+    "aliases": [
+        "Thrift Shop",
+        "Consignment Store",
+        "Resale Shop",
+        "Secondhand Shop"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "SecondHand"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

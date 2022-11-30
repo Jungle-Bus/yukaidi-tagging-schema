@@ -1,0 +1,23 @@
+{
+    "name": "Pastry Shop",
+    "icon": "maki-bakery",
+    "terms": [
+        "patisserie",
+        "cake shop",
+        "cakery"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Pastry"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

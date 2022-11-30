@@ -1,0 +1,22 @@
+{
+    "name": "Moving Company Office",
+    "icon": "fas-people-carry",
+    "terms": [
+        "relocation",
+        "movers"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "MovingCompany"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

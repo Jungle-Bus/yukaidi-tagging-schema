@@ -1,0 +1,29 @@
+{
+    "name": "Convenience Store",
+    "icon": "fas-shopping-basket",
+    "terms": [
+        "mini-mart",
+        "mini-market"
+    ],
+    "aliases": [
+        "Convenience Shop",
+        "Corner Store",
+        "Corner Shop",
+        "Superette",
+        "Bodega"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Convenience"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

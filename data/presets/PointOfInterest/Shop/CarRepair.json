@@ -1,0 +1,32 @@
+{
+    "name": "Car Repair Shop",
+    "icon": "maki-car-repair",
+    "terms": [
+        "automechanic",
+        "automotive",
+        "garage",
+        "inspection",
+        "mechanic",
+        "oil change",
+        "service"
+    ],
+    "aliases": [
+        "Automobile Repair Shop",
+        "Car Mechanic",
+        "Auto Mechanic"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "CarRepair"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

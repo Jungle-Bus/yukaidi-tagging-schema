@@ -1,0 +1,30 @@
+{
+    "name": "Police",
+    "icon": "temaki-police_officer",
+    "terms": [
+        "badge",
+        "constable",
+        "constabulary",
+        "cop",
+        "detective",
+        "fed",
+        "law",
+        "enforcement",
+        "officer",
+        "patrol"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Government",
+        "Government": "Police"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

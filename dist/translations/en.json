@@ -772,9 +772,35 @@
                 "PointOfInterest": {
                     "name": "PointOfInterest"
                 },
+                "PointOfInterest/default_POI": {
+                    "name": "Generic Point Of Interest"
+                },
                 "PointOfInterest/Bank": {
                     "name": "Bank",
                     "terms": "check,deposit,fund,investment,repository,reserve,safe,savings,stock,treasury,trust,vault"
+                },
+                "PointOfInterest/Government/CourtHouse": {
+                    "name": "Courthouse"
+                },
+                "PointOfInterest/Government/Police": {
+                    "name": "Police",
+                    "terms": "badge,constable,constabulary,cop,detective,fed,law,enforcement,officer,patrol"
+                },
+                "PointOfInterest/Government/Post": {
+                    "name": "Post Office",
+                    "terms": "letter,mail"
+                },
+                "PointOfInterest/Government/Tax": {
+                    "name": "Tax and Revenue Office",
+                    "terms": "fiscal authorities,revenue office,tax office"
+                },
+                "PointOfInterest/Government/Townhall": {
+                    "name": "Town Hall",
+                    "terms": "village,city,government,courthouse,municipal"
+                },
+                "PointOfInterest/Government/UnemploymentInsurance": {
+                    "name": "Employment Agency",
+                    "terms": "job"
                 },
                 "PointOfInterest/Museum": {
                     "name": "Museum",
@@ -783,6 +809,411 @@
                 "PointOfInterest/Office": {
                     "name": "Office",
                     "terms": "company"
+                },
+                "PointOfInterest/Restaurant/Cafe": {
+                    "name": "Cafe",
+                    "terms": "bistro,coffee,tea"
+                },
+                "PointOfInterest/Restaurant/FastFood": {
+                    "name": "Fast Food",
+                    "terms": "restaurant,takeaway"
+                },
+                "PointOfInterest/Restaurant/FoodCourt": {
+                    "name": "Food Court",
+                    "terms": "fast food,restaurant,food"
+                },
+                "PointOfInterest/Restaurant/IceCream": {
+                    "name": "Ice Cream Shop",
+                    "terms": "gelato,sorbet,sherbet,frozen,yogurt"
+                },
+                "PointOfInterest/Restaurant/Pub": {
+                    "name": "Pub",
+                    "terms": "alcohol,drink,dive,beer,bier,booze"
+                },
+                "PointOfInterest/Restaurant/Restaurant": {
+                    "name": "Restaurant",
+                    "terms": "bar,breakfast,cafe,café,canteen,coffee,dine,dining,dinner,drive-in,eat,grill,lunch,table"
+                },
+                "PointOfInterest/Shop/Alcohol": {
+                    "name": "Liquor Store",
+                    "terms": "alcohol,beer,booze,wine"
+                },
+                "PointOfInterest/Shop/Antiques": {
+                    "name": "Antique Shop",
+                    "aliases": "Antique Store\nAntiques Shop\nAntiques Store"
+                },
+                "PointOfInterest/Shop/Art": {
+                    "name": "Art Store",
+                    "terms": "art*,exhibit*,gallery"
+                },
+                "PointOfInterest/Shop/Bag": {
+                    "name": "Bag/Luggage Store",
+                    "terms": "handbag,purse"
+                },
+                "PointOfInterest/Shop/Bakery": {
+                    "name": "Bakery",
+                    "terms": "bread,cakes,rolls"
+                },
+                "PointOfInterest/Shop/Beauty": {
+                    "name": "Beauty Shop",
+                    "terms": "spa,salon,tanning"
+                },
+                "PointOfInterest/Shop/Bed": {
+                    "name": "Bedding/Mattress Store",
+                    "terms": "bed,duvet,mattress,pillow"
+                },
+                "PointOfInterest/Shop/Beverages": {
+                    "name": "Beverage Store",
+                    "terms": "drinks"
+                },
+                "PointOfInterest/Shop/Bicycle": {
+                    "name": "Bicycle Shop",
+                    "aliases": "Bike Shop",
+                    "terms": "bicycle store,bike,bike store,repair,tricycle,unicycle"
+                },
+                "PointOfInterest/Shop/BoatRental": {
+                    "name": "Boat Rental"
+                },
+                "PointOfInterest/Shop/Books": {
+                    "name": "Bookstore",
+                    "aliases": "Bookshop\nBookseller\nBook Store\nBook Shop\nBook Seller"
+                },
+                "PointOfInterest/Shop/BureauDeChange": {
+                    "name": "Currency Exchange",
+                    "aliases": "Bureau de Change",
+                    "terms": "money changer"
+                },
+                "PointOfInterest/Shop/Butcher": {
+                    "name": "Butcher",
+                    "aliases": "Butcher Shop\nPork Store\nButchery",
+                    "terms": "chicken,beef,lamb,meat,pork"
+                },
+                "PointOfInterest/Shop/Car": {
+                    "name": "Car Dealership",
+                    "aliases": "Car Dealer",
+                    "terms": "automobile,automotive"
+                },
+                "PointOfInterest/Shop/CarParts": {
+                    "name": "Car Parts Store",
+                    "terms": "automobile,automotive"
+                },
+                "PointOfInterest/Shop/Carpet": {
+                    "name": "Carpet Store",
+                    "terms": "rug"
+                },
+                "PointOfInterest/Shop/CarRental": {
+                    "name": "Car Rental"
+                },
+                "PointOfInterest/Shop/CarRepair": {
+                    "name": "Car Repair Shop",
+                    "aliases": "Automobile Repair Shop\nCar Mechanic\nAuto Mechanic",
+                    "terms": "automechanic,automotive,garage,inspection,mechanic,oil change,service"
+                },
+                "PointOfInterest/Shop/CarWash": {
+                    "name": "Car Wash"
+                },
+                "PointOfInterest/Shop/Cheese": {
+                    "name": "Cheese Store",
+                    "terms": "cheese"
+                },
+                "PointOfInterest/Shop/Chemist": {
+                    "name": "Drugstore",
+                    "terms": "apothecary,beauty,drug store,gift,hair,med*,pharmacy,prescription,tooth"
+                },
+                "PointOfInterest/Shop/Chocolate": {
+                    "name": "Chocolate Store",
+                    "terms": "cocoa"
+                },
+                "PointOfInterest/Shop/Clothes": {
+                    "name": "Clothing Store",
+                    "terms": "blouses,boutique,bras,clothes,dresses,fashion,outfits,pants,shirts,shorts,skirts,slacks,socks,suits,underwear"
+                },
+                "PointOfInterest/Shop/Coffee": {
+                    "name": "Coffee Store"
+                },
+                "PointOfInterest/Shop/Computer": {
+                    "name": "Computer Store",
+                    "terms": "desktop,laptop,hardware,operating system,software"
+                },
+                "PointOfInterest/Shop/Confectionery": {
+                    "name": "Candy Store",
+                    "aliases": "Candy Shop\nConfectionery Store",
+                    "terms": "fudge,lollipop,sugar,sweet"
+                },
+                "PointOfInterest/Shop/Convenience": {
+                    "name": "Convenience Store",
+                    "aliases": "Convenience Shop\nCorner Store\nCorner Shop\nSuperette\nBodega",
+                    "terms": "mini-mart,mini-market"
+                },
+                "PointOfInterest/Shop/Copyshop": {
+                    "name": "Copy Store",
+                    "aliases": "Copy Shop",
+                    "terms": "print,scan"
+                },
+                "PointOfInterest/Shop/Cosmetics": {
+                    "name": "Cosmetics Store",
+                    "terms": "make-up,makeup"
+                },
+                "PointOfInterest/Shop/Crematorium": {
+                    "name": "Crematorium",
+                    "terms": "cemetery,funeral"
+                },
+                "PointOfInterest/Shop/Deli": {
+                    "name": "Delicatessen",
+                    "aliases": "Specialty Food Store\nGourmet Food Store\nFine Food Store\nGourmet Food Shop",
+                    "terms": "deli"
+                },
+                "PointOfInterest/Shop/DepartmentStore": {
+                    "name": "Department Store"
+                },
+                "PointOfInterest/Shop/DoItYourself": {
+                    "name": "DIY Store",
+                    "terms": "craft,diy,do it yourself,hardware,home improvement,tools"
+                },
+                "PointOfInterest/Shop/DrivingSchool": {
+                    "name": "Driving School"
+                },
+                "PointOfInterest/Shop/DryCleaning": {
+                    "name": "Dry Cleaner"
+                },
+                "PointOfInterest/Shop/Ecigarette": {
+                    "name": "E-Cigarette Shop",
+                    "terms": "electronic,vape,vaping,vapor"
+                },
+                "PointOfInterest/Shop/EmploymentAgency": {
+                    "name": "Employment Agency",
+                    "terms": "job"
+                },
+                "PointOfInterest/Shop/EstateAgent": {
+                    "name": "Real Estate Office",
+                    "terms": "real estate"
+                },
+                "PointOfInterest/Shop/Fabric": {
+                    "name": "Fabric Store",
+                    "terms": "sew"
+                },
+                "PointOfInterest/Shop/Farm": {
+                    "name": "Produce Stand",
+                    "aliases": "Farm Shop\nFarm Stand",
+                    "terms": "baked goods,fresh food,fruits,greengrocer,orchard,organics,vegetables"
+                },
+                "PointOfInterest/Shop/Florist": {
+                    "name": "Florist",
+                    "terms": "flower"
+                },
+                "PointOfInterest/Shop/FrozenFood": {
+                    "name": "Frozen Food Store"
+                },
+                "PointOfInterest/Shop/Fuel": {
+                    "name": "Gas Station",
+                    "terms": "petrol,fuel,gasoline,propane,diesel,lng,cng,biodiesel"
+                },
+                "PointOfInterest/Shop/FuneralDirectors": {
+                    "name": "Funeral Home",
+                    "aliases": "Funeral Parlor",
+                    "terms": "undertaker,memorial home,mortuary"
+                },
+                "PointOfInterest/Shop/Furniture": {
+                    "name": "Furniture Store",
+                    "terms": "chair,sofa,table"
+                },
+                "PointOfInterest/Shop/Games": {
+                    "name": "Tabletop Game Store",
+                    "terms": "board game,card game,dice game,game shop,larp,live action role-playing game,miniature wargame,role-playing,strategy game,wargame"
+                },
+                "PointOfInterest/Shop/GardenCentre": {
+                    "name": "Garden Center",
+                    "terms": "landscape,mulch,nursery,plant nursery,retail plant nursery,shrub,tree"
+                },
+                "PointOfInterest/Shop/Gift": {
+                    "name": "Gift Shop",
+                    "aliases": "Souvenir Shop",
+                    "terms": "tourist trap"
+                },
+                "PointOfInterest/Shop/Greengrocer": {
+                    "name": "Greengrocer",
+                    "aliases": "Produce Store\nProduce Shop",
+                    "terms": "fruit,produce,vegetable"
+                },
+                "PointOfInterest/Shop/Guide": {
+                    "name": "Tour Guide Office",
+                    "terms": "dive guide,mountain guide,tour guide"
+                },
+                "PointOfInterest/Shop/Hairdresser": {
+                    "name": "Hairdresser",
+                    "aliases": "Hair Salon\nBarber Shop",
+                    "terms": "beard"
+                },
+                "PointOfInterest/Shop/Hardware": {
+                    "name": "Hardware Store",
+                    "aliases": "Hardware Shop",
+                    "terms": "craft,diy,do it yourself,hardware,home improvement,tools"
+                },
+                "PointOfInterest/Shop/HearingAids": {
+                    "name": "Hearing Aids Store"
+                },
+                "PointOfInterest/Shop/Hifi": {
+                    "name": "Hifi Store",
+                    "terms": "audio,hi-fi,high fidelity,stereo,video"
+                },
+                "PointOfInterest/Shop/Insurance": {
+                    "name": "Insurance Office",
+                    "terms": "actuary,insurer,risk management"
+                },
+                "PointOfInterest/Shop/InteriorDecoration": {
+                    "name": "Interior Decoration Store"
+                },
+                "PointOfInterest/Shop/InternetCafe": {
+                    "name": "Internet Cafe",
+                    "terms": "cybercafe,taxiphone,teleboutique,coffee,cafe,net,lanhouse"
+                },
+                "PointOfInterest/Shop/Jewelry": {
+                    "name": "Jewelry Store",
+                    "aliases": "Jewelry Shop",
+                    "terms": "bracelet,diamond,earrings,gem,gold,jeweler,jewellery,jeweller,necklace,pins,ring,silver"
+                },
+                "PointOfInterest/Shop/Kiosk": {
+                    "name": "Kiosk",
+                    "terms": "beverages,cigarettes,mall kiosk,newsagent,newspaper,newsstand,snacks,sweets"
+                },
+                "PointOfInterest/Shop/Kitchen": {
+                    "name": "Kitchen Design Store",
+                    "terms": "cabinets,countertops,sinks"
+                },
+                "PointOfInterest/Shop/Laundry": {
+                    "name": "Laundry"
+                },
+                "PointOfInterest/Shop/Leather": {
+                    "name": "Leather Store",
+                    "terms": "leather"
+                },
+                "PointOfInterest/Shop/Massage": {
+                    "name": "Massage Shop"
+                },
+                "PointOfInterest/Shop/MedicalSupply": {
+                    "name": "Medical Supply Store"
+                },
+                "PointOfInterest/Shop/MobilePhone": {
+                    "name": "Mobile Phone Store"
+                },
+                "PointOfInterest/Shop/Motorcycle": {
+                    "name": "Motorcycle Dealership",
+                    "terms": "bike"
+                },
+                "PointOfInterest/Shop/MotorcycleRepair": {
+                    "name": "Motorcycle Repair Shop",
+                    "aliases": "Motorcycle Repair Workshop",
+                    "terms": "auto,bike,garage,motorcycle,repair,service"
+                },
+                "PointOfInterest/Shop/MovingCompany": {
+                    "name": "Moving Company Office",
+                    "terms": "relocation,movers"
+                },
+                "PointOfInterest/Shop/Music": {
+                    "name": "Music Store",
+                    "terms": "tape cassettes,cds,compact discs,vinyl records,cd store,casette,casette store"
+                },
+                "PointOfInterest/Shop/Newsagent": {
+                    "name": "Newsstand",
+                    "aliases": "Newspaper/Magazine Shop"
+                },
+                "PointOfInterest/Shop/Nightclub": {
+                    "name": "Nightclub",
+                    "terms": "disco*,night club,dancing,dance club"
+                },
+                "PointOfInterest/Shop/Optician": {
+                    "name": "Optician",
+                    "terms": "eye,glasses"
+                },
+                "PointOfInterest/Shop/Outdoor": {
+                    "name": "Outdoors Store",
+                    "terms": "camping,climbing,hiking,outfitter,outdoor equipment,outdoor supplies"
+                },
+                "PointOfInterest/Shop/Pastry": {
+                    "name": "Pastry Shop",
+                    "terms": "patisserie,cake shop,cakery"
+                },
+                "PointOfInterest/Shop/Perfumery": {
+                    "name": "Perfume Store",
+                    "terms": "cologne,fragrance,purfume"
+                },
+                "PointOfInterest/Shop/Pet": {
+                    "name": "Pet Store",
+                    "aliases": "Pet Shop",
+                    "terms": "animal,cat,dog,fish,kitten,puppy,reptile"
+                },
+                "PointOfInterest/Shop/Pharmacy": {
+                    "name": "Pharmacy Counter",
+                    "terms": "apothecary,drug store,drugstore,med*,prescription"
+                },
+                "PointOfInterest/Shop/Seafood": {
+                    "name": "Seafood Shop",
+                    "aliases": "Fishmonger"
+                },
+                "PointOfInterest/Shop/SecondHand": {
+                    "name": "Thrift Store",
+                    "aliases": "Thrift Shop\nConsignment Store\nResale Shop\nSecondhand Shop",
+                    "terms": "second-hand,resale,used"
+                },
+                "PointOfInterest/Shop/Sewing": {
+                    "name": "Sewing Supply Shop",
+                    "terms": "haberdashery"
+                },
+                "PointOfInterest/Shop/Shoes": {
+                    "name": "Shoe Store",
+                    "terms": "boots,cleats,clogs,heels,loafers,oxfords,sneakers"
+                },
+                "PointOfInterest/Shop/Sports": {
+                    "name": "Sporting Goods Store",
+                    "terms": "athletics"
+                },
+                "PointOfInterest/Shop/Stationery": {
+                    "name": "Stationery Store",
+                    "aliases": "Office Supply Store",
+                    "terms": "card,paper"
+                },
+                "PointOfInterest/Shop/Supermarket": {
+                    "name": "Supermarket",
+                    "terms": "grocery,store,shop,grocery store,market,food market"
+                },
+                "PointOfInterest/Shop/Tattoo": {
+                    "name": "Tattoo Parlor",
+                    "terms": "ink"
+                },
+                "PointOfInterest/Shop/Tea": {
+                    "name": "Tea Store"
+                },
+                "PointOfInterest/Shop/Ticket": {
+                    "name": "Ticket Seller",
+                    "aliases": "Ticket Vendor\nTicket Booth",
+                    "terms": "box office"
+                },
+                "PointOfInterest/Shop/Tobacco": {
+                    "name": "Tobacco Shop",
+                    "terms": "cigarettes,cigars"
+                },
+                "PointOfInterest/Shop/Toys": {
+                    "name": "Toy Store",
+                    "terms": "games,teddy"
+                },
+                "PointOfInterest/Shop/TravelAgency": {
+                    "name": "Travel Agency",
+                    "terms": "cruises,flights,hotels,tickets,travel packages"
+                },
+                "PointOfInterest/Shop/Variety_Store": {
+                    "name": "Discount Store",
+                    "aliases": "Dollar Store\nVariety Store",
+                    "terms": "five and dime,five and ten"
+                },
+                "PointOfInterest/Shop/VehicleInspection": {
+                    "name": "Vehicle Inspection",
+                    "terms": "car inspection"
+                },
+                "PointOfInterest/Shop/VideoGames": {
+                    "name": "Video Game Store"
+                },
+                "PointOfInterest/Shop/Watches": {
+                    "name": "Watches Shop"
                 },
                 "PointOfInterest/StopPlace": {
                     "name": "StopPlace"
@@ -818,6 +1249,14 @@
                 "PointOfInterest/StopPlace/TramStation": {
                     "name": "Tramway Station",
                     "terms": "tram terminal,tramway terminal"
+                },
+                "PointOfInterest/Theater/Cinema": {
+                    "name": "Cinema",
+                    "terms": "drive-in,film,flick,movie,theater,picture,show,screen"
+                },
+                "PointOfInterest/Theater/Theater": {
+                    "name": "Theater",
+                    "terms": "theatre,performance,play,musical"
                 },
                 "relation": {
                     "name": "Relation"

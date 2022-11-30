@@ -1,0 +1,25 @@
+{
+    "name": "Hairdresser",
+    "icon": "temaki-beauty_salon",
+    "terms": [
+        "beard"
+    ],
+    "aliases": [
+        "Hair Salon",
+        "Barber Shop"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Hairdresser"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Newsstand",
+    "icon": "fas-newspaper",
+    "aliases": [
+        "Newspaper/Magazine Shop"
+    ],
+    "geometry": [
+        "area",
+        "point"
+    ],
+    "tags": {
+        "PointOfInterest": "Shop",
+        "Shop": "Newsagent"
+    },
+    "fields": [
+        "{PointOfInterest/default_POI}"
+    ],
+    "moreFields": [
+        "{PointOfInterest/default_POI}"
+    ]
+}
